@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function AboutContent() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16">
+    <div className="max-w-6xl mx-auto px-2 py-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

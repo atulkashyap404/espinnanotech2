@@ -4,7 +4,6 @@ import { StatsSection } from "@/components/StatsSection";
 import { ExpertiseSection } from "@/components/ExpertiseSection";
 import { ScienceSection } from "@/components/ScienceSection";
 
-
 export default function Home() {
   return (
     <main className="min-h-screen pt-20">
