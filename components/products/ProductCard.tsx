@@ -7,10 +7,11 @@ import { ProductFeature } from "./ProductFeature";
 interface ProductCardProps {
   title: string;
   description: string;
-  features: string[];
+  features: readonly string[]; // Accept readonly arrays
   image: string;
   index: number;
 }
+
 
 export function ProductCard({ title, description, features, image, index }: ProductCardProps) {
   return (
