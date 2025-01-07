@@ -23,23 +23,52 @@ export const DETAILED_PRODUCTS = {
       ],
       specifications: [
         {
-          category: "Technical Specifications",
+          category: "Spinning Arrangement",
           items: [
-            { label: "Voltage Range", value: "0-30 kV" },
-            { label: "Flow Rate", value: "0.1-10 mL/h" },
-            { label: "Working Distance", value: "5-15 cm" },
-            { label: "Nozzle Diameter", value: "0.2-1.0 mm" }
+            { label: "Horizontal spinning", value: "" },
+            { label: "Adjacent distance between spinneret and collector: Up to 250 mm ", value: "" },
+            { label: "Temperature and Humidity display", value: "" },
+            { label: "High Speed exhaust blower for protection from hazardous solvent fume", value: "" },
+            { label: "UV Light: 10 watts (Sterilization)", value: "" }
           ]
         },
         {
-          category: "Control System",
+          category: "Infusion",
           items: [
-            { label: "Interface", value: "7\" Touch Screen" },
-            { label: "Data Logging", value: "USB Export" },
-            { label: "Control Software", value: "ES Control v2.0" },
-            { label: "Connectivity", value: "USB, Ethernet" }
+            { label: "Syringe Pump Single Channel: Qty.1", value: "" },
+            { label: "Infusion function", value: "" },
+            { label: "Volume, Time and Flow control", value: "" },
+            { label: "Acceptable syringe volume: 5 µl-20ml", value: "" },
+            { label: "Flow rate: 1 µl/min-3 ml/min (±0.05%)", value: "" }
           ]
-        }
+        },
+        {
+          category: "High Voltage",
+          items: [
+            { label: "Output voltage: 0 to 30 KV ± 0.05%", value: "" },
+            { label: "Voltage adjustment: 0.1 KV", value: "" },
+            { label: "Output current: 0 to 400 µA", value: "" },
+            { label: "Digital voltage and current monitoring display", value: "" },
+            { label: "Overload trip- unit shut down if current exceeds 20% of the maximum output current", value: "" },
+            { label: "Auto cut high voltage protection when door is opened", value: "" }
+
+          ]
+        },
+        {
+          category: "Collectors",
+          items: [
+            { label: "Plate: Width=220 mm Length=150 mm Thickness= 10 mm", value: "" },
+            { label: "Drum: Diameter =85 mm, Length =165 mm", value: "" },
+            { label: "RPM: 200-3500", value: "" }
+          ]
+        },
+        {
+          category: "Linear stage",
+          items: [
+            { label: "X-Axis: Switch Automated distance adjustment( distance between spinneret and collector)", value: "" },
+            { label: "Y-Axis: Switch Automated distance adjustment", value: "" }
+          ]
+        },
       ],
       documents: [
         { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
@@ -48,9 +77,10 @@ export const DETAILED_PRODUCTS = {
         { label: "Research Applications", url: "/docs/super-es-1-applications.pdf" }
       ]
     },
-    "super-es-2": {
-      id: "super-es-2",
-      name: "Super ES-2",
+
+    "super-es-1a": {
+      id: "super-es-1a",
+      name: "Super ES-1A",
       description: "Advanced single-nozzle electrospinning system designed for research institutions and laboratories. Features precise control systems and comprehensive data logging capabilities.",
       images: [
         {
@@ -72,21 +102,60 @@ export const DETAILED_PRODUCTS = {
       ],
       specifications: [
         {
-          category: "Technical Specifications",
+          category: "Spinning Arrangement",
           items: [
-            { label: "Voltage Range", value: "0-30 kV" },
-            { label: "Flow Rate", value: "0.1-10 mL/h" },
-            { label: "Working Distance", value: "5-15 cm" },
-            { label: "Nozzle Diameter", value: "0.2-1.0 mm" }
+            { label: " Vertical spinning", value: "" },
+            { label: "Horizontal spinning", value: "" },
+            { label: "Co-Spinning", value: "" },
+            { label: "Co-axial Spinning", value: "" },
+            { label: "Adjacent distance between spinneret and collector: Up to 250 mm", value: "" },
+            { label: "Temperature and Humidity display", value: "" },
+            { label: "High Speed exhaust blower for protection from hazardous solvent fume", value: "" },
+            { label: "UV Light: 10 watts (Sterilization)", value: "" },
           ]
         },
         {
-          category: "Control System",
+          category: "Infusion",
           items: [
-            { label: "Interface", value: "7\" Touch Screen" },
-            { label: "Data Logging", value: "USB Export" },
-            { label: "Control Software", value: "ES Control v2.0" },
-            { label: "Connectivity", value: "USB, Ethernet" }
+            { label: "Syringe Pump Single Channel: Qty.2", value: "" },
+            { label: "Infusion function", value: "" },
+            { label: "Volume, Time and Flow control", value: "" },
+            { label: "Acceptable syringe volume: 5 µl-20 ml", value: "" },
+            { label: "Flow rate: 1 µl/min-3 ml/min (±0.05%)", value: "" },
+          ]
+        },
+        {
+          category: "Spinnere",
+          items: [
+            { label: "Single Nozzle", value: "" },
+            { label: "Co-axial Nozzle: Core 21 G, shell 16 G", value: "" }
+          ]
+        },
+        {
+          category: "High Voltage",
+          items: [
+            { label: "Output voltage: 0 to 30 KV ± 0.05%", value: "" },
+            { label: "Voltage adjustment: 0.1 KV", value: "" },
+            { label: "Output current: 0 to 400 µA", value: "" },
+            { label: "Digital voltage and current monitoring display", value: "" },
+            { label: "Overload trip- unit shuts down if current exceeds 20% of the maximum output current", value: "" },
+            { label: "Auto cut high voltage protection when door is opened", value: "" }
+          ]
+        },
+        {
+          category: "Collectors",
+          items: [
+            { label: "Plate: Width = 220 mm length = 150 mm Thickness = 10 mm OR Width = 255 mm Length=150 mm Thickness= 10 mm", value: "" },
+            { label: "Drum: Diameter =85 mm, Length=165 mm OR Diameter = 100 mm, Length = 200 mm", value: "" },
+            { label: "Drum RPM: 200-3500", value: "" }
+          ]
+        },
+        {
+          category: "Linear stage",
+          items: [
+            { label: "X-Axis: Switch Automated distance adjustment( distance between spinneret and collector)", value: "" },
+            { label: "Y-Axis : Switch Automated distance adjustment", value: "" },
+            { label: "Z-Axis: Manual distance adjustment", value: "" }
           ]
         }
       ],

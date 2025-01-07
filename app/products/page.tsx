@@ -7,8 +7,8 @@ import { useRouter } from "next/navigation";
 const PRODUCT_CATEGORIES = [
   {
     id: "electrospinning",
-    title: "Electrospinning Units",
-    description: "Advanced electrospinning systems for research and production",
+    title: "Nanofibre Spinning Technology",
+    description: "Revolutionizing Material Science with Precision and Innovation",
     image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
     features: ["Multiple Configurations", "Advanced Control", "Research Grade"]
   },

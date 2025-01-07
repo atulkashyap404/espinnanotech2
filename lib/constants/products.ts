@@ -1,33 +1,33 @@
 export const SUBCATEGORIES = {
   electrospinning: [
     {
-      id: "research",
-      title: "Research Units",
+      id: "electrospinning",
+      title: "Electro Spinning",
       description: "Advanced systems for research institutions",
       image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
-      features: ["Precision Control", "Data Logging", "Multiple Configurations"]
+      features: []
     },
-    {
-      id: "industrial",
-      title: "Industrial Systems",
-      description: "High-throughput industrial production units",
-      image: "https://images.unsplash.com/photo-1581092161520-4ab09478a345?auto=format&fit=crop&q=80&w=800",
-      features: ["Mass Production", "Automated Control", "24/7 Operation"]
-    },
-    {
-      id: "custom",
-      title: "Custom Solutions",
-      description: "Tailored systems for specific applications",
-      image: "https://images.unsplash.com/photo-1581092156019-3e6b90be0b80?auto=format&fit=crop&q=80&w=800",
-      features: ["Custom Design", "Application Specific", "Expert Support"]
-    },
-    {
-      id: "training",
-      title: "Training Systems",
-      description: "Educational units for academic institutions",
-      image: "https://images.unsplash.com/photo-1581092160607-f6aa4589c089?auto=format&fit=crop&q=80&w=800",
-      features: ["User Friendly", "Educational Tools", "Safety Features"]
-    }
+    // {
+    //   id: "industrial",
+    //   title: "Industrial Systems",
+    //   description: "High-throughput industrial production units",
+    //   image: "https://images.unsplash.com/photo-1581092161520-4ab09478a345?auto=format&fit=crop&q=80&w=800",
+    //   features: ["Mass Production", "Automated Control", "24/7 Operation"]
+    // },
+    // {
+    //   id: "custom",
+    //   title: "Custom Solutions",
+    //   description: "Tailored systems for specific applications",
+    //   image: "https://images.unsplash.com/photo-1581092156019-3e6b90be0b80?auto=format&fit=crop&q=80&w=800",
+    //   features: ["Custom Design", "Application Specific", "Expert Support"]
+    // },
+    // {
+    //   id: "training",
+    //   title: "Training Systems",
+    //   description: "Educational units for academic institutions",
+    //   image: "https://images.unsplash.com/photo-1581092160607-f6aa4589c089?auto=format&fit=crop&q=80&w=800",
+    //   features: ["User Friendly", "Educational Tools", "Safety Features"]
+    // }
   ],
   meltspinning: [
     {
@@ -59,20 +59,20 @@ export const SUBCATEGORIES = {
 } as const;
 
 export const PRODUCTS = {
-  research: [
+  electrospinning: [
     {
       id: "super-es-1",
       title: "Super ES-1",
       description: "Basic electrospinning unit with single nozzle",
       image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
-      features: ["Single Nozzle", "Basic Control", "Manual Operation"]
+      features: ["Single Nozzle", "Rotating Drum", "Flat Plate"]
     },
     {
-      id: "super-es-2",
-      title: "Super ES-2",
+      id: "super-es-1a",
+      title: "Super ES-1A",
       description: "Advanced dual nozzle system",
       image: "https://images.unsplash.com/photo-1581092161520-4ab09478a345?auto=format&fit=crop&q=80&w=800",
-      features: ["Dual Nozzle", "Computer Control", "Data Logging"]
+      features: ["Flat Plate", "Rotating Drum", " Dual Nozzle", " Core-Shell"]
     },
     {
       id: "super-es-3",
