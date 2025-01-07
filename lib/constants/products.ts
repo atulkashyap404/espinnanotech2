@@ -29,7 +29,7 @@ export const SUBCATEGORIES = {
     //   features: ["User Friendly", "Educational Tools", "Safety Features"]
     // }
   ],
-  meltspinning: [
+  nanofibermembrane: [
     {
       id: "industrial",
       title: "Industrial Melt Spinning",
