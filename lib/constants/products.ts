@@ -4,7 +4,7 @@ export const SUBCATEGORIES = {
       id: "electrospinning",
       title: "Electro Spinning",
       description: "Advanced systems for research institutions",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+      image: "/product categories/electro spinning.jpg",
       features: []
     },
     // {

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Calendar } from "lucide-react";
+import { Calendar, ExternalLink } from "lucide-react";
 
 interface GalleryCardProps {
   title: string;
@@ -10,6 +10,7 @@ interface GalleryCardProps {
   image: string;
   date: string;
   category: string;
+  externalLink: string;
   index: number;
 }
 
@@ -19,6 +20,7 @@ export function GalleryCard({
   image, 
   date, 
   category,
+  externalLink,
   index 
 }: GalleryCardProps) {
   return (
@@ -45,7 +47,16 @@ export function GalleryCard({
           <span>{date}</span>
         </div>
         <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-600 text-sm">{description}</p>
+        <p className="text-gray-600 text-sm mb-4">{description}</p>
+        <a
+          href={externalLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
+        >
+          View More
+          <ExternalLink className="h-4 w-4" />
+        </a>
       </div>
     </motion.div>
   );
