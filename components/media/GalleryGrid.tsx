@@ -3,141 +3,86 @@
 import { GalleryCard } from "./GalleryCard";
 
 const GALLERY_ITEMS = [
+  
   {
-    title: "New Research Breakthrough",
-    description: "Our team achieved a significant breakthrough in nanofiber production efficiency, reducing energy consumption by 40%.",
-    image: "https://images.unsplash.com/photo-1581093458791-9d58e59c3e3d?auto=format&fit=crop&q=80&w=800",
-    date: "March 15, 2024",
-    category: "Research",
-    externalLink: "https://www.example.com/research-breakthrough"
+    title: "AC मे लगाए 250 रुपए कीमत का यह एयर फिल्टर, IIT कानपुर द्वारा बने इस फ़िल्टर से मिलेगी बैक्टीरिया मुक्त शुद्ध हवा",
+    description: "IIT Kanpur Made Cheap AC Air Purifier: सर्दिया खत्म हो गई है और उसी का साथ गर्मी का सीजन भी शुरू हो गया है।...",
+    image: "/media/enhanced.webp",
+    date: "April 15, 2023",
+    category: "News",
+    externalLink: "https://biharivoice.com/good-news-by-iit-kanpur-they-made-swasa-air-purifier-filter-for-ac-incubated-company-made-this-know-full-details-about-it/"
   },
   {
-    title: "International Conference",
-    description: "E-SPIN NANOTECH presented latest innovations at the International Nanotech Summit 2024.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&q=80&w=800",
-    date: "February 28, 2024",
-    category: "Event",
-    externalLink: "https://www.example.com/conference-2024"
+    title: "Get cleaner air with nano-tech based purifiers",
+    description: "IIT-K&rsquo;s device costs ₹ 13k-14k; cleans air within 40-m radius",
+    image: "/media/airpurifires.webp",
+    date: "Dec 18, 2022",
+    category: "News",
+    externalLink: "https://punemirror.com/others/scitech/Get-cleaner-air-with-nano-tech-based-purifiers/cid9490718.htm"
   },
   {
-    title: "New Laboratory Opening",
-    description: "State-of-the-art research facility inaugurated to accelerate nanofiber technology development.",
-    image: "https://images.unsplash.com/photo-1581093804475-577d72e31202?auto=format&fit=crop&q=80&w=800",
-    date: "January 10, 2024",
-    category: "Facility",
-    externalLink: "https://www.example.com/new-lab-opening"
+    title: "IIT-Kanpur develops nano purifier to keep SPM out of air we breathe",
+    description: "It consumes less power and is different from the purifiers available in the market....",
+    image: "/media/air-purifier2.jpeg",
+    date: "dec 18, 2022",
+    category: "News",
+    externalLink: "https://health.economictimes.indiatimes.com/news/medical-devices/iit-kanpur-develops-nano-purifier-to-keep-spm-out-of-air-we-breathe/96318544"
   },
   {
-    title: "Industry Partnership",
-    description: "Strategic collaboration announced with leading pharmaceutical company for medical applications.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112c4e5190?auto=format&fit=crop&q=80&w=800",
-    date: "December 5, 2023",
-    category: "Partnership",
-    externalLink: "https://www.example.com/pharma-partnership"
+    title: "IIT Kanpur develops 'Swasa', a nano-tech-based air purifier with a range of 400m",
+    description: "The revolutionary air purifier, 'Swasa' can clean the air within its 400m radius and can also filter out harmful viruses and bacteria.",
+    image: "/media/air-purifier2.jpeg",
+    date: "Dec 19, 2022",
+    category: "News",
+    externalLink: "https://www.knocksense.com/kanpur/iit-kanpur-develops-swasa-a-nano-tech-based-air-purifier-with-a-range-of-400m"
   },
   {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
+    title: "Sandip Patil: An Inspiration for Millions of Visionaries",
+    description: "An entrepreneur, technologist, founder and managing director of an enterprise, E-Spin Nanotech Pvt. Ltd. at SIIC IIT Kanpur, Dr. Sandip Patil is a passionate researcher and he is often referred to as the ideal of entrepreneurship at IIT-K.",
+    image: "/media/Dr.-Sandip-Patil-Founder.webp",
+    date: "2022",
+    category: "News",
+    externalLink: "https://businessiconic.com/sandip-patil-an-inspiration-for-millions-of-visionaries/"
+  },
+  {
+    title: "Startup Mantra: Robust rise of new successful firms",
+    description: "2021 has proved to a turning point for the Pune startup ecosystem",
+    image: "/media/mantra image.webp",
+    date: "Dec 25, 2021",
+    category: "News",
+    externalLink: "https://www.hindustantimes.com/cities/pune-news/startup-mantra-robust-rise-of-new-successful-firms-101640429905455.html"
+  },
+  {
+    title: "3 incredible IIT Kanpur startup success stories that can transform the world",
+    description: "Here are three incredible IIT Kanpur startup success stories which has the potential to transform not just India but the world.",
+    image: "/media/IIT_Kanpur_startup_success.webp",
+    date: "Dec 28, 2021",
+    category: "News",
+    externalLink: "https://www.indiatoday.in/education-today/news/story/3-incredible-iit-kanpur-startup-success-stories-1893227-2021-12-28"
+  },
+  {
+    title: "Startup mantra: Giving nanofibres a Covid-safe spin cycle",
+    description: "PUNE E Spin Nanotech is a nanotechnology manufacturing firm that pivoted in the face of Covid-19 to startup its movement towards making its R&D keep Indians safe",
+    image: "/media/startup matra.webp",
+    date: "Jul 10, 2021",
+    category: "News",
+    externalLink: "https://www.hindustantimes.com/cities/pune-news/startup-mantra-giving-nanofibres-a-covid-safe-spin-cycle-101625917116369.html"
+  },
+  {
+    title: "IIT-कानपुर का बना मास्क पहुंचा संसद:लोकसभा और राज्यसभा में सांसदों ने पहना IIT-कानपुर का बना 'श्वासा' मास्क, गिफ्ट पैक में पहुंचाया गया; PM भी कर चुके हैं तारीफ",
+    description: "कोरोना संकट के बीच लोकसभा और राज्यसभा में सोमवार से मानसून सत्र दिल्ली में शुरू हुआ। इस दौरान सभी सांसदों ने कानपुर IIT का बना हुआ N95 और N99 श्वासा मास्क लगाकर कोरोना प्रोटोकॉल का पालन किया।",
+    image: "/media/iit-kanpur_1626712244_enhanced.webp",
     date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
+    category: "News",
+    externalLink: "https://www.bhaskar.com/local/uttar-pradesh/kanpur/news/mps-in-lok-sabha-and-rajya-sabha-wore-masks-made-in-iit-kanpur-pmo-narendra-modi-128717594.html"
   },
   {
-    title: "Award Recognition",
-    description: "E-SPIN NANOTECH received innovation excellence award for contributions to nanotech industry.",
-    image: "https://images.unsplash.com/photo-1581093577421-f561c1a46d01?auto=format&fit=crop&q=80&w=800",
-    date: "October 15, 2023",
-    category: "Award",
-    externalLink: "https://www.example.com/award-2023"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
-  },
-  {
-    title: "Product Launch",
-    description: "Introducing our latest electrospinning system with advanced control features.",
-    image: "https://images.unsplash.com/photo-1581093458478-6ca8065b6bfc?auto=format&fit=crop&q=80&w=800",
-    date: "November 20, 2023",
-    category: "Product",
-    externalLink: "https://www.example.com/new-product-launch"
+    title: "Age of Heroes",
+    description: "For every Covid-19 warrior who went to battle, there was a battalion of heroes",
+    image: "/media/50-Housekeeping-staff.png",
+    date: "March 28, 2021",
+    category: "News",
+    externalLink: "https://www.theweek.in/theweek/cover/2021/03/18/age-of-heroes.html"
   },
   {
     title: "IIT Kanpur Alumnus Sandeep Patil Invents A Way To Bottle Oxygen Which Can Be Sprayed Into Patient's Mouth",
