@@ -23,12 +23,12 @@ export function Header() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ",
         "flex justify-between items-center p-4 md:p-6",
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
-      )}
+      )} 
     >
-      <div className="flex items-center gap-40">
+      <div className="flex items-center gap-40 ">
         <button
           onClick={() => setIsMenuOpen(true)}
           className="hover:bg-gray-100 p-2 rounded-lg transition-colors"

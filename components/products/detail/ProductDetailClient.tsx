@@ -21,9 +21,9 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white ">
       {/* Category Badge */}
-      <div className="bg-white">
+      <div className="bg-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="inline-block px-3 py-2"></div>
         </div>
@@ -33,46 +33,22 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
       <div
         className="relative bg-white text-black overflow-hidden"
         style={{
-          backgroundImage: `url('/background image/E105ARL3.png')`,
+          // backgroundImage: `url('/background image/E105ARL3.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         {/* Animated gradient background */}
-        <div
-          className="absolute inset-0 bg-gradient-to-r"
-          style={{
-            backgroundSize: "400% 400%",
-            animation: "gradient 15s ease infinite",
-          }}
-        />
-        {/* Radial gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10" />
-        {/* Wave pattern */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 text-black">
-          <svg
-            className="absolute bottom-0 w-full h-full"
-            viewBox="0 0 1440 320"
-            preserveAspectRatio="none"
-          >
-            <path
-              fill="currentColor"
-              fillOpacity="0.1"
-              d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,218.7C672,203,768,149,864,133.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            >
-              <animate
-                attributeName="d"
-                dur="10s"
-                repeatCount="indefinite"
-                values="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,218.7C672,203,768,149,864,133.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,181.3C672,192,768,160,864,165.3C960,171,1056,213,1152,218.7C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,218.7C672,203,768,149,864,133.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-              />
-            </path>
-          </svg>
-        </div>
+
+
+        
+
+
+        
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-12">
-          <div className="flex flex-col lg:flex-row gap-12 items-center">
+        <div className="relative z-10 max-w-[63vw] mx-auto px-2 ">
+          <div className="flex flex-col lg:flex-row gap-20 items-center">
             {/* Left Content */}
             <div className="flex-1 space-y-6">
               <motion.div
@@ -80,7 +56,7 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+                <h1 className="text-4xl lg:text-6xl font-bold mb-4">
                   {product.name}
                 </h1>
                 <p className="text-lg text-black">{product.description}</p>
@@ -113,12 +89,25 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
       </div>
 
       {/* Specifications & Details */}
-      <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="grid grid-rows-1 lg:grid-rows-1 gap-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
+          >
+           <DocumentButtons
+              documents={product.documents.map((doc) => ({
+                label: doc.label,
+                url: doc.url,
+              }))}
+            /> 
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
           >
             <ProductSpecifications
               specifications={product.specifications.map((spec) => ({
@@ -127,19 +116,6 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
                   label: item.label,
                   value: item.value,
                 })),
-              }))}
-            />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            <DocumentButtons
-              documents={product.documents.map((doc) => ({
-                label: doc.label,
-                url: doc.url,
               }))}
             />
           </motion.div>
