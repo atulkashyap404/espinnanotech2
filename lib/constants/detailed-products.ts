@@ -6,19 +6,19 @@ export const DETAILED_PRODUCTS = {
       "Advanced single-nozzle electrospinning system designed for research institutions and laboratories. Features precise control systems and comprehensive data logging capabilities with high-precision and stable flow.",
     images: [
       {
-        url: "/product image/super es 1.29.png",
+        url: "/product image/super es 1 revide model.36.png",
         alt: "Super ES-1 Front View",
       },
       {
-        url: "/product image/super es 1.30.png",
+        url: "/product image/super es 1 revide model.37.png",
         alt: "Super ES-1 Side View",
       },
       {
-        url: "/product image/super es 1.31.png",
+        url: "/product image/super es 1 revide model.38.png",
         alt: "Control Panel",
       },
       {
-        url: "/product image/super es 1.32.png",
+        url: "/product image/super es 1 revide model.40.png",
         alt: "Nozzle System",
       },
     ],
