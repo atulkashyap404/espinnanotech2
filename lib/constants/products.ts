@@ -64,7 +64,7 @@ export const PRODUCTS = {
       id: "super-es-1",
       title: "Super ES-1",
       description: "Basic electrospinning unit with single nozzle",
-      image: "/product image/super es 1 new.14.jpg",
+      image: "/product categories/super es 1.png",
       features: ["Single Nozzle", "Rotating Drum", "Flat Plate"]
     },
     {

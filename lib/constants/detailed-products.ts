@@ -2,19 +2,22 @@ export const DETAILED_PRODUCTS = {
   "super-es-1": {
     id: "super-es-1",
     name: "Super ES-1",
-    description:
-      "Advanced single-nozzle electrospinning system designed for research institutions and laboratories. Features precise control systems and comprehensive data logging capabilities with high-precision and stable flow.",
+    description: [
+      'Flat Plate',
+      'Rotating Drum',
+      'Single Nozzle'
+    ],
     images: [
       {
-        url: "/product image/super es 1 revide model.36.png",
+        url: "/product image/super es 1 revide model.49.png",
         alt: "Super ES-1 Front View",
       },
       {
-        url: "/product image/super es 1 revide model.37.png",
+        url: "/product image/super es 1 revide model.50.png",
         alt: "Super ES-1 Side View",
       },
       {
-        url: "/product image/super es 1 revide model.38.png",
+        url: "/product image/super es 1 revide model.48.png",
         alt: "Control Panel",
       },
       {
@@ -27,7 +30,7 @@ export const DETAILED_PRODUCTS = {
         category: "Spinning Arrangement",
         items: [
           { label: "Horizontal spinning", value: "" },
-          { label: "Adjacent distance between spinneret and collector :", value: "Up to 250 mm" },
+          { label: "Adjacent distance between spinneret and collector", value: "Up to 250 mm" },
           { label: "Temperature and Humidity display", value: "" },
           { label: "High Speed exhaust blower for protection from hazardous solvent fume", value: "" },
           { label: "UV Light :", value: "10 watts (Sterilization)" },
@@ -65,7 +68,7 @@ export const DETAILED_PRODUCTS = {
       {
         category: "Linear stage",
         items: [
-          { label: "X-Axis:", value: "Switch Automated distance adjustment" },
+          { label: "X-Axis:", value: "Switch Automated distance adjustment ( distance between spinneret and collector)" },
           { label: "Y-Axis:", value: "Switch Automated distance adjustment" },
         ],
       },
@@ -84,23 +87,29 @@ export const DETAILED_PRODUCTS = {
   "super-es-1a": {
     id: "super-es-1a",
     name: "Super ES-1A",
-    description:
-      "Advanced single-nozzle electrospinning system designed for research institutions and laboratories. Features precise control systems and comprehensive data logging capabilities with high-precision and stable flow.",
+    description: [
+      'Flat Plate',
+      'Rotating Drum',
+      'Single Nozzle',
+      'Dual Nozzle',
+      'Core-Shell',
+    ],
+      
     images: [
       {
-        url: "/product image/super es 1 new.14.jpg",
-        alt: "Super ES-1 Front View",
+        url: "/product image/super es 1a/Super es 1A.44.png",
+        alt: "Super ES-1a Front View",
       },
       {
-        url: "/product image/super es 1 new.15.jpg",
-        alt: "Super ES-1 Side View",
+        url: "/product image/super es 1a/Super es 1A.45.png",
+        alt: "Super ES-1a Side View",
       },
       {
-        url: "/product image/super es 1 new.16.jpg",
+        url: "/product image/super es 1a/Super es 1A.46.png",
         alt: "Control Panel",
       },
       {
-        url: "/product image/super es 1 new.17.jpg",
+        url: "/product image/super es 1a/Super es 1A.47.png",
         alt: "Nozzle System",
       },
     ],

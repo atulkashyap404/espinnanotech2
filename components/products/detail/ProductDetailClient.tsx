@@ -40,12 +40,6 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
       >
         {/* Animated gradient background */}
 
-
-        
-
-
-        
-
         {/* Content */}
         <div className="relative z-10 max-w-[63vw] mx-auto px-2 ">
           <div className="flex flex-col lg:flex-row gap-20 items-center">
@@ -59,7 +53,26 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
                   {product.name}
                 </h1>
-                <p className="text-lg text-black">{product.description}</p>
+                {/* <p className=" grid grid-cols-4 text-lg text-black">{product.description}</p> */}
+
+                {/* <p className="grid grid-cols-1 text-lg text-black">
+                  {product.description.map((line, index) => (
+                    <span key={index}>{line}</span>
+                  ))}
+                </p> */}
+
+                <p className="grid grid-cols-1 text-lg text-white w-80">
+                  {Array.isArray(product.description)
+                    ? product.description.map((line, index) => (
+                        <span
+                          key={index}
+                          className="bg-gray-600 hover:bg-gray-800  px-2 py-1 rounded-md mb-2"
+                        >
+                          {line}
+                        </span>
+                      ))
+                    : product.description}
+                </p>
 
                 <div className="flex gap-4 mt-8">
                   <Button
@@ -96,12 +109,12 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-           <DocumentButtons
+            <DocumentButtons
               documents={product.documents.map((doc) => ({
                 label: doc.label,
                 url: doc.url,
               }))}
-            /> 
+            />
           </motion.div>
 
           <motion.div
@@ -126,9 +139,6 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
     </main>
   );
 }
-
-
-
 
 // "use client";
 

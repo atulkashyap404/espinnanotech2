@@ -25,7 +25,7 @@ export function DocumentButtons({ documents }: DocumentButtonsProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="flex flex-col  gap-3 bg-gray-700 hover:bg-gray-700 transition-colors p-4 rounded-lg text-white justify-center items-center"
+            className="flex flex-col  gap-3 bg-gray-700 hover:bg-gray-900 transition-colors p-4 rounded-lg text-white justify-center items-center"
           >
             {/* <FileText className="h-2 w-2 text-red-600" /> */}
             <span className="font-medium">{doc.label}</span>
