@@ -26,7 +26,7 @@ export function ProductCard({ title, description, features, image, index }: Prod
           src={image}
           alt={title}
           fill
-          className="object-contain rounded-lg"
+          className="object-cover rounded-lg"
         />
       </div>
       
