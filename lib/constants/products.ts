@@ -71,7 +71,7 @@ export const PRODUCTS = {
       id: "super-es-1a",
       title: "Super ES-1A",
       description: "Advanced dual nozzle system",
-      image: "/product categories/super es 1.png",
+      image: "/product categories/super es 1a cover.png",
       features: ["Flat Plate", "Rotating Drum", " Dual Nozzle", " Core-Shell"]
     },
     {
