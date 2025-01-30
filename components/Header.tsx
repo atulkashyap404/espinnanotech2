@@ -22,7 +22,7 @@ export function Header() {
 
   // Get the base URL dynamically
   const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL || ""; // Make sure this env variable is set in Vercel
+    process.env.NEXT_PUBLIC_BASE_URL || ""; // Make sure this env variable is set in Vercel done
 
   return (
     <header
