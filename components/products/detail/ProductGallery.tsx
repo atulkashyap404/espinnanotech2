@@ -26,6 +26,7 @@ export function ProductGallery({ images }: ProductGalleryProps) {
           alt={images[selectedImage].alt}
           fill
           className="object-contain"
+          loading="lazy"
         />
       </motion.div>
 
