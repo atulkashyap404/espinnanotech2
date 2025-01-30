@@ -56,7 +56,7 @@ export function Header() {
 
       {/* PDF Catalogue Button */}
       <a
-        href={`${baseUrl}/pdf/catalogue.pdf`} // Absolute path with cache-busting query param
+        href={`https://drive.google.com/file/d/11Vi6jJfWGsI3VlU9UE6YdvjvFHu4hAmq/view?usp=sharing`} // Absolute path with cache-busting query param
         target="_blank"
         rel="noopener noreferrer"
       >
