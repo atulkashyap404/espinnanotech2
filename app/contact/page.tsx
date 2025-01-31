@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { IndiaOffices } from "@/components/contact/IndiaOffices";
 import { OverseasPartners } from "@/components/contact/OverseasPartners";
+import { WorldMapDemo } from "@/components/contact/WorldMapDemo";
 
 export default function ContactPage() {
   return (
@@ -41,7 +42,7 @@ export default function ContactPage() {
           <ContactForm />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -55,7 +56,8 @@ export default function ContactPage() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <OverseasPartners />
-        </motion.div>
+        </motion.div> */}
+        <WorldMapDemo />
       </div>
     </main>
   );
