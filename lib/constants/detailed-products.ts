@@ -605,7 +605,7 @@ export const DETAILED_PRODUCTS = {
       },
     ],
   },
-
+  
   "super-es-4": {
     id: "super-es-4",
     name: "Super ES-4",

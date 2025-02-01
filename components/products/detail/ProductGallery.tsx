@@ -45,6 +45,7 @@ export function ProductGallery({ images }: ProductGalleryProps) {
               src={image.url}
               alt={image.alt}
               fill
+              loading="lazy"
               className="object-contain"
             />
           </button>
