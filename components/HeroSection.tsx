@@ -31,7 +31,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] px-4 md:px-6 py-12 overflow-hidden">
+    <section className="relative min-h-[90vh] px-4 md:px-6 py-12 overflow-hidden ">
       {/* Video Background */}
       <video
         autoPlay
