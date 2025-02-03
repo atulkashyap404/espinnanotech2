@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
+
 export const metadata: Metadata = {
   title: 'E-SPIN NANOTECH',
   description: 'Leading provider of nanofiber technology solutions and R2R commercial product development',

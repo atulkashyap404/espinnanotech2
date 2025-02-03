@@ -32,8 +32,8 @@ export default function ProductsPage() {
   const router = useRouter();
 
   return (
-    <main className="min-h-screen">
-      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+    <main className="min-h-screen pt-20">
+      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden ">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-red-900 to-black" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
