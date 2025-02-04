@@ -27,7 +27,7 @@ export function ProductCard({ title, description, features, image, index }: Prod
           alt={title}
           fill
           className="object-cover rounded-lg"
-          loading="lazy"
+          // loading="lazy"
         />
       </div>
       
