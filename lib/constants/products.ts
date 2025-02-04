@@ -64,7 +64,7 @@ export const PRODUCTS = {
       id: "super-es-4",
       title: "Super ES-4",
       description: "Premium research grade system",
-      image: "/product categories/super es 4.png",
+      image: "/product categories/6.svg",
       features: ["Semi-Pilot Scale", "Patented Technology", "Roll to Roll", "Batch Opreation", "Atmospheric Control", "Touch Control"]
     },
     
@@ -80,7 +80,7 @@ export const PRODUCTS = {
       id: "super-es-3",
       title: "Super ES-3",
       description: "Premium research grade system",
-      image: "/product categories/5.png",
+      image: "/product categories/5.svg",
       features: ["Dual Nozzle", "Both Side Jet", "Camera Interface", "Bi-Component", "Core-Shell", "Atmospheric Control"]
     },
 
@@ -88,7 +88,7 @@ export const PRODUCTS = {
       id: "super-es-2a",
       title: "Super ES-2A",
       description: "Premium research grade system",
-      image: "/product categories/4.png",
+      image: "/product categories/4.svg",
       features: ["Dual Nozzle", "Rotating Drum", "Camera Interface", "Touch Screen", "Core-Shell", "Atmospheric Control"]
     },
 
@@ -96,7 +96,7 @@ export const PRODUCTS = {
       id: "super-es-2",
       title: "Super ES-2",
       description: "Dual-nozzle research system",
-      image: "/product categories/3.png",
+      image: "/product categories/3.svg",
       features: ["Dual Nozzle", "Rotating Drum", "Uniform Coating", "Computer Control", "Core-Shell", "Under Solvent"]
     },
 
@@ -105,7 +105,7 @@ export const PRODUCTS = {
       id: "super-es-1a",
       title: "Super ES-1A",
       description: "Advanced dual nozzle system",
-      image: "/product categories/2.png",
+      image: "/product categories/2.svg",
       features: ["Flat Plate", "Rotating Drum", " Dual Nozzle", " Core-Shell"]
     },
     
@@ -114,7 +114,7 @@ export const PRODUCTS = {
       id: "super-es-1",
       title: "Super ES-1",
       description: "Basic electrospinning unit with single nozzle",
-      image: "/product categories/1.png",
+      image: "/product categories/1.svg",
       features: ["Single Nozzle", "Rotating Drum", "Flat Plate"]
     },
   ]
