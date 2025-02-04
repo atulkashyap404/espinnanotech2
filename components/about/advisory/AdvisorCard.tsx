@@ -23,7 +23,7 @@ export function AdvisorCard({ name, position, image, index }: AdvisorCardProps) 
           src={image}
           alt={name}
           fill
-          className="object-cover"
+          className="object-contain"
         />
       </div>
       <div className="p-6">

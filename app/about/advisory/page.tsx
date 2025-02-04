@@ -7,7 +7,7 @@ const ADVISORS = [
   {
     name: "Dr. Ashutosh Sharma",
     position: "Ex-Secretary, Department of Science and Technology, Government of India; Professor, Chemical Engineering Dept IIT",
-    image: "/advisory/sharma.jpg"
+    image: "/advisory/Ashutosh Sharma.png"
   },
   {
     name: "Dr. Ashok Mishra",
@@ -87,7 +87,7 @@ export default function AdvisoryPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"
         >
           {ADVISORS.map((advisor, index) => (
             <AdvisorCard
