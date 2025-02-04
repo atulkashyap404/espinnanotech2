@@ -2,14 +2,16 @@
 
 import { AboutHero } from "@/components/about/AboutHero";
 import { AboutContent } from "@/components/about/AboutContent";
-import { AboutSlides } from "@/components/about/AboutSlides";
+import { TimelineDemo } from "@/components/about/TimelineDemo";
+import { DirectorMessage } from "@/components/about/DirectorMessage";
 
 export default function AboutPage() {
   return (
     <main>
       <AboutHero />
+      <DirectorMessage/>
       <AboutContent />
-      <AboutSlides />
+      <TimelineDemo />
     </main>
   );
 }
