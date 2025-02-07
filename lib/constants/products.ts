@@ -64,7 +64,7 @@ export const PRODUCTS = {
       id: "super-es-4",
       title: "Super ES-4",
       description: "Premium research grade system",
-      image: "/product categories/6.avif",
+      image: "/product categories/7.avif",
       features: ["Semi-Pilot Scale", "Patented Technology", "Roll to Roll", "Batch Opreation", "Atmospheric Control", "Touch Control"]
     },
     
@@ -72,7 +72,7 @@ export const PRODUCTS = {
       id: "super-es-3a",
       title: "Super ES-3A",
       description: "Premium research grade system",
-      image: "https://images.unsplash.com/photo-1581092160607-f6aa4589c089?auto=format&fit=crop&q=80&w=800",
+      image: "/product categories/super es 3a.avif",
       features: ["Four Nozzle", "Yarning", "Camera Interface", "Bi-Component", "Atmospheric Control", "Touch Control"]
     },
 

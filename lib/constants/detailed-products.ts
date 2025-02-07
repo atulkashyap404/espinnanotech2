@@ -12,19 +12,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 4/super es 4 brand new.70.png",
+          url: "/product image/super es 4/3.avif",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 4/super es 4 brand new.71.png",
+          url: "/product image/super es 4/1.avif",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 4/super es 4 brand new.72.png",
+          url: "/product image/super es 4/2.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 4/super es 4 brand new.73.png",
+          url: "/product image/super es 4/4.avif",
           alt: "Nozzle System",
         },
       ],
@@ -111,19 +111,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 1 new.14.jpg",
+          url: "/product image/super es 3a/1.avif",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 1 new.15.jpg",
+          url: "/product image/super es 3a/2.avif",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 1 new.16.jpg",
+          url: "/product image/super es 3a/3.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 1 new.17.jpg",
+          url: "/product image/super es 3a/1.avif",
           alt: "Nozzle System",
         },
       ],
@@ -223,19 +223,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 3/super es 3.64.png",
+          url: "/product image/super es 3/1.avif",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 3/super es 3.65.png",
+          url: "/product image/super es 3/2.avif",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 3/super es 3.66.png",
+          url: "/product image/super es 3/3.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 3/super es 3.67.png",
+          url: "/product image/super es 3/4.avif",
           alt: "Nozzle System",
         },
       ],
@@ -327,19 +327,19 @@ export const DETAILED_PRODUCTS = {
       ],
         images: [
           {
-            url: "/product image/super es 2a/super es 2a.62.png",
+            url: "/product image/super es 2a/1.avif",
             alt: "Super ES-1 Front View",
           },
           {
-            url: "/product image/super es 2a/super es 2a.61.png",
+            url: "/product image/super es 2a/2.avif",
             alt: "Super ES-1 Side View",
           },
           {
-            url: "/product image/super es 2a/super es 2a.60.png",
+            url: "/product image/super es 2a/3.avif",
             alt: "Control Panel",
           },
           {
-            url: "/product image/super es 2a/super es 2a.59.png",
+            url: "/product image/super es 2a/4.avif",
             alt: "Nozzle System",
           },
         ],
@@ -431,19 +431,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 2/super es 2 new.51.png",
+          url: "/product image/super es 2/1.avif",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 2/super es 2 new.52.png",
+          url: "/product image/super es 2/2.avif",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 2/super es 2 new.53.png",
+          url: "/product image/super es 2/3.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 2/super es 2 new.54.png",
+          url: "/product image/super es 2/4.avif",
           alt: "Nozzle System",
         },
       ],
@@ -535,19 +535,19 @@ export const DETAILED_PRODUCTS = {
         
       images: [
         {
-          url: "/product image/super es 1a/Super es 1A.44.png",
+          url: "/product image/super es 1a/1.avif",
           alt: "Super ES-1a Front View",
         },
         {
-          url: "/product image/super es 1a/Super es 1A.45.png",
+          url: "/product image/super es 1a/2.avif",
           alt: "Super ES-1a Side View",
         },
         {
-          url: "/product image/super es 1a/Super es 1A.46.png",
+          url: "/product image/super es 1a/3.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 1a/Super es 1A.47.png",
+          url: "/product image/super es 1a/4.avif",
           alt: "Nozzle System",
         },
       ],
@@ -631,19 +631,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 1 revide model.49.png",
+          url: "/product image/super es 1/1.avif",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 1 revide model.50.png",
+          url: "/product image/super es 1/2.avif",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 1 revide model.48.png",
+          url: "/product image/super es 1/3.avif",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 1 revide model.40.png",
+          url: "/product image/super es 1/4.avif",
           alt: "Nozzle System",
         },
       ],
