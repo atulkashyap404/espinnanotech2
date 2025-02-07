@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 export function DirectorMessage() {
     return (
-      <div className="min-h-[50vh] bg-muted/50 text-wrap">
+      <div className="min-h-[50vh] bg-muted/50 text-wrap bg-white">
         <div className="max-w-7xl mx-auto pl-168">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -48,7 +48,7 @@ export function DirectorMessage() {
             <div className="lg:col-span-5">
               <div className="relative h-[900px] rounded-lg overflow-hidden">
                 <Image
-                  src="/image/DSC_8601 (1).png"
+                  src="/image/sandip patil.jpg"
                   alt="Creative team meeting"
                   fill
                   className="object-cover"
