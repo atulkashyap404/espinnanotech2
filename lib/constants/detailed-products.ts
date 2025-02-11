@@ -92,7 +92,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -204,7 +204,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -308,7 +308,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -411,7 +411,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -516,7 +516,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -615,7 +615,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
@@ -700,7 +700,7 @@ export const DETAILED_PRODUCTS = {
         { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
         { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
-          label: "Research Applications",
+          label: "Video",
           url: "/docs/super-es-1-applications.pdf",
         },
       ],
