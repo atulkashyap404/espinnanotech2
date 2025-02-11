@@ -147,6 +147,578 @@ const PUBLICATIONS: Publication[] = [
     ],
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/term.3308"
   },
+  {
+    id: 11,
+    year: 2022,
+    title: "Polycaprolactone assisted electrospinning of honey/betel with chitosan for tissue engineering",
+    authors: [
+      "Jaideep Adhikari",
+      "Manojit Ghosh",
+      "Pratik Das",
+      "Piyali Basak",
+      "Prosenjit Saha",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S2214785322014109"
+  },
+  {
+    id: 12,
+    year: 2022,
+    title: "Intermittent scavenging of storage lesion from stored red blood cells by electrospun nanofibrous sheets enhances their quality and shelf-life",
+    authors: [
+      "Subhashini Pandey",
+      "Manohar Mahato",
+      "Preethem Srinath",
+      "Utkarsh Bhutani",
+      "Tanu Jain Goap",
+      "Priusha Ravipati",
+      "Praveen Kumar Vemula",
+    ],
+    link: "https://www.nature.com/articles/s41467-022-35269-3"
+  },
+  {
+    id: 13,
+    year: 2022,
+    title: "Electrospinning of poly(?-caprolactone) (PCL) and poly ethylene glycol (PEG) composite nanofiber membranes using methyl ethyl ketone (MEK) and N N’-dimethyl acetamide (DMAc) solvent mixture for anti-adhesion applications",
+    authors: [
+      "B. Sowmya",
+      "P.K. Panda",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S2352492822015598"
+  },
+  {
+    id: 14,
+    year: 2022,
+    title: "Development of the Next-Generation Biomimetic Lower Extremity Bypass Graft for the Treatment of Peripheral Artery Disease",
+    authors: [
+      "Keiser",
+      "Courtney K",
+    ],
+    link: "https://www.proquest.com/openview/e2a181c773a8e1bbeb8cf44abef14eec/1?pq-origsite=gscholar&cbl=18750&diss=y"
+  },
+  {
+    id: 15,
+    year: 2022,
+    title: "Ibuprofen loaded electrospun polymeric nanofibers: A strategy to improve oral absorption",
+    authors: [
+      "Dibya Sundar Panda",
+      "Nabil K Alruwaili",
+      "Satyanarayan Pattnaik",
+      "Kalpana Swain",
+    ],
+    link: "https://www.researchgate.net/publication/362187429_Ibuprofen_Loaded_Electrospun_Polymeric_Nanofibers_A_Strategy_to_Improve_Oral_Absorption"
+  },
+  {
+    id: 16,
+    year: 2022,
+    title: "Designing suture-proof cell-attachable copolymer-mediated and curcumin- ?-cyclodextrin inclusion complex loaded aliphatic polyester-based electrospun antibacterial constructs",
+    authors: [
+      "Deepika Sharma",
+      "Shaifali Dhingra",
+      "Ahana Banerjee",
+      "Sampa Saha",
+      "Jayanta Bhattacharyya",
+      "Bhabani K. Satapathy",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0141813022014179"
+  },
+  {
+    id: 17,
+    year: 2022,
+    title: "P(VDF-TrFE)/ZnO nanocomposite synthesized by electrospinning: effect of ZnO nanofiller on physical, mechanical, thermal, rheological and piezoelectric properties",
+    authors: [
+      "Mukesh Kumar",
+      "Poonam Kumari",
+    ],
+    link: "https://www.researchgate.net/publication/361021666_PVDF-TrFEZnO_nanocomposite_synthesized_by_electrospinning_effect_of_ZnO_nanofiller_on_physical_mechanical_thermal_rheological_and_piezoelectric_properties"
+  },
+  {
+    id: 18,
+    year: 2022,
+    title: "Synthesis and Characterization of Novel Poly(Vinylidene Fluoride)-Melamine Electrospun Nanofibers: An Extensive Analysis on Mechanical and Thermal Behavior",
+    authors: [
+      "Priyanka Chahal",
+      "Bavatharani Chokkiah",
+      "Vishnu Sankar",
+      "Sivasankarapillai",
+      "Asha Raveendran",
+      "Masoom Raza SiddiquiSaikh",
+      "Mohammad WabaidurSoo",
+      "Chool LeeRagupathy",
+      "Dhanusuraman",
+    ],
+    link: "https://link.springer.com/article/10.1007/s11665-022-07067-x"
+  },
+  {
+    id: 19,
+    year: 2022,
+    title: "Thin-film nanofibers for treatment of age-related macular degeneration",
+    authors: [
+      "Atul Garkal",
+      "Priyanka Bangar",
+      "Tejal Mehta",
+    ],
+    link: "https://www.sciencedirect.com/science/article/pii/S2352952022000603"
+  },
+  {
+    id: 20,
+    year: 2022,
+    title: "Easy fabrication of a novel electro-spun PVDF-g-C3N4-Pd nanocomposite material as improved anode electrocatalyst for direct alcohol fuel cell",
+    authors: [
+      "Bavatharani Chokkiah",
+      "Saikh Mohammad Wabaidur",
+      "Masoom Raza Siddiqui",
+      "Md Ataul Islam",
+      "Ragupathy Dhanusuraman",
+      "Vinoth Kumar Ponnusamy d",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S001623612201345X"
+  },
+  {
+    id: 21,
+    year: 2022,
+    title: "Coaxial Electrospun Nanofibrous Membranes for Enhanced Water Recovery by Direct Contact Membrane Distillation",
+    authors: [
+      "V Sangeetha",
+      "NJ Kaleekkal",
+      "S Vigneswaran",
+    ],
+    link: "https://www.mdpi.com/2073-4360/14/24/5350"
+  },
+  {
+    id: 22,
+    year: 2022,
+    title: "Utilizing Strain-Engineered Stable Halide Perovskite for Interfacial Interaction with Molecular Dipoles To Enhance Ferroelectric Switching and Piezoresponse in Polymer Composite Nanofibers",
+    authors: [
+      "Zinnia Mallick",
+      "Varun Gupta",
+      "Ayushi Jain",
+      "Chandan Bera",
+      "Dipankar Mandal",
+    ],
+    link: "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.2c02556"
+  },
+  {
+    id: 23,
+    year: 2022,
+    title: "Copper and cobalt doped bioactive glass-fish dermal collagen electrospun mat triggers key events of diabetic wound healing in full-thickness skin defect model",
+    authors: [
+      "Sonali Jana",
+      "Pradyot Datta",
+      "Himanka Das",
+      "Satish Jaiswal",
+      "Prabal Ranjan Ghosh",
+      "Debrupa Lahiri",
+      "Biswanath Kundu",
+      "Samit Kumar Nandi",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1751616122003204"
+  },
+  {
+    id: 24,
+    year: 2022,
+    title: "Polycaprolactone assisted electrospinning of honey/betel with chitosan for tissue engineering",
+    authors: [
+      "Jaideep Adhikari",
+      "Manojit Ghosh",
+      "Pratik Das",
+      "Piyali Basak",
+      "Prosenjit Saha",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S2214785322014109"
+  },
+  {
+    id: 25,
+    year: 2022,
+    title: "Synthesis and characterizations of sugar-glass nanoparticles mediated protein delivery system for tissue engineering application",
+    authors: [
+      "Aniruddha PalRathina VelSk",
+      "Hasanur",
+      "RahamanSomoshree",
+      "SenguptaSubhadip Bodhak",
+    ],
+    link: "https://iopscience.iop.org/article/10.1088/2399-1984/ac7832/meta"
+  },
+  {
+    id: 26,
+    year: 2022,
+    title: "Hesperetin-loaded polymeric nanofibers: assessment of bioavailability and neuroprotective effect",
+    authors: [
+      "Yogesh Chand Yadav",
+      "Satyanarayan Pattnaik",
+    ],
+    link: "https://www.tandfonline.com/doi/abs/10.1080/03639045.2023.2201625"
+  },
+  {
+    id: 27,
+    year: 2022,
+    title: "An integrated Nanofiltration-Membrane Distillation (NF-MD) process for the treatment of emulsified wastewater",
+    authors: [
+      "Juliana John",
+      "Jenny Nambikattu",
+      "Noel Jacob Kaleekkal",
+    ],
+    link: "https://www.tandfonline.com/doi/abs/10.1080/01496395.2022.2131578"
+  },
+  {
+    id: 28,
+    year: 2022,
+    title: "Engineering Vascularizing Electrospun Dermal Grafts by Integrating Fish Collagen and Ion-Doped Bioactive Glass",
+    authors: [
+      "Sonali Jana",
+      "Pradyot Datta",
+      "Himanka Das",
+      "Prabal Ranjan Ghosh",
+      "Biswanath Kundu",
+      "Samit Kumar Nandi",
+    ],
+    link: "https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.1c01098"
+  },
+  {
+    id: 29,
+    year: 2021,
+    title: "BiVO4 nanofiber-based field-effect transistors for detection of epinephrine/adrenaline hormones",
+    authors: [
+      "Sushmitha Veeralingam",
+      "Sushmee Badhulika",
+    ],
+    link: "/"
+  },
+  {
+    id: 30,
+    year: 2021,
+    title: "Metal oxide heterostructure decorated carbon nanofiber as a novel redox catalyst for high performance Lithium-Sulfur batteries",
+    authors: [
+      "Avinash Raulo",
+      "Sajan SinghAmit Gupta",
+      "Rajiv Srivastava",
+      "Bhanu Nandan",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0169433221021115"
+  },
+  {
+    id: 31,
+    year: 2021,
+    title: "Excellent electrochemical performance of Lithium-sulfur batteries via self-standing cathode from interwoven ?-Fe2O3 integrated carbon nanofiber networks",
+    authors: [
+      "Avinash Raulo",
+      "Sajan Singh",
+      "Amit Gupta",
+      "Rajiv Srivastava",
+      "Bhanu Nandan",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1572665720310584"
+  },
+  {
+    id: 32,
+    year: 2021,
+    title: "Nanotechnology-Assisted, Single-Chromophore-Based White-Light-Emitting Organic Materials with Bioimaging Properties",
+    authors: [
+      "Arif Hassan Dar",
+      "Vijayendran Gowri",
+      "Rakesh Kumar Mishra",
+      "Rehan Khan",
+      "Govindasamy Jayamurugan",
+    ],
+    link: "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.1c02797"
+  },
+  {
+    id: 33,
+    year: 2021,
+    title: "An efficient amperometric sensor for chloride ion detection through electroactive e-spun PVA-PANi-g-C3N4 nanofiber",
+    authors: [
+      "Bavatharani Chokkiah",
+      "Muthusankar Eswaran",
+      "Saikh Mohammad Wabaidur",
+      "Zeid A Alothman",
+      "Soo Chool LeeRagupathy",
+      "Dhanusuraman",
+    ],
+    link: "https://www.researchgate.net/publication/356429573_An_efficient_amperometric_sensor_for_chloride_ion_detection_through_electroactive_e-spun_PVA-PANi-g-C3N4_nanofiber"
+  },
+  {
+    id: 33,
+    year: 2021,
+    title: "An efficient amperometric sensor for chloride ion detection through electroactive e-spun PVA-PANi-g-C3N4 nanofiber",
+    authors: [
+      "Bavatharani Chokkiah",
+      "Muthusankar Eswaran",
+      "Saikh Mohammad Wabaidur",
+      "Zeid A Alothman",
+      "Soo Chool LeeRagupathy",
+      "Dhanusuraman",
+    ],
+    link: "https://www.researchgate.net/publication/356429573_An_efficient_amperometric_sensor_for_chloride_ion_detection_through_electroactive_e-spun_PVA-PANi-g-C3N4_nanofiber"
+  },
+  {
+    id: 34,
+    year: 2021,
+    title: "Understanding release kinetics and collapse proof suture retention response of curcumin loaded electrospun mats based on aliphatic polyesters and their blends",
+    authors: [
+      "Deepika Sharma",
+      "Bhabani K. Satapathy",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1751616121002393"
+  },
+  {
+    id: 35,
+    year: 2021,
+    title: "Fabrication and characterization of electrospun psyllium husk-based nanofibers for tissue regeneration",
+    authors: [
+      "Suruchi PoddarPiyush Sunil",
+      "Agarwal",
+      "Ajay Kumar Sahi",
+      "Neelima Varshney",
+      "Kiran Yellappa Vajanthri",
+      "Sanjeev Kumar Mahto",
+    ],
+    link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/app.50569"
+  },
+  {
+    id: 36,
+    year: 2021,
+    title: "Physicomechanical performance and encapsulation efficiency of ?-cyclodextrin loaded functional electrospun mats based on aliphatic polyesters and their blends",
+    authors: [
+      "Deepika Sharma",
+      "Bhabani K. Satapathy",
+    ],
+    link: "https://www.tandfonline.com/doi/abs/10.1080/09205063.2021.1925393"
+  },
+  {
+    id: 37,
+    year: 2021,
+    title: "Electrospun chitosan/polycaprolactone-hyaluronic acid bilayered scaffold for potential wound healing applications",
+    authors: [
+      "Amit Chanda",
+      "Jaideep Adhikari",
+      "Aritri Ghosh",
+      "Sougata Roy Chowdhury",
+      "Sabu Thomas",
+      "Pallab Datta",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0141813018304008"
+  },
+  {
+    id: 38,
+    year: 2021,
+    title: "Bone tissue engineering construct fabricated using a cell electrospinning technique with polyglutamic acid biopolymer",
+    authors: [
+      "Pratyusa DasAnkita Hore",
+      "Aritri Ghosh",
+      "Pallab Datta",
+    ],
+    link: "https://link.springer.com/article/10.1007/s10965-021-02612-z"
+  },
+  {
+    id: 39,
+    year: 2020,
+    title: "Fabrication and invitro evaluation of electrospun gum ghatti-polyvinyl alcohol polymeric blend green nanofibre mat (GG-PVA NFM) as a novel material for polymeric scaffolds in wound healing",
+    authors: [
+      "Pramit Dey",
+      "Trishna Bal",
+      "Roop Narayan Gupta",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0142941820320559"
+  },
+  {
+    id: 40,
+    year: 2020,
+    title: "A high energy density and high rate capability flexible supercapacitor based on electro-spun highly porous SnO2@carbon nanofibers",
+    authors: [
+      "Rasmita Barik",
+      "Vaishali Tanwar",
+      "Rajat Kumar",
+      "Pravin P. Ingole",
+    ],
+    link: "https://pubs.rsc.org/en/content/articlelanding/2020/TA/D0TA04355A"
+  },
+  {
+    id: 41,
+    year: 2020,
+    title: "Flexible lead-free PVDF/SM-KNN electrospun nanocomposite based piezoelectric materials: Significant enhancement of energy harvesting efficiency of the nanogenerator",
+    authors: [
+      "Satyaranjan Bairagi",
+      "S. Wazed Ali",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0360544220304928"
+  },
+  {
+    id: 42,
+    year: 2020,
+    title: "Polymer-Derived Electrospun Co3O4@C Porous Nanofiber Network for Flexible, High-Performance, and Stable Supercapacitors",
+    authors: [
+      "Rasmita Barik",
+      "Avinash Raulo",
+      "Shwetambara Jha",
+      "Bhanu Nandan",
+      "Pravin P. Ingole",
+    ],
+    link: "https://pubs.acs.org/doi/abs/10.1021/acsaem.0c01955"
+  },
+  {
+    id: 43,
+    year: 2020,
+    title: "On 3D Printing of Architected PLA-PLA Nanofiber-Based Biomedical Scaffolds",
+    authors: [
+      "Ranvijay Kumar",
+      "Rupinder Singh",
+    ],
+    link: "https://link.springer.com/article/10.1007/s40009-023-01261-8"
+  },
+  {
+    id: 44,
+    year: 2020,
+    title: "Honey-incorporated nanofibre reduces replicative senescence of umbilical cord-derived mesenchymal stem cells",
+    authors: [
+      "Ankita Das",
+      "Pallab Datta",
+      "Amit Roy Chowdhury",
+      "Ananya Barui",
+    ],
+    link: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-nbt.2019.0288"
+  },
+  {
+    id: 45,
+    year: 2019,
+    title: "Dielectric and conductivity investigation of polycarbonate-copper phthalocyanine electrospun nonwoven fibres for electrical and electronic application",
+    authors: [
+      "Ankit Malik",
+      "RaviPrakash Magisetty",
+      "Viresh KumarAnuj Shukla",
+      "Balasubramanian",
+      "Kandasubramanian",
+    ],
+    link: "https://www.researchgate.net/publication/333693492_Dielectric_and_conductivity_investigation_of_polycarbonate-copper_phthalocyanine_electrospun_nonwoven_fibres_for_electrical_and_electronic_application"
+  },
+  {
+    id: 46,
+    year: 2019,
+    title: "Bio-inspired superhydrophobic and superoleophilic nanofibrous membranes for non-aqueous solvent and oil separation from water",
+    authors: [
+      "Seyed Mahdi Seyed",
+      "Shahabadi",
+      "Jonathan A. Brant",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1383586618321361"
+  },
+  {
+    id: 47,
+    year: 2019,
+    title: "Mechanical Properties of Aliphatic Polyester-Based Structurally Engineered Composite Patches",
+    authors: [
+      "Deepika Sharma",
+      "Bhabani K. Satapathy",
+    ],
+    link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/masy.201800153"
+  },
+  {
+    id: 48,
+    year: 2019,
+    title: "Morphological and Electrical Characterization ofPolyacrylonitrile Nanofibers Synthesized UsingElectrospinning Method for Electrical Application",
+    authors: [
+      "Divyanka Sontakke",
+      "Arpit Thakre",
+      "D. K Shinde",
+      "Sujata Parmeshwaran",
+    ],
+    link: "https://www.researchgate.net/publication/333867675_Morphological-and-Electrical-Characterization-of-Polyacrylonitrile-Nanofibers-Synthesized-Using-Electrospinning-Method-for-Electrical-Application"
+  },
+  {
+    id: 49,
+    year: 2019,
+    title: "Injectable PLCL/gelatin core-shell nanofibers support noninvasive 3D delivery of stem cells",
+    authors: [
+      "Jordi Amagat Molas",
+      "Menglin Chen",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0378517319306106"
+  },
+  {
+    id: 50,
+    year: 2019,
+    title: "Selective Cell Adhesion on Peptide–Polymer Electrospun Fiber Mats",
+    authors: [
+      "Gagandeep Kaur",
+      "Savita Kumari",
+      "Piyali Saha",
+      "Rafat Ali",
+      "Sandip Patil",
+      "Subramaniam Ganesh",
+      "Sandeep Verma",
+    ],
+    link: "https://pubs.acs.org/doi/full/10.1021/acsomega.8b03494"
+  },
+  {
+    id: 51,
+    year: 2019,
+    title: "Adhesion strength and viscoelastic properties of polydimethylsiloxane (PDMS) based elastomeric nanocomposites with embedded electrospun nanofibers",
+    authors: [
+      "Tushar D. Deshpande",
+      "Yogesh R. G. Singh",
+      "Sandip Patil",
+      "Yogesh M. Joshi",
+      "Ashutosh Sharma",
+    ],
+    link: "https://pubs.rsc.org/en/content/articlelanding/2019/sm/c9sm00533a/unauth"
+  },
+  {
+    id: 52,
+    year: 2019,
+    title: "Fabrication of Electrospun Polycaprolactone/GelatinComposite Nanofibrous Scaffolds with Cellular Responses",
+    authors: [
+      "Jaianand Kannaiyan",
+      "Saurabh Khare",
+      "Suriya Narayanan",
+      "Firdosh Mahuvawalla",
+    ],
+    link: "https://www.researchgate.net/publication/338394136_Fabrication_of_Electrospun_PolycaprolactoneGelatin_Composite_Nanofibrous_Scaffolds_with_Cellular_Responses"
+  },
+  {
+    id: 53,
+    year: 2011,
+    title: "Cellular interactions with biodegradable polyurethanes formulated from L-tyrosine",
+    authors: [
+      "Parth N ShahYang H Yun",
+    ],
+    link: "https://journals.sagepub.com/doi/10.1177/0885328211432325?icid=int.sj-abstract.similar-articles.1"
+  },
+  {
+    id: 54,
+    year: 2010,
+    title: "Biomimetic algal polysaccharide coated 3D nanofibrous scaffolds promote skin extracellular matrix formation",
+    authors: [
+      "Prerana Singh",
+      "Auhin Kumar Maparu",
+      "Savita Shah",
+      "Beena RaiSri Sivakumar",
+    ],
+    link: "https://www.sciencedirect.com/science/article/pii/S0928493120334986"
+  },
+  {
+    id: 55,
+    year: 2010,
+    title: "Microfibers of fish waste-derived collagen and ion-doped bioactive glass in stimulating the healing sequences in full-thickness cutaneous burn injury",
+    authors: [
+      "Pallabi Kayal",
+      "Sonali Jana",
+      "Pradyot Datta",
+      "Himanka Das",
+      "Biswanath Kundu",
+      "Samit Kumar Nandi",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1773224723002812"
+  },
+  {
+    id: 56,
+    year: 2010,
+    title: "Enhanced carrier separation assisted high-performance piezo-phototronic self-powered photodetector based on core-shell ZnSnO3 @In2O3 heterojunction",
+    authors: [
+      "Sushmitha Veeralingam",
+      "Sushmee Badhulika",
+    ],
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S2211285522004323"
+  },
+  
+
 
   // Add more publications as needed
 ];

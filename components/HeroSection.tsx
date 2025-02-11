@@ -4,10 +4,11 @@ import { useState, useEffect } from "react";
 import { ServiceCard } from "./ServiceCard";
 
 const SERVICES = [
-  { number: "", title: "Nanofibre\nSpinning\nTechnology" },
-  { number: "", title: "Nanofibre\nMembrane\nTechnology" },
-  { number: "", title: "Nanofibre\nFunctional\nProducts" },
+  { number: "", title: "Nanofibre\nSpinning\nTechnology", link: "/products/electrospinning" },
+  { number: "", title: "Nanofibre\nMembrane\nTechnology", link: "/products/nanofibermembrane" },
+  { number: "", title: "Nanofibre\nFunctional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 ] as const;
+
 
 export function HeroSection() {
   const [showContent, setShowContent] = useState(false);

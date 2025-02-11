@@ -7,27 +7,6 @@ export const SUBCATEGORIES = {
       image: "/product categories/electro spinning.jpg",
       features: []
     },
-    // {
-    //   id: "industrial",
-    //   title: "Industrial Systems",
-    //   description: "High-throughput industrial production units",
-    //   image: "https://images.unsplash.com/photo-1581092161520-4ab09478a345?auto=format&fit=crop&q=80&w=800",
-    //   features: ["Mass Production", "Automated Control", "24/7 Operation"]
-    // },
-    // {
-    //   id: "custom",
-    //   title: "Custom Solutions",
-    //   description: "Tailored systems for specific applications",
-    //   image: "https://images.unsplash.com/photo-1581092156019-3e6b90be0b80?auto=format&fit=crop&q=80&w=800",
-    //   features: ["Custom Design", "Application Specific", "Expert Support"]
-    // },
-    // {
-    //   id: "training",
-    //   title: "Training Systems",
-    //   description: "Educational units for academic institutions",
-    //   image: "https://images.unsplash.com/photo-1581092160607-f6aa4589c089?auto=format&fit=crop&q=80&w=800",
-    //   features: ["User Friendly", "Educational Tools", "Safety Features"]
-    // }
   ],
   nanofibermembrane: [
     {
@@ -38,7 +17,7 @@ export const SUBCATEGORIES = {
       features: ["High Throughput", "Temperature Control", "Automated Operation"]
     }
   ],
-  accessories: [
+  nanofibrefunctionalproducts: [
     {
       id: "spinneret",
       title: "Spinnerets",
@@ -47,15 +26,7 @@ export const SUBCATEGORIES = {
       features: ["Multiple Sizes", "Custom Designs", "High Precision"]
     }
   ],
-  software: [
-    {
-      id: "control",
-      title: "Process Control",
-      description: "Advanced process control and monitoring software",
-      image: "https://images.unsplash.com/photo-1581092156019-3e6b90be0b80?auto=format&fit=crop&q=80&w=800",
-      features: ["Real-time Control", "Data Logging", "Analytics"]
-    }
-  ]
+  
 } as const;
 
 export const PRODUCTS = {
