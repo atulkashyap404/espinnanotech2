@@ -42,15 +42,15 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
 
         {/* Content */}
         <div className="relative z-10 max-w-[63vw] mx-auto px-2 ">
-          <div className="flex flex-col lg:flex-row gap-20 items-center">
+          <div className="flex justify-center">
             {/* Left Content */}
-            <div className="flex-1 space-y-6">
+            <div className="flex-1 space-y-6 pt-32">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h1 className="text-4xl lg:text-6xl font-bold mb-4">
+                <h1 className="text-2xl lg:text-4xl font-bold mb-4">
                   {product.name}
                 </h1>
                 {/* <p className=" grid grid-cols-4 text-lg text-black">{product.description}</p> */}
@@ -61,7 +61,7 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
                   ))}
                 </p> */}
 
-                <p className="grid grid-cols-1 text-lg text-white w-80">
+                <p className="grid grid-cols-1 text-white w-80">
                   {Array.isArray(product.description)
                     ? product.description.map((line, index) => (
                         <span
@@ -93,7 +93,7 @@ export function ProductDetailClient({ productId }: ProductDetailClientProps) {
               transition={{ duration: 0.5 }}
               className="flex-1 relative"
             >
-              <div className="relative aspect-square max-w-xl">
+              <div className="relative">
                 <ProductGallery images={[...product.images]} />
               </div>
             </motion.div>

@@ -12,7 +12,7 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 4/3.avif",
+          url: "/product image/super es 4/IMG_6226.PNG",
           alt: "Super ES-1 Front View",
         },
         {

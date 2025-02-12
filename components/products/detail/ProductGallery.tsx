@@ -20,10 +20,10 @@ export function ProductGallery({ images }: ProductGalleryProps) {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative aspect-square rounded-2xl overflow-hidden p-8 flex items-center justify-center"
+        className="relative rounded-2xl overflow-hidden mt-2 ml-14 flex  min-h-[70vh] min-w-[60vw]"
       >
         {loading && (
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex justify-start">
             <div className="w-10 h-10 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
           </div>
         )}
@@ -44,7 +44,7 @@ export function ProductGallery({ images }: ProductGalleryProps) {
               setSelectedImage(index);
               setLoading(true);
             }}
-            className={`relative aspect-square rounded-lg overflow-hidden p-2 transition-all ${
+            className={`relative aspect-square rounded-lg overflow-hidden p-2 transition-all w-40 ${
               selectedImage === index 
                 ? "ring-2 ring-blue-400 scale-95" 
                 : "hover:ring-2 hover:ring-blue-400/50"
