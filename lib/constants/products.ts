@@ -43,7 +43,7 @@ export const PRODUCTS = {
       id: "super-es-3a",
       title: "Super ES-3A",
       description: "Premium research grade system",
-      image: "/product categories/super es 3a.avif",
+      image: "/product categories/3a cover.jpg",
       features: ["Four Nozzle", "Yarning", "Camera Interface", "Bi-Component", "Atmospheric Control", "Touch Control"]
     },
 

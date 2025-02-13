@@ -111,19 +111,19 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 3a/1.avif",
+          url: "/product image/super es 3a/2.jpg",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 3a/2.avif",
+          url: "/product image/super es 3a/1.jpg",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 3a/3.avif",
+          url: "/product image/super es 3a/3.jpg",
           alt: "Control Panel",
         },
         {
-          url: "/product image/super es 3a/1.avif",
+          url: "/product image/super es 3a/4.jpg",
           alt: "Nozzle System",
         },
       ],
