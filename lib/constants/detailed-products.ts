@@ -16,11 +16,11 @@ export const DETAILED_PRODUCTS = {
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 4/1.avif",
+          url: "/product image/super es 4/1.jpg",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 4/2.avif",
+          url: "/product image/super es 4/2.jpg",
           alt: "Control Panel",
         },
         {

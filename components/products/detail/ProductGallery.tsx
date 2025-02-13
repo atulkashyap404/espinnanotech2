@@ -20,7 +20,7 @@ export function ProductGallery({ images }: ProductGalleryProps) {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative rounded-2xl overflow-hidden mt-2 ml-14 flex  min-h-[70vh] min-w-[60vw]"
+        className="relative rounded-2xl overflow-hidden mt-2 ml-14 flex  min-h-[57vh] min-w-[60vw]"
       >
         {loading && (
           <div className="absolute inset-0 flex justify-start">
