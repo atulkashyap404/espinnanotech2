@@ -20,10 +20,10 @@ export function ProductGallery({ images }: ProductGalleryProps) {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative rounded-2xl overflow-hidden mt-2 ml-14 flex  min-h-[57vh] min-w-[60vw]"
+        className="relative rounded-2xl overflow-hidden mt-2 ml-14 flex min-h-[57vh] min-w-[60vw] justify-center items-center"
       >
         {loading && (
-          <div className="absolute inset-0 flex justify-start">
+          <div className="absolute inset-0 flex justify-center items-center">
             <div className="w-10 h-10 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
           </div>
         )}
@@ -62,6 +62,7 @@ export function ProductGallery({ images }: ProductGalleryProps) {
     </div>
   );
 }
+
 
 
 
