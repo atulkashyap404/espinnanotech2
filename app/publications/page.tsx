@@ -6,7 +6,7 @@ import { PublicationTable } from "@/components/publications/PublicationTable";
 export default function PublicationsPage() {
   return (
     <main className="min-h-screen pt-20">
-      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[20vh] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0"
           style={{

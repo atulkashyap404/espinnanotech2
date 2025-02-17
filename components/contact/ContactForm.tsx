@@ -46,7 +46,7 @@ export function ContactForm() {
           placeholder="Comment or Message *"
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-          className="w-full min-h-[150px]"
+          className="w-full min-h-[130px]"
         />
       </div>
       <Button type="submit" className="bg-red-600 hover:bg-red-700 text-white">

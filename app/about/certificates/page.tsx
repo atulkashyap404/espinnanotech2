@@ -6,7 +6,7 @@ import { CertificateGrid } from "@/components/about/certificates/CertificateGrid
 export default function CertificatesPage() {
   return (
     <main className="min-h-screen pt-20">
-      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[25vh] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0"
           style={{

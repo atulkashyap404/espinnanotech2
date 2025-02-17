@@ -20,7 +20,7 @@ export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
 
   return (
     <main className="min-h-screen  pt-20">
-      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[20vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-red-900 to-black" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}

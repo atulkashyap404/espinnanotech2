@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function MediaHero() {
   return (
-    <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+    <div className="relative h-[20vh] flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0"
         style={{

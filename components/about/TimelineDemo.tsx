@@ -25,7 +25,7 @@ export function TimelineDemo() {
       title: "Industry Leader",
       content: (
         <div>
-          <p className="text-neutral-900 dark:text-neutral-200 text-xl md:text-lg font-normal mb-8">
+          <p className="text-neutral-900 dark:text-neutral-200 text-xl md:text-lg font-normal mb-2">
           Since the commissioning of our inaugural nanofiber spinning machine in 2010, we have solidified our position as a trailblazer in the industry, consistently setting new benchmarks for innovation, precision, and technological advancement. Through an unwavering commitment to excellence and continuous research and development, we have redefined industry standards, pushing the boundaries of nanofiber fabrication. Our pioneering efforts and forward-thinking approach empower us to remain at the forefront of nanotechnology, driving transformative advancements that shape the future of the field.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -65,7 +65,7 @@ export function TimelineDemo() {
       title: "Customer Relationships",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-4">
           We are deeply committed to building and sustaining exceptional customer relationships, founded on trust, reliability, and unparalleled service. Our dedicated team goes beyond merely meeting expectations—we strive to exceed them by delivering personalized support, proactive solutions, and seamless communication. By prioritizing customer satisfaction at every touchpoint, we foster meaningful connections that enhance experiences, drive long-term loyalty, and reinforce our reputation for excellence.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -105,11 +105,8 @@ export function TimelineDemo() {
       title: "Global Business",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-1">
           E-Spin Nanotech has emerged as a globally recognized leader in nanofiber technology, with a proven track record of over 500 successful machine installations across diverse international markets. Our unwavering commitment to excellence extends beyond product innovation—we provide comprehensive, ongoing support and services to our customers worldwide, ensuring seamless operation and maximum efficiency.
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Our advanced nanofiber spinning solutions have been widely adopted by prestigious research institutions in India, including the Indian Institutes of Technology (IITs) and defense laboratories, reinforcing our reputation for technological excellence. Furthermore, our global footprint continues to expand, reaching key markets such as the USA, Russia, and numerous other countries. As we drive innovation on an international scale, we remain dedicated to shaping the future of nanotechnology through unparalleled expertise, quality, and customer-centric solutions.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -149,12 +146,10 @@ export function TimelineDemo() {
       title: "Innovative Technology",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal ">
           At E-Spin Nanotech, we leverage a highly skilled and diverse team of scientists, engineers, and technical experts, supported by state-of-the-art infrastructure. Our advanced resources include dedicated design verification centers, prototype development capabilities, cutting-edge laboratories, and a specialized advanced manufacturing technology group. These assets empower us to remain at the forefront of the industry, continuously pushing the boundaries of innovation.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          By integrating research excellence with precision engineering, we develop pioneering solutions that not only meet but surpass the ever-evolving global demands of filtration and nanofiber technology. Our unwavering commitment to technological advancement ensures that we deliver superior performance, efficiency, and reliability, setting new industry benchmarks while shaping the future of high-performance filtration systems worldwide.
-          </p>
+          
           <div className="mb-8">
             {/* <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               ✅ Card grid component

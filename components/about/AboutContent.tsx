@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 export function AboutContent() {
   return (
-    <div className="max-w-7xl mx-auto px-2 py-16">
+    <div className="max-w-7xl mx-auto px-2 py-16 font-sans">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="bg-white rounded-tl-lg rounded-br-lg p-8 md:p-12 space-y-8 border border-red-400 font-normal"
+        className="bg-white  p-8 md:p-8 space-y-8  font-normal"    // you can add border here if you need
       >
         <div className="space-y-8">
           <p className="text-lg  ">
