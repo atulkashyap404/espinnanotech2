@@ -27,11 +27,11 @@ export function StatsSection() {
           {/* Text Section */}
           <div className="w-full md:w-1/2">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              <span className="text-red-600">One-stop Solution</span>{" "}
+              <span className="text-red-500">One-stop Solution</span>{" "}
               <span className="text-black">for Nanofiber Technology</span>
               <br />
               <span className="text-black">and</span>{" "}
-              <span className="text-red-600">
+              <span className="text-red-5-00">
                 its Commercial Product Development
               </span>
             </h2>

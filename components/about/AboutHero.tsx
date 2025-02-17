@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function AboutHero() {
   return (
-    <div className="relative h-[20vh] flex items-center justify-center overflow-hidden mt-20">
+    <div className="relative h-[15vh] flex items-center justify-center overflow-hidden mt-20">
       {/* Gradient background */}
       <div 
         className="absolute inset-0"

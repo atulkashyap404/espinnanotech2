@@ -25,7 +25,7 @@ export function TimelineDemo() {
       title: "Industry Leader",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-900 dark:text-neutral-200 text-xl md:text-lg font-normal mb-8">
           Since the commissioning of our inaugural nanofiber spinning machine in 2010, we have solidified our position as a trailblazer in the industry, consistently setting new benchmarks for innovation, precision, and technological advancement. Through an unwavering commitment to excellence and continuous research and development, we have redefined industry standards, pushing the boundaries of nanofiber fabrication. Our pioneering efforts and forward-thinking approach empower us to remain at the forefront of nanotechnology, driving transformative advancements that shape the future of the field.
           </p>
           <div className="grid grid-cols-2 gap-4">

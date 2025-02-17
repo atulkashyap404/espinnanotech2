@@ -30,33 +30,69 @@ export function WorldMapDemo() {
         dots={[
           {
             start: {
-              lat: 64.2008,
-              lng: -149.4937,
-            }, // Alaska (Fairbanks)
+              lat: 26.4499,
+              lng: 80.3319,
+            }, // UP kanpur
             end: {
-              lat: 34.0522,
-              lng: -118.2437,
-            }, // Los Angeles
+              lat: 56.2639,
+              lng: 9.5018,
+            }, // Denmark
           },
           {
-            start: { lat: 64.2008, lng: -149.4937 }, // Alaska (Fairbanks)
-            end: { lat: -15.7975, lng: -47.8919 }, // Brazil (Brasília)
+            start: { lat: 26.4499, lng: 80.3319 }, // UP kanpur
+            end: { lat: 31.0461, lng: 34.8516 }, // israel
           },
           {
-            start: { lat: -15.7975, lng: -47.8919 }, // Brazil (Brasília)
-            end: { lat: 38.7223, lng: -9.1393 }, // Lisbon
+            start: { lat: 26.4499, lng: 80.3319 }, // kanpur UP
+            end: { lat: 35.0078, lng: 97.0929 }, // Oklahoma
           },
           {
-            start: { lat: 51.5074, lng: -0.1278 }, // London
-            end: { lat: 28.6139, lng: 77.209 }, // New Delhi
+            start: { lat: 26.4499, lng: 80.3319 }, // UP kanpur
+            end: { lat: 60.1282, lng: 18.6435 }, // sweden
           },
           {
-            start: { lat: 28.6139, lng: 77.209 }, // New Delhi
-            end: { lat: 43.1332, lng: 131.9113 }, // Vladivostok
+            start: { lat: 26.4499, lng: 80.3319 }, // kanpur UP
+            end: { lat: 23.8859, lng: 45.0792 }, // saudi Arabia 
           },
           {
-            start: { lat: 28.6139, lng: 77.209 }, // New Delhi
-            end: { lat: -1.2921, lng: 36.8219 }, // Nairobi
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 26.8206, lng: 30.8025 }, // Egypt
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 40.4637, lng: 3.7492 }, // Valencia
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 41.4925, lng: 99.9018 }, // Nebraska
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 46.2276, lng: 2.2137 }, // France
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 56.1304, lng: -106.3468 }, // canada
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 23.6850, lng: 90.3563 }, // Bangladesh
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 38.7946, lng: -106.5348 }, // United States
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 28.3949, lng: 84.1240 }, // Napal
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: -30.5595, lng: 22.9375 }, // South Africa
+          },
+          {
+            start: { lat: 26.4499, lng: 80.3319 }, // Kanpur UP
+            end: { lat: 61.5240, lng: 105.3188 }, // Russia
           },
         ]}
       />
