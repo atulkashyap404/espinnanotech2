@@ -8,8 +8,8 @@ export function WorldMapDemo() {
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
           Our{" "}
-          <span className="text-neutral-400">
-            {"Overseas Partners".split("").map((word, idx) => (
+          <span className="text-black">
+            {"Overseas ~ Customers".split("").map((word, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"

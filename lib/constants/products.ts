@@ -10,11 +10,32 @@ export const SUBCATEGORIES = {
   ],
   nanofibermembrane: [
     {
-      id: "industrial",
-      title: "Industrial Melt Spinning",
-      description: "High-capacity industrial melt spinning systems",
+      id: "airfiltrationmembrane",
+      title: "Air Filtration Membrane",
+      description: "An air filtration membrane is a thin film that traps pollutants by straining them through tiny openings. Membranes are used in a variety of applications, including industrial air pollution control, gas turbines, and bag houses.",
       image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
-      features: ["High Throughput", "Temperature Control", "Automated Operation"]
+      features: []
+    },
+    {
+      id: "ionexchangemembrane",
+      title: "Ion-Exchange Membrane",
+      description: "An ion-exchange membrane (IEM) is a semi-permeable barrier that allows some dissolved ions to pass through while blocking others. IEMs are used in chemical recovery, desalination, and fuel cells.",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+      features: []
+    },
+    {
+      id: "cosmeticmembranes",
+      title: "Cosmetic Membranes",
+      description: "Cosmetic membranes are used in the development of cosmetics and personal care products. These membranes can be made from eggshells, cellulose acetate, polysulfone, silicone, and other materials.",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+      features: []
+    },
+    {
+      id: "customizedmembrane",
+      title: "Customized Membrane",
+      description: "The membrane can be customized for protection from Electrostatic Discharge (ESD), Electromagnetic Interface (EMI), and Radio Frequency Interface (RFI). This can be achieved by the use of foil, transparent film, or printed screens. This shielding improves the lifespan of the devices and makes it more safe and reliable.",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+      features: []
     }
   ],
   nanofibrefunctionalproducts: [
@@ -43,7 +64,7 @@ export const PRODUCTS = {
       id: "super-es-3a",
       title: "Super ES-3A",
       description: "Premium research grade system",
-      image: "/product categories/3a cover.jpg",
+      image: "/product categories/super es 3A.jpg",
       features: ["Four Nozzle", "Yarning", "Camera Interface", "Bi-Component", "Atmospheric Control", "Touch Control"]
     },
 
@@ -51,7 +72,7 @@ export const PRODUCTS = {
       id: "super-es-3",
       title: "Super ES-3",
       description: "Premium research grade system",
-      image: "/product categories/5.jpg",
+      image: "/product categories/super es 3.jpg",
       features: ["Dual Nozzle", "Both Side Jet", "Camera Interface", "Bi-Component", "Core-Shell", "Atmospheric Control"]
     },
 
@@ -59,7 +80,7 @@ export const PRODUCTS = {
       id: "super-es-2a",
       title: "Super ES-2A",
       description: "Premium research grade system",
-      image: "/product categories/4.jpg",
+      image: "/product categories/super es 2A.jpg",
       features: ["Dual Nozzle", "Rotating Drum", "Camera Interface", "Touch Screen", "Core-Shell", "Atmospheric Control"]
     },
 
@@ -67,7 +88,7 @@ export const PRODUCTS = {
       id: "super-es-2",
       title: "Super ES-2",
       description: "Dual-nozzle research system",
-      image: "/product categories/3.jpg",
+      image: "/product categories/super es 2.jpg",
       features: ["Dual Nozzle", "Rotating Drum", "Uniform Coating", "Computer Control", "Core-Shell", "Under Solvent"]
     },
 
@@ -76,7 +97,7 @@ export const PRODUCTS = {
       id: "super-es-1a",
       title: "Super ES-1A",
       description: "Advanced dual nozzle system",
-      image: "/product categories/2.jpg",
+      image: "/product categories/super es 1A.jpg",
       features: ["Flat Plate", "Rotating Drum", " Dual Nozzle", " Core-Shell"]
     },
     
@@ -85,7 +106,7 @@ export const PRODUCTS = {
       id: "super-es-1",
       title: "Super ES-1",
       description: "Basic electrospinning unit with single nozzle",
-      image: "/product categories/1.jpg",
+      image: "/product categories/super es 1.jpg",
       features: ["Single Nozzle", "Rotating Drum", "Flat Plate"]
     },
   ]

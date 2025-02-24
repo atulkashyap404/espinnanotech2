@@ -3,6 +3,8 @@ import { HeroSection } from "@/components/HeroSection";
 import { StatsSection } from "@/components/StatsSection";
 import { ExpertiseSection } from "@/components/ExpertiseSection";
 import { ScienceSection } from "@/components/ScienceSection";
+import ProfileCard from "@/components/ProfileCard";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <StatsSection />
       <ExpertiseSection />
       <ScienceSection />
+      <ProfileCard/>
     </main>
   );
 }

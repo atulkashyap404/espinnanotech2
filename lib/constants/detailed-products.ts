@@ -223,15 +223,15 @@ export const DETAILED_PRODUCTS = {
       ],
       images: [
         {
-          url: "/product image/super es 3/4.jpg",
+          url: "/product image/super es 3/2 new.jpg",
           alt: "Super ES-1 Front View",
         },
         {
-          url: "/product image/super es 3/3.jpg",
+          url: "/product image/super es 3/3 new.jpg",
           alt: "Super ES-1 Side View",
         },
         {
-          url: "/product image/super es 3/1.jpg",
+          url: "/product image/super es 3/1 new.jpg",
           alt: "Control Panel",
         },
         {
