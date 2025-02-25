@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu as MenuIcon } from "lucide-react";
+import { Menu as MenuIcon, Search } from "lucide-react";
 import { Menu } from "./Menu";
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -50,9 +50,11 @@ export function Header() {
           priority
         />
       </div>
+      
 
       {/* Mobile Menu */}
       <Menu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+        
 
       {/* PDF Catalogue Button */}
       <a
