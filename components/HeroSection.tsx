@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { ServiceCard } from "./ServiceCard";
+import { Cover } from "@/components/ui/cover";
 
 const SERVICES = [
   { number: "", title: "Nanofibre\nSpinning\nTechnology", link: "/products/electrospinning" },
@@ -57,9 +58,11 @@ export function HeroSection() {
         }`}
       >
         <h1 className="text-4xl md:text-5xl font-bold mt-40">
+          {/* <span className="text-6xl md:text-7xl text-red-500">Innovative</span> */}
           <span className="text-6xl md:text-7xl">Innovative</span>
           <br />
-          <span className="text-red-500">Fiber Technology</span>
+          {/* <Cover className="text-white">Fiber Technology</Cover> */}
+          <span className="text-red-500"> Fiber Technology</span>
         </h1>
         <p className="text-gray-100 max-w-xl mb-12">
           Our innovative solutions offer engineered nanofiber solutions for

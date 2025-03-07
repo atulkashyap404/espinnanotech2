@@ -13,7 +13,7 @@ export function ScienceSection() {
               <br />
               Behind Our Services
             </h2>
-            <button className="relative px-6 py-3 font-bold text-white bg-black rounded group overflow-hidden">
+            <button className="relative px-6 py-3 font-bold text-white bg-black rounded-md group overflow-hidden">
               <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-red-600 via-black to-red-600 opacity-0 group-hover:opacity-100 transition duration-300"></span>
               <span className="relative z-10 block transition-transform transform group-hover:scale-105">
                 MAKE AN APPOINTMENT

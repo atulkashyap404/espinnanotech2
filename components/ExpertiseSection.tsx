@@ -39,7 +39,7 @@ export function ExpertiseSection() {
                 10 years, we have helped multiple companies implement the
                 technology for their business.
               </p>
-              <button className="bg-red-600 text-white px-6 py-3 rounded-full flex items-center gap-2 relative overflow-hidden group shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <button className="bg-red-600 text-white px-6 py-3 rounded-md flex items-center gap-2 relative overflow-hidden group shadow-lg hover:shadow-xl transition-shadow duration-300">
                 {/* Hover effect */}
                 <span className="absolute inset-0 bg-red-700 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
                 <span className="relative z-10 group-hover:scale-105 transition-transform">
