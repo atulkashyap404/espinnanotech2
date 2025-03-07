@@ -5,6 +5,7 @@ import { ContactForm } from "@/components/contact/ContactForm";
 import { IndiaOffices } from "@/components/contact/IndiaOffices";
 import { OverseasPartners } from "@/components/contact/OverseasPartners";
 import { WorldMapDemo } from "@/components/contact/WorldMapDemo";
+import { ContactButton } from "@/components/contact/ContactButton";
 
 export default function ContactPage() {
   return (
@@ -32,14 +33,16 @@ export default function ContactPage() {
         </motion.div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 py-16 space-y-16">
+      <div className="min-w-full mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-2xl mx-auto"
+          className="max-w-8xl mx-auto flex flex-col items-center mb-4"
         >
-          <ContactForm />
+          
+          <WorldMapDemo />
+          <ContactButton />
         </motion.div>
 
         {/* <motion.div
@@ -57,7 +60,8 @@ export default function ContactPage() {
         >
           <OverseasPartners />
         </motion.div> */}
-        <WorldMapDemo />
+        {/* <ContactForm /> */}
+        
       </div>
     </main>
   );
