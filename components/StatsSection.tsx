@@ -9,7 +9,7 @@ const STATS = [
 
 export function StatsSection() {
   return (
-    <section className="relative min-h-[40vh] px-4 md:px-6 py-4 overflow-hidden flex items-center dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+    <section className="relative min-h-[10vh] px-4 md:px-6 py-4 overflow-hidden flex items-center dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
       {/* Background Image */}
       {/* <div
         className="absolute inset-y-0 right-0 w-1/2 z-0"

@@ -12,7 +12,7 @@ export function ExpertiseSection() {
             {/* Left Image Section */}
             <div className="flex-1 relative group transition-transform duration-500 ease-in-out hover:scale-105">
               {/* Red Glow Effect on Hover */}
-              <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 before:absolute before:inset-0 before:bg-red-600 before:blur-2xl before:opacity-50 before:rounded-lg"></div>
+              <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 before:absolute before:inset-0 before:bg-black before:blur-2xl before:opacity-50 before:rounded-lg"></div>
 
               <Image
                 src="/videos/nanofiber.png"
