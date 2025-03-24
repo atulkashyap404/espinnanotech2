@@ -42,7 +42,7 @@ export default function ProductsPage() {
           className="absolute inset-0 w-full h-full object-cover"
           
         >
-          <source src="/videos/electro spinning.mp4" type="video/mp4" />
+          <source src="/videos/spining tech.mp4" type="video/mp4" />
         </video>
 
         {/* Title */}

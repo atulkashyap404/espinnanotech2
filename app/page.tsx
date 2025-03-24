@@ -4,6 +4,8 @@ import { StatsSection } from "@/components/StatsSection";
 import { ExpertiseSection } from "@/components/ExpertiseSection";
 import { ScienceSection } from "@/components/ScienceSection";
 import ProfileCard from "@/components/ProfileCard";
+import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
+
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen pt-20">
       <Header />
       <HeroSection />
+      <BackgroundBoxesDemo/>
       <StatsSection />
       <ExpertiseSection />
       <ScienceSection />
