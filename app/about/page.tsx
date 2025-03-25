@@ -6,15 +6,18 @@ import { TimelineDemo } from "@/components/about/TimelineDemo";
 import { DirectorMessage } from "@/components/about/DirectorMessage";
 import { MissionSection } from "@/components/about/MissionSection";
 import { WobbleCardDemo } from "@/components/about/WobbleCardDemo";
+import { VisionSection } from "@/components/about/VisionSection"
+import { WorldMapDemo } from "@/components/contact/WorldMapDemo";
 
 export default function AboutPage() {
   return (
     <main>
       <AboutHero />
       <DirectorMessage/>
-      <WobbleCardDemo />
       <MissionSection/>
+      <VisionSection/>
       <TimelineDemo />
+      <WorldMapDemo />
     </main>
   );
 }

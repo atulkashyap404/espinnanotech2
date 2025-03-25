@@ -5,9 +5,9 @@ import { ServiceCard } from "./ServiceCard";
 import { Cover } from "@/components/ui/cover";
 
 const SERVICES = [
-  { number: "", title: "Nanofibre\nSpinning\nTechnology", link: "/products/electrospinning" },
-  { number: "", title: "Nanofibre\nMembrane\nTechnology", link: "/products/nanofibermembrane" },
-  { number: "", title: "Nanofibre\nFunctional\nProducts", link: "/products/nanofibrefunctionalproducts" },
+  { number: "", title: "Nanofiber\nSpinning\nTechnology", link: "/products/electrospinning" },
+  { number: "", title: "Nanofiber\nMembrane\nTechnology", link: "/products/nanofibermembrane" },
+  { number: "", title: "Nanofiber\nFunctional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 ] as const;
 
 
