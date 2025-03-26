@@ -42,7 +42,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         Mission
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-4xl font-bold">
-        To <span className="text-red-500">enhance</span> life across the <span className="text-red-500">globe</span> with <span className="text-red-500">sustainable</span> and <span className="text-red-500">innovative</span> <span className="text-red-500">nanotech </span>solutions.
+        
+        hello and welsome to this works
         </p>
       </div> */}
 

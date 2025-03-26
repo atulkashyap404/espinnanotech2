@@ -3,7 +3,7 @@ import { Cover } from "@/components/ui/cover";
 
 export function MissionSection() {
   return (
-    <div className="text-center max-w-7xl mx-auto">
+    <div className="text-center max-w-7xl mx-auto mt-12">
       {/* Title "Mission" */}
       <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
         Mission

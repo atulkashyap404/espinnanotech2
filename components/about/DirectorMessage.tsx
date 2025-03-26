@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export function DirectorMessage() {
   return (
-    <div className="min-h-[50vh] bg-muted/50 text-wrap bg-white font-sans">
+    <div className="min-h-[50vh] bg-muted/50 text-wrap bg-white font-sans shadow-md">
       <div className="max-w-7xl mx-auto pl-168">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
