@@ -4,10 +4,16 @@ import { useState, useEffect } from "react";
 import { ServiceCard } from "./ServiceCard";
 import { Cover } from "@/components/ui/cover";
 
+
+
+// { number: "", title: "Nanofiber\nSpinning\nTechnology", link: "/products/electrospinning" },
+// { number: "", title: "Nanofiber\nMembrane\nTechnology", link: "/products/nanofibermembrane" },
+// { number: "", title: "Nanofiber\nFunctional\nProducts", link: "/products/nanofibrefunctionalproducts" },
+
 const SERVICES = [
-  { number: "", title: "Nanofiber\nSpinning\nTechnology", link: "/products/electrospinning" },
-  { number: "", title: "Nanofiber\nMembrane\nTechnology", link: "/products/nanofibermembrane" },
-  { number: "", title: "Nanofiber\nFunctional\nProducts", link: "/products/nanofibrefunctionalproducts" },
+  { number: "", title: "Nanofiber Spinning\nTechnology", link: "/products/electrospinning" },
+  { number: "", title: "Nanofiber Membrane\nTechnology", link: "/products/nanofibermembrane" },
+  { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 ] as const;
 
 
@@ -70,7 +76,7 @@ export function HeroSection() {
           groundbreaking research.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40 text-xl">
           {SERVICES.map((service) => (
             <ServiceCard
               key={service.number}

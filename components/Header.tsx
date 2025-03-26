@@ -46,7 +46,7 @@ export function Header() {
           alt="Logo"
           width={200}
           height={40}
-          className="object-contain"
+          className="object-contain hidden md:block"
           priority
         />
       </div>

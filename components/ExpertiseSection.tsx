@@ -25,6 +25,9 @@ export function ExpertiseSection() {
               {/* <div className="absolute inset-0 bg-gradient-to-tr from-black/30 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div> */}
             </div>
 
+            {/* Vertical Line Divider */}
+          <div className="hidden md:flex self-stretch border-l-2 border-red-600"></div>
+
             {/* Right Content Section */}
             <div className="flex-1">
               <h2 className="text-4xl font-extrabold mb-2 text-black tracking-wide">
