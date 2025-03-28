@@ -39,7 +39,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Quality Control Lab",
     description: "Our dedicated quality control laboratory",
     type: "photo",
-    thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112c4e5190?auto=format&fit=crop&q=80&w=800",
+    thumbnail: "",
     category: "Quality"
   },
   {
