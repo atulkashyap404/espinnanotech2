@@ -14,7 +14,6 @@ export default function Home() {
     <main className="min-h-screen pt-20">
       <Header />
       <HeroSection />
-      <BackgroundBoxesDemo/>
       <StatsSection />
       <ExpertiseSection />
       <ScienceSection />

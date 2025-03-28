@@ -13,10 +13,16 @@ export function VisionSection() {
       <hr className="  border-red-500 mx-auto mb-6" />
 
       {/* Mission Statement */}
-      <h2 className="text-4xl md:text-4xl lg:text-5xl font-semibold relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-black via-black to-neutral-700 dark:from-black dark:via-white dark:to-white">
-        Give <span className="text-red-500">me</span> text <span className="text-red-500"></span>Content<br />
-        {/* sustainable and <Cover>Innovative Nanotech</Cover> Solutions */}
+      <h2 className="text-4xl md:text-4xl lg:text-4xl font-semibold relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-black via-black to-neutral-700 dark:from-black dark:via-white dark:to-white">
+        Strive to be
+        <span className="text-red-500"> Market Leaders </span>
+        in
+        <span className="text-red-500"> Providing </span>
+        <span className="text-red-500"> One Stop </span> <br />
+        <Cover>Nano Technology</Cover> Solutions
       </h2>
     </div>
   );
 }
+
+// Vision- Strive to be market leaders in providing ONE STOP NANOTECHNOLOGY solutions
