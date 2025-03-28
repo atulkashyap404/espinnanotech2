@@ -19,7 +19,6 @@ export default function AboutPage() {
       <VisionSection/>
       <BackgroundBoxesDemo/>
       <TimelineDemo />
-      <WorldMapDemo />
     </main>
   );
 }
