@@ -19,7 +19,7 @@ export function VisionSection() {
         in
         <span className="text-red-500"> Providing </span>
         <span className="text-red-500"> One Stop </span> <br />
-        <Cover>Nano Technology</Cover> Solutions
+        <span className="text-5xl shadow-lg font-bold ">Nano Technology</span> Solutions
       </h2>
     </div>
   );

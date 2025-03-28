@@ -6,7 +6,7 @@ export function ExpertiseSection() {
   return (
     <section className="px-4 md:px-6 min-h-[40vh] py-4 dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
       {/* old code bg-gradient-to-r from-gray-50 to-gray-200  */}
-      <BackgroundBeamsWithCollision>
+      {/* <BackgroundBeamsWithCollision> */}
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             {/* Left Image Section */}
@@ -53,7 +53,7 @@ export function ExpertiseSection() {
             </div>
           </div>
         </div>
-      </BackgroundBeamsWithCollision>
+      {/* </BackgroundBeamsWithCollision> */}
     </section>
   );
 }

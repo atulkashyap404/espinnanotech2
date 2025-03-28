@@ -9,8 +9,8 @@ const STATS = [
 
 export function StatsSection() {
   return (
-    <section className="relative min-h-[10vh] px-4 md:px-6 py-4 overflow-hidden flex items-center dark:bg-black bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
-      <BackgroundBeamsWithCollision>
+    <section className="relative min-h-[50vh] px-4 md:px-6 py-4 overflow-hidden flex items-center dark:bg-black bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+      {/* <BackgroundBeamsWithCollision> */}
         <div className="relative z-10 max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center gap-12">
           {/* Text Section */}
           <div className="w-full md:w-1/2">
@@ -43,7 +43,7 @@ export function StatsSection() {
             ))}
           </div>
         </div>
-      </BackgroundBeamsWithCollision>
+      {/* </BackgroundBeamsWithCollision> */}
     </section>
   );
 }
