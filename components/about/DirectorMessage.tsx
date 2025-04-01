@@ -78,7 +78,7 @@ export function DirectorMessage() {
                 src="/image/sandip patil.jpg"
                 alt="Creative team meeting"
                 fill
-                className="object-cover"
+                className="object-cover hidden sm:block md:block"
               />
             </div>
           </div>

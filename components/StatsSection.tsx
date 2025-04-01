@@ -1,7 +1,7 @@
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 const STATS = [
-  { number: "10+", label: "Years in Nanofiber Solutions" },
+  { number: "15+", label: "Years in Nanofiber Solutions" },
   { number: "50+", label: "Patents & Publications" },
   { number: "10+", label: "Production Facilities" },
   { number: "50+", label: "Client Collaborations" },

@@ -88,9 +88,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -200,9 +200,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -304,9 +304,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -407,9 +407,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -512,9 +512,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -611,9 +611,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",
@@ -696,9 +696,9 @@ export const DETAILED_PRODUCTS = {
         },
       ],
       documents: [
-        { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
-        { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
-        { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
+        // { label: "Technical Specifications", url: "/docs/super-es-1-specs.pdf" },
+        // { label: "User Manual", url: "/docs/super-es-1-manual.pdf" },
+        // { label: "Safety Guidelines", url: "/docs/super-es-1-safety.pdf" },
         {
           label: "Video",
           url: "/docs/super-es-1-applications.pdf",

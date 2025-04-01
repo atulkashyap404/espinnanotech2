@@ -70,7 +70,7 @@ export function HeroSection() {
           {/* <Cover className="text-white">Fiber Technology</Cover> */}
           <span className="text-red-500"> Fiber Technology</span>
         </h1>
-        <p className="text-gray-100 max-w-xl mb-12">
+        <p className="text-gray-100 max-w-xl mb-12 pt-4">
           Our innovative solutions offer engineered nanofiber solutions for
           various applications, enabling advanced material development and
           groundbreaking research.
