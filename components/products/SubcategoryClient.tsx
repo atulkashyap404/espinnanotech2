@@ -20,7 +20,7 @@ export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
 
   return (
     <main className="min-h-screen pt-20">
-      <div className="relative h-[35vh] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[20vh] flex items-center justify-center overflow-hidden">
         {/* Video Background */}
         <video
           className="absolute inset-0 w-full h-full object-cover"
@@ -29,7 +29,7 @@ export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
           muted
           playsInline
         >
-          <source src="/videos/electro spinning.mp4" type="video/mp4" />
+          <source src="/videos/product.mp4" type="video/mp4" />
         </video>
         
         <motion.div

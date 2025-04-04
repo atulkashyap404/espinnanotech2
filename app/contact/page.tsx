@@ -33,7 +33,7 @@ export default function ContactPage() {
         </motion.div>
       </div>
 
-      <div className="min-w-full mx-auto px-4">
+      <div className="min-w-full mx-auto px-4 pt-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,8 +41,9 @@ export default function ContactPage() {
           className="max-w-8xl mx-auto flex flex-col items-center mb-4"
         >
           
-          <WorldMapDemo />
           <ContactButton />
+          <WorldMapDemo />
+          
         </motion.div>
 
         {/* <motion.div

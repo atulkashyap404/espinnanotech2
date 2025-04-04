@@ -16,7 +16,7 @@ export function CategoryClient({ category }: CategoryClientProps) {
 
   return (
     <main className="min-h-screen pt-20">
-      <div className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+      <div className="relative h-[30vh] flex items-center justify-center overflow-hidden">
         {/* Video Background */}
         <video
           autoPlay

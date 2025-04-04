@@ -9,6 +9,7 @@ import { WobbleCardDemo } from "@/components/about/WobbleCardDemo";
 import { VisionSection } from "@/components/about/VisionSection"
 import { WorldMapDemo } from "@/components/contact/WorldMapDemo";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
+import { CertificateIso} from "@/components/about/CertificateIso"
 
 export default function AboutPage() {
   return (
@@ -19,6 +20,7 @@ export default function AboutPage() {
       <VisionSection/>
       <BackgroundBoxesDemo/>
       <TimelineDemo />
+      <CertificateIso />
     </main>
   );
 }
