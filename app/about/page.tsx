@@ -10,6 +10,7 @@ import { VisionSection } from "@/components/about/VisionSection"
 import { WorldMapDemo } from "@/components/contact/WorldMapDemo";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { CertificateIso} from "@/components/about/CertificateIso"
+import { IsoFile } from "@/components/about/Iso"
 
 export default function AboutPage() {
   return (
@@ -21,6 +22,7 @@ export default function AboutPage() {
       <BackgroundBoxesDemo/>
       <TimelineDemo />
       <CertificateIso />
+      <IsoFile />
     </main>
   );
 }

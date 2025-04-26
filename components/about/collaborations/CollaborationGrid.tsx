@@ -14,7 +14,7 @@ const COLLABORATIONS = [
   {
     name: "IIT Hyderabad",
     type: "Research",
-    description: "Kandi, Sangareddy - 502 285' Telangana, India",
+    description: "Kandi, Sangareddy - 502 285' Telangana",
     image: "/patners/2.jpg"
   },
   {
@@ -32,13 +32,13 @@ const COLLABORATIONS = [
   {
     name: "Technorbital Advance Materials Pvt. Ltd.",
     type: "Industry",
-    description: "1/1-D, Nawabganj Kanpur - 208 025, Uttar Pradesh,INDIA.",
+    description: "1/1-D, Nawabganj Kanpur-208025, Uttar Pradesh",
     image: "/patners/5.jpg"
   },
   {
     name: "Bai Labs",
     type: "Lab",
-    description: "NL - 115, Northern Laboratory, Manufacturing Science Laboratory Indian Institute of Technology Kanpur U.P. 208016, India.",
+    description: "NL - 115, Northern Laboratory, Manufacturing Science Laboratory Indian Institute of Technology Kanpur U.P. 208016",
     image: "/patners/6.jpg"
   },
   {

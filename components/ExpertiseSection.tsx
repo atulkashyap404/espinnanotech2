@@ -39,7 +39,7 @@ export function ExpertiseSection() {
               <p className="text-gray-600 mb-6 leading-relaxed">
                 At Right Nanofiber, we give you the framework to commercialize
                 the power of nanofiber technology to create a business. In over
-                10 years, we have helped multiple companies implement the
+                15 years, we have helped multiple companies implement the
                 technology for their business.
               </p>
               <button className="bg-red-600 text-white px-6 py-3 rounded-md flex items-center gap-2 relative overflow-hidden group shadow-lg hover:shadow-xl transition-shadow duration-300">

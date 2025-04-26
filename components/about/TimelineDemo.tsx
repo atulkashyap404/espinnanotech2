@@ -106,7 +106,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-1">
-          E-Spin Nanotech has emerged as a globally recognized leader in nanofiber technology, with a proven track record of over 500 successful machine installations across diverse international markets. Our unwavering commitment to excellence extends beyond product innovation—we provide comprehensive, ongoing support and services to our customers worldwide, ensuring seamless operation and maximum efficiency.
+          E-Spin Nanotech has emerged as a globally recognized leader in nanofiber technology, with a proven track record of over 500 successful machine installations across the world. Our unwavering commitment to excellence extends beyond product innovation—we provide comprehensive, ongoing support and services to our customers worldwide, ensuring seamless operation and maximum efficiency.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image

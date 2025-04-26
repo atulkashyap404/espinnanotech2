@@ -24,7 +24,7 @@ const GALLERY_ITEMS = [
     title: "IIT-Kanpur develops nano purifier to keep SPM out of air we breathe",
     description: "It consumes less power and is different from the purifiers available in the market....",
     image: "/media/air-purifier2.jpeg",
-    date: "dec 18, 2022",
+    date: "Dec 18, 2022",
     category: "News",
     externalLink: "https://health.economictimes.indiatimes.com/news/medical-devices/iit-kanpur-develops-nano-purifier-to-keep-spm-out-of-air-we-breathe/96318544"
   },
@@ -72,7 +72,7 @@ const GALLERY_ITEMS = [
     title: "IIT-कानपुर का बना मास्क पहुंचा संसद:लोकसभा और राज्यसभा में सांसदों ने पहना IIT-कानपुर का बना 'श्वासा' मास्क, गिफ्ट पैक में पहुंचाया गया; PM भी कर चुके हैं तारीफ",
     description: "कोरोना संकट के बीच लोकसभा और राज्यसभा में सोमवार से मानसून सत्र दिल्ली में शुरू हुआ। इस दौरान सभी सांसदों ने कानपुर IIT का बना हुआ N95 और N99 श्वासा मास्क लगाकर कोरोना प्रोटोकॉल का पालन किया।",
     image: "/media/iit-kanpur_1626712244_enhanced.webp",
-    date: "November 20, 2023",
+    date: "November 20, 2021",
     category: "News",
     externalLink: "https://www.bhaskar.com/local/uttar-pradesh/kanpur/news/mps-in-lok-sabha-and-rajya-sabha-wore-masks-made-in-iit-kanpur-pmo-narendra-modi-128717594.html"
   },

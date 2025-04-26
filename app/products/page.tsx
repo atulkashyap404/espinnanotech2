@@ -7,21 +7,21 @@ import { useRouter } from "next/navigation";
 const PRODUCT_CATEGORIES = [
   {
     id: "electrospinning",
-    title: "Nanofibre Spinning Technology",
+    title: "Nanofiber Spinning Technology",
     description: "Revolutionizing Material Science with Precision and Innovation",
     image: "/product categories/nanofibertech.jpg",
     features: []
   },
   {
     id: "nanofibermembrane",
-    title: "Nanofibre Membrane Technology",
+    title: "Nanofiber Membrane Technology",
     description: "Industrial-grade melt spinning solutions",
     image: "/product categories/nanofiber membren.jpg",
     features: []
   },
   {
-    id: "nanofibrefunctionalproducts",
-    title: "Nanofibre Functional Products",
+    id: "nanofiberfunctionalproducts",
+    title: "Nanofiber Functional Products",
     description: "Essential components and accessories",
     image: "/product categories/functional product.jpg",
     features: []

@@ -22,9 +22,9 @@ export function DirectorMessage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-red-600">
               Director&apos;s Message
             </h2>
-            <h2 className="text-2xl md:text-xl font-normal">
+            {/* <h2 className="text-2xl md:text-xl font-normal">
               E-Spin Nanotech Pvt. Ltd.
-            </h2>
+            </h2> */}
             <p className="text-lg">
               At E-Spin Nanotech Pvt. Ltd., we are committed to pushing the
               boundaries of nanofiber technology and delivering cutting-edge

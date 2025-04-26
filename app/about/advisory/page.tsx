@@ -8,12 +8,12 @@ const ADVISORS = [
   {
     name: "Dr. Ashutosh Sharma",
     position:
-      "Ashutosh Sharma (born 22 August 1961) is an Institute Chair Professor and C V Seshadri Chair Professor at the Department of chemical engineering of Indian Institute of Technology Kanpur. He is the founding Coordinator of DST Thematic Unit of Excellence on Soft Nanofabrication and Chairman of Centre for Environmental Science and Engineering at IIT Kanpur.He is best known for his pioneering research work in the areas of colloids, thin film, interfaces, adhesion, patterning and in the fabrication and application of self-assembled nano-structures.",
+      "Ashutosh Sharma (born 22 August 1961) is an Institute Chair Professor and C V Seshadri Chair Professor at the Department of chemical engineering of Indian Institute of Technology Kanpur. He is the founding Coordinator of DST Thematic Unit of Excellence on Soft Nanofabrication and Chairman of Centre for Environmental Science and Engineering at IIT Kanpur. He is best known for his pioneering research work in the areas of colloids, thin film, interfaces, adhesion, patterning and in the fabrication and application of self-assembled nano-structures.",
     image: "/advisory/Ashutosh Sharma.png",
     link: "https://en.wikipedia.org/wiki/Ashutosh_Sharma_(chemical_engineer)"
   },
   {
-    name: "Dr. Ashok Mishra",
+    name: "Dr. Ashok Misra",
     position:
       "Ex-Director, Prof. Ashok Misra, former Director of IIT Bombay, has been honoured with the prestigious PPS Fellows Award for 2024 by the Polymer Processing Society (PPS). This award recognizes his exceptional contributions to polymer science and engineering, as well as his distinguished career spanning over four decades as an engineer, scientist, and educator. As Director of IIT Bombay, Prof. Misra played a crucial role in elevating the Institute’s status as a premier R&D hub while maintaining its excellence in engineering education.",
     image: "/advisory/mishra.jpg",
@@ -27,7 +27,7 @@ const ADVISORS = [
   },
   {
     name: "Prof. Dipankar Bandyopadhyay",
-    position: "Professor in Department of Chemical Engineering IIT Guwahati",
+    position: "Professor in Department of Chemical Engineering, IIT Guwahati",
     image: "/advisory/Bandyopadhyay.jpeg",
     link: "https://www.iitg.ac.in/chemeng/faculty_profile.php?name=db"
   },
@@ -60,7 +60,7 @@ const ADVISORS = [
   },
   {
     name: "Dr. HyeonSeok Oh",
-    position: "Smart Sensor, NanoPatterning, Anti-microbial coatin",
+    position: "Director at Ninano Inc., South Korea",
     image: "/advisory/Dr_Oh.jpg",
     link: "https://directory.engr.wisc.edu/mse/Faculty/Oh_Hyunseok/"
   },

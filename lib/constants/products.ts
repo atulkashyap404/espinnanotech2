@@ -38,7 +38,7 @@ export const SUBCATEGORIES = {
       features: []
     }
   ],
-  nanofibrefunctionalproducts: [
+  nanofiberfunctionalproducts: [
     {
       id: "spinneret",
       title: "Spinnerets",
