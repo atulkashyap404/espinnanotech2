@@ -2,7 +2,7 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 
 export function ScienceSection() {
   return (
-    <section className="px-4 min-h-[30vh] md:px-6 dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+    <section className="px-4 min-h-[40vh] md:px-6 pt-8">
       {/* <BackgroundBeamsWithCollision> */}
         <div className="max-w-7xl mx-auto pt-12">
           <div className="flex justify-between items-center mb-12">

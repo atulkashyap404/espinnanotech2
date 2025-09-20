@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 
 export function CertificateIso() {
   return (
-    <div className="min-h-[15vh] relative w-full overflow-hidden bg-red-300 flex flex-col items-center justify-center">
-      <div className="absolute inset-0 w-full h-full bg-red-500 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+    <div className="min-h-[15vh] relative w-full overflow-hidden bg-kesari flex flex-col items-center justify-center">
+      <div className="absolute inset-0 w-full h-full bg-kesari z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
       {/* <Boxes /> */}
       <BackgroundBeams />

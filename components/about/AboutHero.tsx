@@ -23,7 +23,7 @@ export function AboutHero() {
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
           About Us
         </h1>
-        <div className="w-24 h-1 bg-red-500 mx-auto rounded-full"></div>
+        <div className="w-50 h-1 bg-black mx-auto rounded-full"></div>
       </motion.div>
     </div>
   );

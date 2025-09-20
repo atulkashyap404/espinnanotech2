@@ -68,6 +68,8 @@ const config: Config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        // ✅ Custom color added here
+        kesari: '#D94A38',
       },
       keyframes: {
         scroll: {

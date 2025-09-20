@@ -66,19 +66,19 @@ export function DirectorMessage() {
                 </Button>
               </a>
             </Link>
-            <h2 className="text-xl md:text-xl">
+            {/* <h2 className="text-xl md:text-xl">
               Director, E-Spin Nanotech Pvt. Ltd.
-            </h2>
+            </h2> */}
           </div>
 
           {/* Image Area - Takes up less space as shown in the image */}
           <div className="lg:col-span-5 mt-2">
             <div className="relative h-[900px] overflow-hidden">
               <Image
-                src="/image/sandip patil.jpg"
+                src="/image/Dr. Sandip Patil.jpg"
                 alt="Creative team meeting"
                 fill
-                className="object-cover hidden sm:block md:block"
+                className="object-contain hidden sm:block md:block"
               />
             </div>
           </div>
