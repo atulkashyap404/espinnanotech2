@@ -63,7 +63,7 @@ export function Header() {
         >
           <Button
             variant="destructive"
-            className="relative bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-md transition-transform duration-300 transform hover:scale-105"
+            className="relative bg-red-600 hover:bg-red-500 text-white  px-6 py-2 rounded-md transition-transform duration-300 transform hover:scale-105"
             style={{
               boxShadow: "0 0 10px rgba(255, 0, 0, 0.5)",
               transition: "box-shadow 0.3s ease-in-out, transform 0.3s",
