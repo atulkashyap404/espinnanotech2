@@ -19,11 +19,11 @@ export function generateStaticParams() {
 }
 
 // Type guard to validate if a productId is valid
-function isValidProductId(productId: string): productId is keyof typeof DETAILED_PRODUCTS {
+ function isValidProductId(productId: string): productId is keyof typeof DETAILED_PRODUCTS {
   return productId in DETAILED_PRODUCTS;
 }
 
-export default function ProductDetailPage({ 
+export default async function ProductDetailPage({ 
   params 
 }: { 
   params: { productId: string } 

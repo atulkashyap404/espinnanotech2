@@ -16,6 +16,6 @@ export function generateStaticParams() {
   return paths;
 }
 
-export default function SubcategoryPage({ params }: { params: { subcategory: string } }) {
+export default async function SubcategoryPage({ params }: { params: { subcategory: string } }) {
   return <SubcategoryClient subcategory={params.subcategory} />;
 }

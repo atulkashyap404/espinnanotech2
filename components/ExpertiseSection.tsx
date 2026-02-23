@@ -37,7 +37,7 @@ export function ExpertiseSection() {
                 Empowering Businesses with Nanofiber Technology
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                At Right Nanofiber, we give you the framework to commercialize
+                At E-Spin Nanotech, we give you the framework to commercialize
                 the power of nanofiber technology to create a business. In over
                 15 years, we have helped multiple companies implement the
                 technology for their business.

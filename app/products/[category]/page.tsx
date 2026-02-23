@@ -7,6 +7,6 @@ export function generateStaticParams() {
   }));
 }
 
-export default function CategoryPage({ params }: { params: { category: string } }) {
+export default async function CategoryPage({ params }: { params: { category: string } }) {
   return <CategoryClient category={params.category} />;
 }

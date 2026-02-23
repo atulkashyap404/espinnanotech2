@@ -29,7 +29,7 @@ export function ScienceSection() {
                 <div key={step} className="pt-8">
                   <div className="w-8 h-8 rounded-full bg-red-600 absolute top-0" />
                   <p className="text-sm text-gray-600">
-                    At Right Nanofiber Technology, we are committed to
+                    At E-Spin Nanotech, we are committed to
                     empowering businesses with cutting-edge solutions that drive
                     innovation and success.
                   </p>

@@ -31,7 +31,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] px-4 md:px-6 py-12 overflow-hidden ">
+    <section className="relative min-h-[60vh] px-4 md:px-6 py-4 overflow-hidden ">
       {/* Video Background */}
       <video
         autoPlay
@@ -60,7 +60,7 @@ export function HeroSection() {
           <span className="text-red-500"> Fiber Technology</span>
         </h1>
         <p className="text-gray-100 max-w-xl mb-12 pt-4">
-          Our innovative solutions offer engineered nanofiber solutions for
+          Our innovative solutions offer engineered nanofiber technology for
           various applications, enabling advanced material development and
           groundbreaking research.
         </p>
