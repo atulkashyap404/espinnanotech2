@@ -57,6 +57,17 @@ export function DirectorMessage() {
             </p>
             <Link
               href="https://www.linkedin.com/in/dr-sandip-patil-87863814/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button className="group bg-red-600 mt-2">
+                Dr. Sandip Patil
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
+            {/* <Link
+              href="https://www.linkedin.com/in/dr-sandip-patil-87863814/"
               legacyBehavior
             >
               <a target="_blank" rel="noopener noreferrer">
@@ -65,7 +76,7 @@ export function DirectorMessage() {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </a>
-            </Link>
+            </Link> */}
             {/* <h2 className="text-xl md:text-xl">
               Director, E-Spin Nanotech Pvt. Ltd.
             </h2> */}
@@ -87,14 +98,6 @@ export function DirectorMessage() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
 
 // "use client";
 
