@@ -18,7 +18,7 @@ export function ScienceSection() {
   ];
 
   return (
-    <section className="px-4 min-h-[40vh] md:px-6 pt-8">
+    <section className="px-4 min-h-[30vh] md:px-6 pt-8">
       <div className="max-w-7xl mx-auto pt-12">
         
         {/* Header */}
