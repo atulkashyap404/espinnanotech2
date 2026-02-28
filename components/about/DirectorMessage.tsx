@@ -20,19 +20,22 @@ export function DirectorMessage() {
           {/* Text Area - Takes up more space as shown in the image */}
           <div className="lg:col-span-7 space-y-2 mt-8">
             <h2 className="text-2xl md:text-3xl font-semibold text-red-600">
-              Director&apos;s Message
+              Overview
             </h2>
             {/* <h2 className="text-2xl md:text-xl font-normal">
               E-Spin Nanotech Pvt. Ltd.
             </h2> */}
             <p className="text-lg">
-              At E-Spin Nanotech Pvt. Ltd., we are committed to pushing the
-              boundaries of nanofiber technology and delivering cutting-edge
-              solutions for industries spanning healthcare, filtration, energy,
-              textiles, and beyond. Our journey, which began with a vision to
-              bridge the gap between academic research and industrial
-              applications, has evolved into a mission of innovation,
-              sustainability, and excellence.
+              E-Spin Nanotech Pvt. Ltd., a spin-off from Indian Institute of
+              Technology Kanpur (IIT Kanpur), was founded in 2010 with a vision
+              to harness the immense potential of nanotechnology and nanofiber
+              membrane technology for high-impact scientific and industrial
+              applications. Spearheaded by a multidisciplinary team of
+              nanotechnology experts, scientists, and engineers, the company has
+              emerged as a globally recognized leader in electrospinning
+              systems, nanofiber fabrication, and advanced filtration
+              technologies, supported by state of-the-art manufacturing
+              infrastructure.
             </p>
             <p className="text-lg">
               As a pioneering force in electrospinning technology, we have
@@ -43,17 +46,25 @@ export function DirectorMessage() {
               us as a leader in nanotechnology-driven solutions.
             </p>
             <p className="text-lg">
-              Our success is built on the dedication of our talented team, the
-              trust of our partners, and our relentless pursuit of quality and
-              innovation. As we expand our global presence, we remain committed
-              to collaborative growth, strategic partnerships, and continuous
-              improvement.
+              We believe nanotechnology will drive transformative advancements
+              in air filtration, liquid f iltration, and high-performance
+              membrane innovations. To advance these breakthroughs, our
+              scientists and researchers operate from DSIR-recognized R&D
+              facilities, equipped with advanced material characterization labs,
+              design verification centers, prototype development capabilities,
+              and precision manufacturing units. Our integrated research and
+              engineering ecosystem enables the development of scalable,
+              high-efficiency nanofiber solutions that address evolving global
+              filtration and material science challenges.
             </p>
             <p className="text-lg">
-              I extend my heartfelt gratitude to our clients, researchers, and
-              stakeholders who have been part of our journey. Together, we will
-              continue to shape the future of nanotechnology and redefine
-              possibilities.
+              Over the past decade, we have established a strong presence in
+              both the Indian and global nanotechnology landscape through our
+              technical excellence, advanced electrospinning equipment, robust
+              infrastructure, and long-term institutional partnerships. Our
+              commitment to innovation, quality, and research-driven engineering
+              continues to position us at the forefront of nanofiber technology
+              advancement.
             </p>
             <Link
               href="https://www.linkedin.com/in/dr-sandip-patil-87863814/"

@@ -12,6 +12,960 @@ interface Publication {
 }
 
 const PUBLICATIONS: Publication[] = [
+
+  {
+    "id": 23,
+    "year": 2025,
+    "title": "Designing and Development of Innovative N95 Respirator Using Nanofibres Produced by Air-Assisted Electrospinning",
+    "authors": [
+      "Suresh Kumar",
+      "Ankit Singh",
+      "N. K. Palaniswamy"
+    ],
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/app.56978"
+  },
+  {
+    "id": 24,
+    "year": 2025,
+    "title": "High-fidelity single-spin shuttling in silicon",
+    "authors": [
+      "Maxim De Smet",
+      "Yuta Matsumoto",
+      "Anne-Marije J. Zwerver",
+      "Larysa Tryputen",
+      "Sander L. de Snoo",
+      "Sergey V. Amitonov",
+      "Sam R. Katiraee-Far",
+      "Amir Sammak",
+      "Nodar Samkharadze",
+      "Önder Gül",
+      "Rick N. M. Wasserman",
+      "Eliška Greplová",
+      "Maximilian Rimbach-Russ",
+      "Giordano Scappucci & Lieven M. K. Vandersypen"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01920-5"
+  },
+  {
+    "id": 25,
+    "year": 2025,
+    "title": "Ferrimagnetic Heusler tunnel junctions with fast spin-transfer torque switching enabled by low magnetization",
+    "authors": [
+      "Chirag Garg",
+      "Panagiotis Ch. Filippou",
+      "Ikhtiar",
+      "Yari Ferrante",
+      "See-Hun Yang",
+      "Brian Hughes",
+      "Charles T. Rettner",
+      "Timothy Phung",
+      "Sergey Faleev",
+      "Teya Topuria",
+      "Mahesh G. Samant",
+      "Jaewoo Jeong & Stuart S. P. Parkin"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01827-7"
+  },
+  {
+    "id": 26,
+    "year": 2025,
+    "title": "Anomalous Hall spin current drives self-generated spin–orbit torque in a ferromagnet",
+    "authors": [
+      "Eric Arturo Montoya",
+      "Xinyao Pei & Ilya N. Krivorotov"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01819-7"
+  },
+  {
+    "id": 27,
+    "year": 2025,
+    "title": "Spin–valley protected Kramers pair in bilayer graphene",
+    "authors": [
+      "Artem O. Denisov",
+      "Veronika Reckova",
+      "Solenn Cances",
+      "Max J. Ruckriegel",
+      "Michele Masseroni",
+      "Christoph Adam",
+      "Chuyao Tong",
+      "Jonas D. Gerber",
+      "Wei Wister Huang",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Thomas Ihn",
+      "Klaus Ensslin & Hadrien Duprez"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01858-8"
+  },
+  {
+    "id": 28,
+    "year": 2025,
+    "title": "Nanotechnology and Its Role in Building a Sustainable Economy",
+    "authors": [
+      "Upendra Kumar Mishra",
+      "Satyendra Pratap Singh",
+      "S. Gaurav",
+      "Vishal Singh Chandel"
+    ],
+    "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003632498-15/nanotechnology-role-building-sustainable-economy-upendra-kumar-mishra-satyendra-pratap-singh-gaurav-vishal-singh-chandel"
+  },
+  {
+    "id": 29,
+    "year": 2025,
+    "title": "Antiferromagnetic spin-torque diode effect in a kagome Weyl semimetal",
+    "authors": [
+      "Shoya Sakamoto",
+      "Takuya Nomoto",
+      "Tomoya Higo",
+      "Yuki Hibino",
+      "Tatsuya Yamamoto",
+      "Shingo Tamaru",
+      "Yoshinori Kotani",
+      "Hidetoshi Kosaki",
+      "Masanobu Shiga",
+      "Daisuke Nishio-Hamane",
+      "Tetsuya Nakamura",
+      "Takayuki Nozaki",
+      "Kay Yakushiji",
+      "Ryotaro Arita",
+      "Satoru Nakatsuji & Shinji Miwa"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01820-0"
+  },
+  {
+    "id": 30,
+    "year": 2025,
+    "title": "Energy-efficient picosecond spin–orbit torque magnetization switching in ferro- and ferrimagnetic films",
+    "authors": [
+      "Eva Díaz",
+      "Alberto Anadón",
+      "Pablo Olleros-Rodríguez",
+      "Harjinder Singh",
+      "Héloïse Damas",
+      "Paolo Perna",
+      "Martina Morassi",
+      "Aristide Lemaître",
+      "Michel Hehn & Jon Gorchon"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01788-x"
+  },
+  {
+    "id": 31,
+    "year": 2025,
+    "title": "Spin-torque-driven gigahertz magnetization dynamics in the non-collinear antiferromagnet Mn3Sn",
+    "authors": [
+      "Won-Bin Lee",
+      "Seongmun Hwang",
+      "Hye-Won Ko",
+      "Byong-Guk Park",
+      "Kyung-Jin Lee & Gyung-Min Choi"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01859-7"
+  },
+  {
+    "id": 32,
+    "year": 2025,
+    "title": "Grover’s algorithm in a four-qubit silicon processor above the fault-tolerant threshold",
+    "authors": [
+      "I. Thorvaldson",
+      "D. Poulos",
+      "C. M. Moehle",
+      "S. H. Misha",
+      "H. Edlbauer",
+      "J. Reiner",
+      "H. Geng",
+      "B. Voisin",
+      "M. T. Jones",
+      "M. B. Donnelly",
+      "L. F. Peña",
+      "C. D. Hill",
+      "C. R. Myers",
+      "J. G. Keizer",
+      "Y. Chung",
+      "S. K. Gorman",
+      "L. Kranz & M. Y. Simmons"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01853-5"
+  },
+  {
+    "id": 33,
+    "year": 2025,
+    "title": "Switching on and off the spin polarization of the conduction band in antiferromagnetic bilayer transistors",
+    "authors": [
+      "Fengrui Yao",
+      "Menghan Liao",
+      "Marco Gibertini",
+      "Cheol-Yeon Cheon",
+      "Xiaohanwen Lin",
+      "Fan Wu",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Ignacio Gutiérrez-Lezama & Alberto F. Morpurgo"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01872-w"
+  },
+  {
+    "id": 34,
+    "year": 2025,
+    "title": "Universal control of four singlet–triplet qubits",
+    "authors": [
+      "Xin Zhang",
+      "Elizaveta Morozova",
+      "Maximilian Rimbach-Russ",
+      "Daniel Jirovec",
+      "Tzu-Kan Hsiao",
+      "Pablo Cova Fariña",
+      "Chien-An Wang",
+      "Stefan D. Oosterhout",
+      "Amir Sammak",
+      "Giordano Scappucci",
+      "Menno Veldhorst & Lieven M. K. Vandersypen"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01817-9"
+  },
+  {
+    "id": 35,
+    "year": 2025,
+    "title": "Exciton dressing by extreme nonlinear magnons in a layered semiconductor",
+    "authors": [
+      "Geoffrey M. Diederich",
+      "Mai Nguyen",
+      "John Cenker",
+      "Jordan Fonseca",
+      "Sinabu Pumulo",
+      "Youn Jue Bae",
+      "Daniel G. Chica",
+      "Xavier Roy",
+      "Xiaoyang Zhu",
+      "Di Xiao",
+      "Yafei Ren & Xiaodong Xu"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01890-8"
+  },
+  {
+    "id": 36,
+    "year": 2025,
+    "title": "Dipolar wavevector interference induces a polar skyrmion lattice in strained BiFeO3 films",
+    "authors": [
+      "W. R. Geng",
+      "Y. L. Zhu",
+      "M. X. Zhu",
+      "Y. L. Tang",
+      "H. J. Zhao",
+      "C. H. Lei",
+      "Y. J. Wang",
+      "J. H. Wang",
+      "R. J. Jiang",
+      "S. Z. Liu",
+      "X. Y. San",
+      "Y. P. Feng",
+      "M. J. Zou & X. L. Ma"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01845-5"
+  },
+  {
+    "id": 37,
+    "year": 2025,
+    "title": "Exciton dressing by extreme nonlinear magnons in a layered semiconductor",
+    "authors": [
+      "Geoffrey M. Diederich",
+      "Mai Nguyen",
+      "John Cenker",
+      "Jordan Fonseca",
+      "Sinabu Pumulo",
+      "Youn Jue Bae",
+      "Daniel G. Chica",
+      "Xavier Roy",
+      "Xiaoyang Zhu",
+      "Di Xiao",
+      "Yafei Ren & Xiaodong Xu"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01890-8"
+  },
+  {
+    "id": 38,
+    "year": 2025,
+    "title": "Dipolar wavevector interference induces a polar skyrmion lattice in strained BiFeO3 films",
+    "authors": [
+      "W. R. Geng",
+      "Y. L. Zhu",
+      "M. X. Zhu",
+      "Y. L. Tang",
+      "H. J. Zhao",
+      "C. H. Lei",
+      "Y. J. Wang",
+      "J. H. Wang",
+      "R. J. Jiang",
+      "S. Z. Liu",
+      "X. Y. San",
+      "Y. P. Feng",
+      "M. J. Zou & X. L. Ma"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01845-5"
+  },
+  {
+    "id": 39,
+    "year": 2025,
+    "title": "Chemical reactions with the Casson nanofluid flow by the bioconvective behavior of microorganisms over a spinning disc",
+    "authors": [
+      "Prabhakar Sagadevan",
+      "Umadevi Raju",
+      "Meganathan Murugesan",
+      "Unai Fernandez-Gamiz",
+      "Samad Noeiaghdam"
+    ],
+    "link": "https://www.cell.com/heliyon/fulltext/S2405-8440(24)17269-6"
+  },
+  {
+    "id": 40,
+    "year": 2025,
+    "title": "Effects of the UNE 166.002 standards on the incremental and radical product innovation and organizational performance ",
+    "authors": [
+      "Juan Antonio Giménez Espín",
+      "Micaela Martínez-Costa",
+      "Daniel Jiménez Jiménez"
+    ],
+    "link": "https://www.emerald.com/ejim/article-abstract/28/3/948/1241171/Effects-of-the-UNE-166-002-standards-on-the?redirectedFrom=fulltext"
+  },
+  {
+    "id": 41,
+    "year": 2025,
+    "title": "Nanotechnologies past, present and future applications in enhancing functionality of medical textiles: a review",
+    "authors": [
+      "Dehenenet Flatie TasswORCID Icon",
+      "Bantamlak BirlieORCID Icon &Tekalign Mamaye"
+    ],
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/00405000.2024.2356327"
+  },
+  {
+    "id": 42,
+    "year": 2025,
+    "title": "Balancing Electronic Spin State via Atomically-Dispersed Heteronuclear Fe–Co Pairs for High-Performance Sodium–Sulfur Batteries",
+    "authors": [
+      "Canhuang LiJing YuDawei Yang*Hao LiYapeng ChengYuchuan RenXiaoyu BiJiachen MaRuirui ZhaoYingtang Zhou*Jian WangChen HuangJunshan LiIvan Pinto-HuguetJordi ArbiolHaining Zhang*Sen Xin*Andreu Cabot"
+    ],
+    "link": "https://pubs.acs.org/doi/abs/10.1021/jacs.4c15408"
+  },
+  {
+    "id": 43,
+    "year": 2025,
+    "title": "Engineering a Spin-Orbit Bandgap in Graphene-Tellurium Heterostructures",
+    "authors": [
+      "Beatriz Muñiz Cano",
+      "Fabián Calleja",
+      "Daniela Pacilè",
+      "Marc G. Cuxart",
+      "Michele Pisarra",
+      "Antonello Sindona",
+      "Fernando Martín",
+      "Elena Salagre",
+      "Pilar Segovia",
+      "Enrique G. Michel",
+      "Amadeo. L. Vázquez de Parga",
+      "Rodolfo Miranda",
+      "Julio Camarero",
+      "Manuela Garnica",
+      "Miguel Angel Valbuena"
+    ],
+    "link": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.202425154"
+  },
+  {
+    "id": 44,
+    "year": 2025,
+    "title": "Engineering a Spin-Orbit Bandgap in Graphene-Tellurium Heterostructures",
+    "authors": [
+      "Beatriz Muñiz Cano",
+      "Fabián Calleja",
+      "Daniela Pacilè",
+      "Marc G. Cuxart",
+      "Michele Pisarra",
+      "Antonello Sindona",
+      "Fernando Martín",
+      "Elena Salagre",
+      "Pilar Segovia",
+      "Enrique G. Michel",
+      "Amadeo. L. Vázquez de Parga",
+      "Rodolfo Miranda",
+      "Julio Camarero",
+      "Manuela Garnica",
+      "Miguel Angel Valbuena"
+    ],
+    "link": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.202425154"
+  },
+  {
+    "id": 45,
+    "year": 2025,
+    "title": "Subvolt high-speed free-space modulator with electro-optic metasurface",
+    "authors": [
+      "Go Soma",
+      "Koto Ariu",
+      "Seidai Karakida",
+      "Yusuke Tsubai & Takuo Tanemura"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-02000-4"
+  },
+  {
+    "id": 46,
+    "year": 2025,
+    "title": "Quantum thermalization and Floquet engineering in a spin ensemble with a clock transition",
+    "authors": [
+      "Mi Lei",
+      "Rikuto Fukumor",
+      "Chun-Ju Wu",
+      "Edwin Barnes",
+      "Sophia E. Economou",
+      "Joonhee Choi & Andrei Faraon"
+    ],
+    "link": "https://www.nature.com/articles/s41567-025-02943-4"
+  },
+  {
+    "id": 47,
+    "year": 2025,
+    "title": "Numerical tackling for MHD Darcy-Forchheimer flow of water-based CNTs in a rotating frame with homogeneous-heterogeneous reactions: An artificial neural network approach",
+    "authors": [
+      "K. Senthilvadivu",
+      "S. Eswaramoorthi",
+      "K Lognathan",
+      "H. Thameem Basha"
+    ],
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/10407790.2024.2373382"
+  },
+  {
+    "id": 48,
+    "year": 2025,
+    "title": "Interfacing with the Brain: How Nanotechnology Can Contribute",
+    "authors": [
+      "Abdullah A. A. Ahmed",
+      "Nuria AlegretBethany AlmeidaRamón Alvarez-PueblaAnne M. AndrewsLaura BalleriniJuan J. Barrios-CapuchinoCharline BeckerRobert H. BlickShahin BonakdarIndranath ChakrabortyXiaodong ChenJinwoo CheonGerwin ChillaAndre Luiz Coelho ConceicaoJames DelehantyMartin DulleAlexander L. EfrosMatthias EppleMark FedykNeus FeliuMiao FengRafael Fernández-ChacónIrene Fernandez-CuestaNiels"
+    ],
+    "link": "https://pubs.acs.org/doi/full/10.1021/acsnano.4c10525"
+  },
+  {
+    "id": 49,
+    "year": 2025,
+    "title": "The impact of Soret Dufour and radiation on the laminar flow of a rotating liquid past a porous plate via chemical reaction",
+    "authors": [
+      "M. Anil Kumar",
+      "F. Mebarek-Oudina",
+      "P. Mangathai",
+      "N. A. Shah",
+      "Ch. Vijayabhaskar",
+      "N. Venkatesh",
+      "and Y. Fouad"
+    ],
+    "link": "https://www.worldscientific.com/doi/abs/10.1142/S021798492450458X"
+  },
+  {
+    "id": 50,
+    "year": 2025,
+    "title": "Spin excitations in nanographene-based antiferromagnetic spin-1/2 Heisenberg chains",
+    "authors": [
+      "Chenxiao Zhao",
+      "Lin Yang",
+      "João C. G. Henriques",
+      "Mar Ferri-Cortés",
+      "Gonçalo Catarina",
+      "Carlo A. Pignedoli",
+      "Ji Ma",
+      "Xinliang Feng",
+      "Pascal Ruffieux",
+      "Joaquín Fernández-Rossier & Roman Fasel"
+    ],
+    "link": "https://www.nature.com/articles/s41563-025-02166-1"
+  },
+  {
+    "id": 51,
+    "year": 2025,
+    "title": "Bose–Einstein condensation of a two-magnon bound state in a spin-1 triangular lattice",
+    "authors": [
+      "Jieming Sheng",
+      "Jia-Wei Mei",
+      "Le Wang",
+      "Xiaoyu Xu",
+      "Wenrui Jiang",
+      "Lei Xu",
+      "Han Ge",
+      "Nan Zhao",
+      "Tiantian Li",
+      "Andrea Candini",
+      "Bin Xi",
+      "Jize Zhao",
+      "Ying Fu",
+      "Jiong Yang",
+      "Yuanzhu Zhang",
+      "Giorgio Biasiol",
+      "Shanmin Wang",
+      "Jinlong Zhu",
+      "Ping Miao",
+      "Xin Tong",
+      "Dapeng Yu",
+      "Richard Mole",
+      "Yi Cui",
+      "Long Ma",
+      "…Zhentao Wang"
+    ],
+    "link": "https://www.nature.com/articles/s41563-024-02071-z"
+  },
+  {
+    "id": 52,
+    "year": 2025,
+    "title": "Linearly programmable two-dimensional halide perovskite memristor arrays for neuromorphic computing",
+    "authors": [
+      "Seung Ju Kim",
+      "In Hyuk Im",
+      "Ji Hyun Baek",
+      "Sungkyun Choi",
+      "Sung Hyuk Park",
+      "Da Eun Lee",
+      "Jae Young Kim",
+      "Soo Young Kim",
+      "Nam-Gyu Park",
+      "Donghwa Lee",
+      "J. Joshua Yang & Ho Won Jang"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01790-3"
+  },
+  {
+    "id": 53,
+    "year": 2025,
+    "title": "Strain-induced crumpling of graphene oxide lamellas to achieve fast and selective transport of H2 and CO2",
+    "authors": [
+      "Pengxiang Zhang",
+      "Qian Wang",
+      "Yixin Zhang",
+      "Mo Lin",
+      "Xin Zhou",
+      "Ashish David",
+      "Andrey Ustyuzhanin",
+      "Musen Chen",
+      "Mikhail I. Katsnelson",
+      "Maxim Trubyanov",
+      "Kostya S. Novoselov & Daria V. Andreeva"
+    ],
+    "link": "https://www.nature.com/articles/s41565-025-01971-8"
+  },
+  {
+    "id": 54,
+    "year": 2025,
+    "title": "",
+    "authors": [],
+    "link": ""
+  },
+
+  {
+    "id": 1,
+    "year": 2024,
+    "title": "Materials for Electronic, Magnetic, and Spintronic Technologies",
+    "authors": [
+      "Amodini Mishra",
+      "Virat Dixit",
+      "Divya Somvanshi",
+      "Anu Singh",
+      "Anju Mishra"
+    ],
+    "link": "https://link.springer.com/book/10.1007/978-3-031-64542-6"
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "title": "Roadmap for unconventional computing with nanotechnology",
+    "authors": [
+      "Giovanni Finocchio",
+      "Jean Anne C Incorvia",
+      "Joseph S Friedman",
+      "Qu Yang",
+      "Anna Giordano",
+      "Julie Grollier",
+      "Hyunsoo Yang",
+      "Florin Ciubotaru",
+      "Andrii V Chumak",
+      "Azad J Naeemi",
+      "Sorin D Cotofana",
+      "Riccardo Tomasello",
+      "Christos Panagopoulos",
+      "Mario Carpentieri",
+      "Peng Lin",
+      "Gang Pan",
+      "J Joshua Yang",
+      "Aida Todri-Sanial",
+      "Gabriele Boschetto",
+      "Kremena Makasheva",
+      "Vinod K Sangwan",
+      "Amit Ranjan Trivedi",
+      "Mark C Hersam",
+      "Kerem Y Camsari",
+      "Peter L McMahon",
+      "Supriyo Datta",
+      "Belita Koiller",
+      "Gabriel H Aguilar",
+      "Guilherme P Temporão",
+      "Davi R Rodrigues",
+      "Satoshi Sunada",
+      "Karin Everschor-Sitte",
+      "Kosuke Tatsumura",
+      "Hayato Goto",
+      "Vito Puliafito",
+      "Johan Åkerman",
+      "Hiroki Takesue",
+      "Massimiliano Di Ventra",
+      "Yuriy V Pershin",
+      "Saibal Mukhopadhyay",
+      "Kaushik Roy",
+      "I- Ting Wang",
+      "Wang Kang",
+      "Yao Zhu",
+      "Brajesh Kumar Kaushik",
+      "Jennifer Hasler",
+      "Samiran Ganguly",
+      "Avik W Ghosh",
+      "William Levy",
+      "Vwani Roychowdhury and Supriyo Bandyopadhyay"
+    ],
+    "link": "https://iopscience.iop.org/article/10.1088/2399-1984/ad299a/meta"
+  },
+  {
+    "id": 3,
+    "year": 2024,
+    "title": "Multidiscipline Modeling in Materials and Structures",
+    "authors": [
+      "Neha Vijay",
+      "Faisal Z Duraihem",
+      "Renu Jindal"
+    ],
+    "link": "https://www.emerald.com/mmms/article-abstract/20/5/784/1221461/Flow-analysis-of-water-conveying-nanomaterials?redirectedFrom=fulltext"
+  },
+  {
+    "id": 4,
+    "year": 2024,
+    "title": "Dynamics of non-Newtonian methanol conveying aluminium alloy over a rotating disc: consideration of variable nanoparticle radius and inter-particle spacing",
+    "authors": [
+      "E Ragupathi",
+      "D Prakash",
+      "M Muthamilselvan",
+      "Qasem M AI-Mdallal"
+    ],
+    "link": "https://iopscience.iop.org/article/10.1088/1361-6528/ad3c46/meta"
+  },
+  {
+    "id": 5,
+    "year": 2024,
+    "title": "Regulation of quantum spin conversions in a single molecular radical",
+    "authors": [
+      "Caiyao Yang",
+      "Zhongxin Chen",
+      "Cuiju Yu",
+      "Jiawen Cao",
+      "Guojun Ke",
+      "Weiya Zhu",
+      "Weixuan Liang",
+      "Jiaxing Huang",
+      "Wanqing Cai",
+      "Chinmoy Saha",
+      "Md Abdus Sabuj",
+      "Neeraj Rai",
+      "Xingxing Li",
+      "Jinlong Yang",
+      "Yuan Li",
+      "Fei Huang & Xuefeng Guo"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01632-2"
+  },
+  {
+    "id": 6,
+    "year": 2024,
+    "title": "Electrospun nanofibrous membranes with functionalized 2D nanofillers for efficient micropollutant removal from water",
+    "authors": [
+      "Bhavesh Borban",
+      "Diksha Yadav",
+      "Moucham Borpatra Gohain",
+      "Sachin Karki",
+      "Ashmita Mukherjee",
+      "Paulomi Ghosh e",
+      "Pravin G. Ingole a c"
+    ],
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0011916424007288"
+  },
+  {
+    "id": 7,
+    "year": 2024,
+    "title": "Multifunctional electrospun membranes incorporated with metal oxide nanoparticles, cellulose acetate, and polyvinylpyrrolidone for wastewater treatment: Oil/water separation, dye adsorption, and dye degradation",
+    "authors": [
+      "Chaithra K P",
+      "Arun Varghese",
+      "Vinod T. P.",
+      "Sunaja Devi K. R."
+    ],
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S1385894724075405"
+  },
+  {
+    "id": 8,
+    "year": 2024,
+    "title": "Spin coating epitaxial heterodimensional tin perovskites for light-emitting diodes",
+    "authors": [
+      "Hao Min",
+      "Nana Wang",
+      "Nana Chen",
+      "Yunfang Tong",
+      "Yujiao Wang",
+      "Jiaqi Wang",
+      "Jinglong Liu",
+      "Saixue Wang",
+      "Xiao Wu",
+      "Pinghui Yang",
+      "Haokun Shi",
+      "Chunxue Zhuo",
+      "Qi Chen",
+      "Jingwei Li",
+      "Daliang Zhang",
+      "Xinhui Lu",
+      "Chao Zhu",
+      "Qiming Peng",
+      "Lin Zhu",
+      "Jin Chang",
+      "Wei Huang & Jianpu Wang"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01588-9"
+  },
+  {
+    "id": 9,
+    "year": 2024,
+    "title": "High-fidelity initialization and control of electron and nuclear spins in a four-qubit register",
+    "authors": [
+      "J. Reiner",
+      "Y. Chung",
+      "S. H. Misha",
+      "C. Lehner",
+      "C. Moehle",
+      "D. Poulos",
+      "S. Monir",
+      "K. J. Charde",
+      "P. Macha",
+      "L. Kranz",
+      "I. Thorvaldson",
+      "B. Thorgrimsson",
+      "D. Keith",
+      "Y. L. Hsueh",
+      "R. Rahman",
+      "S. K. Gorman",
+      "J. G. Keizer & M. Y. Simmons"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01596-9"
+  },
+  {
+    "id": 10,
+    "year": 2024,
+    "title": "A quantum sensor for atomic-scale electric and magnetic fields",
+    "authors": [
+      "Taner Esat",
+      "Dmitriy Borodin",
+      "Jeongmin Oh",
+      "Andreas J. Heinrich",
+      "F. Stefan Tautz",
+      "Yujeong Bae & Ruslan Temirov"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01724-z"
+  },
+  {
+    "id": 11,
+    "year": 2024,
+    "title": "Tunable topological phases in nanographene-based spin-1/2 alternating-exchange Heisenberg chains",
+    "authors": [
+      "Chenxiao Zhao",
+      "Gonçalo Catarina",
+      "Jin-Jiang Zhang",
+      "João C. G. Henriques",
+      "Lin Yang",
+      "Ji Ma",
+      "Xinliang Feng",
+      "Oliver Gröning",
+      "Pascal Ruffieux",
+      "Joaquín Fernández-Rossier & Roman Fasel"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01805-z"
+  },
+  {
+    "id": 12,
+    "year": 2024,
+    "title": "Third-order exceptional line in a nitrogen-vacancy spin system",
+    "authors": [
+      "Yang Wu",
+      "Yunhan Wang",
+      "Xiangyu Ye",
+      "Wenquan Liu",
+      "Zhibo Niu",
+      "Chang-Kui Duan",
+      "Ya Wang",
+      "Xing Rong & Jiangfeng DuRuffieux",
+      "Joaquín Fernández-Rossier & Roman Fasel"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01583-0"
+  },
+  {
+    "id": 13,
+    "year": 2024,
+    "title": "Enhanced Oxygen Evolution and Zinc-Air Battery Performance via Electronic Spin Modulation in Heterostructured Catalysts",
+    "authors": [
+      "Linlin Yang",
+      "Ren He",
+      "Marc Botifoll",
+      "Yongcai Zhang",
+      "Yang Ding",
+      "Chong Di",
+      "Chuansheng He",
+      "Ying Xu",
+      "Lluís Balcells",
+      "Jordi Arbiol",
+      "Yingtang Zhou",
+      "Andreu Cabot"
+    ],
+    "link": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400572"
+  },
+  {
+    "id": 14,
+    "year": 2024,
+    "title": "Seed Quality Enhancement Through Analyte-Infused Electrospun Microcapsules in Maize",
+    "authors": [
+      "Kethineni Udaya Bhaskar",
+      "Kudekallu Vasudeva Sripathy",
+      "Samudrala Prashant Jeevan Kumar",
+      "Channanamchery Radhika",
+      "Keshava Bhojaraja Naik & Sanjay Kumar"
+    ],
+    "link": "https://link.springer.com/article/10.1007/s00344-024-11244-8"
+  },
+  {
+    "id": 15,
+    "year": 2024,
+    "title": "Local control of polarization and geometric phase in thermal metasurfaces",
+    "authors": [
+      "J. Ryan Nolen",
+      "Adam C. Overvig",
+      "Michelle Michele Cotrufo & Andrea Alù Nature Nanotechnology volume"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01763-6"
+  },
+  {
+    "id": 16,
+    "year": 2024,
+    "title": "Construction of topological quantum magnets from atomic spins on surfaces",
+    "authors": [
+      "Hao Wang",
+      "Peng Fan",
+      "Jing Chen",
+      "Lili Jiang",
+      "Hong-Jun Gao",
+      "Jose L. Lado & Kai Yang"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01775-2"
+  },
+  {
+    "id": 17,
+    "year": 2024,
+    "title": "Toroidic phase transitions in a direct-kagome artificial spin ice",
+    "authors": [
+      "Wen-Cheng Yue",
+      "Zixiong Yuan",
+      "Peiyuan Huang",
+      "Yizhe Sun",
+      "Tan Gao",
+      "Yang-Yang Lyu",
+      "Xuecou Tu",
+      "Sining Dong",
+      "Liang He",
+      "Ying Dong",
+      "Xun Cao",
+      "Lin Kang",
+      "Huabing Wang"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01666-6"
+  },
+  {
+    "id": 18,
+    "year": 2024,
+    "title": "Giant spin Hall effect in AB-stacked MoTe2/WSe2 bilayers",
+    "authors": [
+      "Zui Tao",
+      "Bowen Shen",
+      "Wenjin Zhao",
+      "Nai Chao Hu",
+      "Tingxin Li",
+      "Shengwei Jiang",
+      "Lizhong Li",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Allan H. MacDonald",
+      "Jie Shan & Kin Fai Mak"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01492-2"
+  },
+  {
+    "id": 19,
+    "year": 2024,
+    "title": "Deterministic switching of perpendicular magnetization by out-of-plane anti-damping magnon torques",
+    "authors": [
+      "Fei Wang",
+      "Guoyi Shi",
+      "Dongsheng Yang",
+      "Hui Ru Tan",
+      "Chenhui Zhang",
+      "Jiayu Lei",
+      "Yuchen Pu",
+      "Shuhan Yang",
+      "Anjan Soumyanarayanan",
+      "Mehrdad Elyasi & Hyunsoo Yang"
+    ],
+    "link": "https://www.nature.com/articles/s41565-024-01741-y"
+  },
+  {
+    "id": 20,
+    "year": 2024,
+    "title": "Shared control of a 16 semiconductor quantum dot crossbar array",
+    "authors": [
+      "Francesco Borsoi",
+      "Nico W. Hendrickx",
+      "Valentin John",
+      "Marcel Meyer",
+      "Sayr Motz",
+      "Floor van",
+      "Riggelen",
+      "Amir Sammak",
+      "Sander L. de Snoo",
+      "Giordano Scappucci & Menno Veldhorst"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01491-3"
+  },
+  {
+    "id": 21,
+    "year": 2024,
+    "title": "Spontaneous broken-symmetry insulator and metals in tetralayer rhombohedral graphene",
+    "authors": [
+      "Kai Liu",
+      "Jian Zheng",
+      "Yating Sha",
+      "Bosai Lyu",
+      "Fengping Li",
+      "Youngju Park",
+      "Yulu Ren",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Jinfeng Jia",
+      "Weidong Luo",
+      "Zhiwen Shi",
+      "Jeil Jung & Guorui Chen"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01558-1"
+  },
+  {
+    "id": 22,
+    "year": 2024,
+    "title": "Reversible optical data storage below the diffraction limit",
+    "authors": [
+      "Richard Monge",
+      "Tom Delord & Carlos A. Meriles"
+    ],
+    "link": "https://www.nature.com/articles/s41565-023-01542-9"
+  },
+  
   {
     id: 1,
     year: 2023,
