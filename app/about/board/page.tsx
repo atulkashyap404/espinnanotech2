@@ -30,7 +30,7 @@ export default function BoardPage() {
             growth and strengthening its position in scientific research
             infrastructure and advanced filtration technologies.
           </p>
-          <div className="w-24 h-1 bg-red-500 mx-auto rounded-full mt-6"></div>
+          <div className="w-24 h-1 bg-red-500 mx-auto rounded-full mt-2"></div>
         </motion.div>
       </div>
 
