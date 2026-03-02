@@ -6,6 +6,7 @@ import { ScienceSection } from "@/components/ScienceSection";
 import ProfileCard from "@/components/ProfileCard";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo"
+import { ProductShow } from "@/components/ProductShow";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ExpertiseSection />
       <ScienceSection />
       <InfiniteMovingCardsDemo />
+      <ProductShow/>
     </main>
   );
 }
