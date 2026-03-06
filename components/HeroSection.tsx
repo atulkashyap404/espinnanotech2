@@ -5,11 +5,11 @@ import { ServiceCard } from "./ServiceCard";
 import { Cover } from "@/components/ui/cover";
 
 // Updated to remove reliance on empty `number` field
-const SERVICES = [
-  { number: "", title: "Nanofiber Spinning\nTechnology", link: "/products/electrospinning" },
-  { number: "", title: "Nanofiber Membrane\nTechnology", link: "/products/nanofibermembrane" },
-  { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
-] as const;
+// const SERVICES = [
+//   { number: "", title: "Nanofiber Spinning\nTechnology", link: "/products/electrospinning" },
+//   { number: "", title: "Nanofiber Membrane\nTechnology", link: "/products/nanofibermembrane" },
+//   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
+// ] as const;
 
 export function HeroSection() {
   const [showContent, setShowContent] = useState(false);
@@ -31,7 +31,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[60vh] px-4 md:px-6 py-4 overflow-hidden ">
+    <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
       {/* Video Background */}
       <video
         autoPlay
@@ -65,7 +65,7 @@ export function HeroSection() {
           groundbreaking research.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40 text-xl">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40 text-xl">
           {SERVICES.map((service, index) => (
             <ServiceCard
               // ✅ Fix: use `index` or a more unique value instead of empty `service.number`
@@ -74,7 +74,7 @@ export function HeroSection() {
               className={`transition-transform duration-1000 delay-${index * 200}`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

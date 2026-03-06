@@ -11,7 +11,7 @@ export const SUBCATEGORIES = {
       id: "electromorph",
       title: "ElectraMorph",
       description: "Advanced systems for research institutions",
-      image: "/product categories/electro spinning.jpg",
+      image: "/product categories/electro spinning1.jpg",
       features: []
     },
   ],

@@ -7,6 +7,7 @@ import ProfileCard from "@/components/ProfileCard";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo"
 import { ProductShow } from "@/components/ProductShow";
+import { ServiceImageCard } from "@/components/ServiceImageCard";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="min-h-screen pt-20">
       <Header />
       <HeroSection />
+      <ServiceImageCard />
       <StatsSection />
       <ExpertiseSection />
       <ScienceSection />
