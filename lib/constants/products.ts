@@ -7,13 +7,13 @@ export const SUBCATEGORIES = {
       image: "/product categories/electro spinning.jpg",
       features: []
     },
-    {
-      id: "electromorph",
-      title: "ElectraMorph",
-      description: "Advanced systems for research institutions",
-      image: "/product categories/electro spinning1.jpg",
-      features: []
-    },
+    // {
+    //   id: "electromorph",
+    //   title: "ElectraMorph",
+    //   description: "Advanced systems for research institutions",
+    //   image: "/product categories/electro spinning1.jpg",
+    //   features: []
+    // },
   ],
   nanofibermembrane: [
     {

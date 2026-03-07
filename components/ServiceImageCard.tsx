@@ -13,7 +13,7 @@ const CARDS: CardItem[] = [
   {
     title: "Nanofiber Spinning Technology",
     image: "/spinning.jpg",
-    link: "/products/electrospinning",
+    link: "/products/electrospinning/electrospinning/",
   },
   {
     title: "Nanofiber Membrane Technology",
