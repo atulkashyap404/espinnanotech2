@@ -21,7 +21,6 @@ export default function Home() {
       <ExpertiseSection />
       <ScienceSection />
       <InfiniteMovingCardsDemo />
-      <ProductShow/>
     </main>
   );
 }

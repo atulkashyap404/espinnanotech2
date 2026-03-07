@@ -1,5 +1,6 @@
 "use client";
-
+import { Button } from "@/components/ui/button"
+import { ArrowUpIcon } from "lucide-react"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,12 +13,12 @@ interface CardItem {
 const CARDS: CardItem[] = [
   {
     title: "Nanofiber Spinning Technology",
-    image: "/spinning.jpg",
+    image: "/electrospinning product 1.png",
     link: "/products/electrospinning/electrospinning/",
   },
   {
     title: "Nanofiber Membrane Technology",
-    image: "/membrane.png",
+    image: "/membrane.jpeg",
     link: "/products/nanofibermembrane",
   },
   {
@@ -29,13 +30,13 @@ const CARDS: CardItem[] = [
 
 export function ServiceImageCard() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-6 py-16">
+    <section className="max-w-7xl mx-auto px-4 md:px-6 py-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {CARDS.map((card, index) => (
           <Link key={index} href={card.link} className="group">
 
-            <div className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+            <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
 
               {/* Image */}
               <div className="relative h-[180px] w-full">
@@ -48,8 +49,9 @@ export function ServiceImageCard() {
               </div>
 
               {/* Title */}
-              <div className="mt-4 bottom-0 left-0 right-0 bg-black/60 text-white p-4 text-lg font-semibold">
+              <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-4 text-lg font-semibold">
                 {card.title}
+                
               </div>
 
             </div>

@@ -19,7 +19,7 @@ export function NavigationButtons({
   const router = useRouter();
 
   return (
-    <div className="fixed bottom-8 right-8 flex gap-4">
+    <div className="fixed bottom-8 left-8 flex gap-4">
       {showPrevious && (
         <button
           onClick={() => {
