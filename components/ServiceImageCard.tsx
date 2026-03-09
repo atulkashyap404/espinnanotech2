@@ -24,7 +24,7 @@ const CARDS: CardItem[] = [
   {
     title: "Nanofiber Functional Products",
     image: "/functional.png",
-    link: "/products/nanofibrefunctionalproducts",
+    link: "/products/nanofiberfunctionalproducts",
   },
 ];
 
