@@ -647,6 +647,222 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
     ],
   },
+  customizedmembrane: {
+    id: "customizedmembrane",
+    pageTitle: "Customized Membrane",
+    items: [
+      {
+        id: "esd-protection",
+        title: "ESD Protection Nanofiber Membrane",
+        subtitle: "Customized Electrostatic Discharge (ESD) Protection Membrane",
+        images: [
+          "/product categories/Customized Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "500+", price: "Custom Quote" },
+          { moq: "1,000+", price: "Custom Quote" },
+          { moq: "2,500+", price: "Custom Quote" },
+          { moq: "5,000+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Fully customizable specifications",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "4-6 weeks",
+        description: {
+          heading: "ESD Protection Membrane Description",
+          image: "/product categories/Customized Membrane.jpeg",
+          paragraphs: [
+            "Electrostatic Discharge (ESD) protection membranes are custom-engineered nanofiber solutions designed to safeguard sensitive electronic components and devices from static electricity damage.",
+            "These membranes can be customized using conductive foil layers, transparent anti-static films, or printed conductive screens to achieve the required level of ESD shielding for specific applications.",
+            "ESD protection membranes are essential in semiconductor manufacturing, electronics assembly, and packaging applications where even minor static discharge can cause irreversible damage to sensitive components.",
+            "E-Spin's customized ESD membranes improve the lifespan and reliability of electronic devices by providing consistent static dissipation. Each membrane is tailored to the client's exact specifications for thickness, conductivity, and form factor.",
+          ],
+        },
+        specifications: {
+          heading: "ESD Protection Specifications",
+          groups: [
+            {
+              title: "Customization Options",
+              color: "blue",
+              items: [
+                { label: "Conductive Foil", checked: true },
+                { label: "Anti-Static Film", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-800 nm",
+            },
+            {
+              title: "Planar Density Range",
+              color: "amber",
+              value: "Custom",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. die-cut shapes)", icon: "custom" },
+          ],
+        },
+      },
+      {
+        id: "emi-shielding",
+        title: "EMI Shielding Nanofiber Membrane",
+        subtitle: "Customized Electromagnetic Interference (EMI) Shielding Membrane",
+        images: [
+          "/product categories/Customized Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "500+", price: "Custom Quote" },
+          { moq: "1,000+", price: "Custom Quote" },
+          { moq: "2,500+", price: "Custom Quote" },
+          { moq: "5,000+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Fully customizable specifications",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "4-6 weeks",
+        description: {
+          heading: "EMI Shielding Membrane Description",
+          image: "/product categories/Customized Membrane.jpeg",
+          paragraphs: [
+            "Electromagnetic Interference (EMI) shielding membranes are custom-engineered nanofiber solutions designed to block or attenuate electromagnetic radiation that can disrupt electronic equipment and sensitive instrumentation.",
+            "These membranes incorporate conductive nanofiber layers, metallic coatings, or embedded conductive particles to achieve targeted EMI shielding effectiveness across a wide frequency range.",
+            "EMI shielding is critical in telecommunications, medical devices, military electronics, and data centers where electromagnetic interference can compromise signal integrity and device performance.",
+            "E-Spin's customized EMI membranes are lightweight, flexible, and can be integrated into enclosures, gaskets, and wrapping materials. Each membrane is engineered to meet specific shielding effectiveness requirements in dB attenuation.",
+          ],
+        },
+        specifications: {
+          heading: "EMI Shielding Specifications",
+          groups: [
+            {
+              title: "Shielding Methods",
+              color: "blue",
+              items: [
+                { label: "Metallic Coating", checked: true },
+                { label: "Conductive Particles", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-800 nm",
+            },
+            {
+              title: "Shielding Effectiveness",
+              color: "amber",
+              value: "Up to 80 dB",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. gaskets, wraps)", icon: "custom" },
+          ],
+        },
+      },
+      {
+        id: "rfi-shielding",
+        title: "RFI Shielding Nanofiber Membrane",
+        subtitle: "Customized Radio Frequency Interference (RFI) Shielding Membrane",
+        images: [
+          "/product categories/Customized Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "500+", price: "Custom Quote" },
+          { moq: "1,000+", price: "Custom Quote" },
+          { moq: "2,500+", price: "Custom Quote" },
+          { moq: "5,000+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Fully customizable specifications",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "4-6 weeks",
+        description: {
+          heading: "RFI Shielding Membrane Description",
+          image: "/product categories/Customized Membrane.jpeg",
+          paragraphs: [
+            "Radio Frequency Interference (RFI) shielding membranes are custom-engineered nanofiber solutions designed to attenuate unwanted radio frequency signals that can interfere with sensitive electronic systems and communication equipment.",
+            "These membranes utilize printed conductive screens, metallic nanofiber composites, or specialized coatings to provide effective RFI shielding across targeted frequency bands from MHz to GHz ranges.",
+            "RFI shielding is essential in aerospace, defense, automotive electronics, and wireless communication infrastructure where radio frequency noise can degrade system performance and data transmission quality.",
+            "E-Spin's customized RFI membranes offer superior frequency-selective attenuation while maintaining breathability and mechanical flexibility. Each membrane is designed to the client's specific frequency band and attenuation requirements.",
+          ],
+        },
+        specifications: {
+          heading: "RFI Shielding Specifications",
+          groups: [
+            {
+              title: "Shielding Methods",
+              color: "blue",
+              items: [
+                { label: "Printed Screens", checked: true },
+                { label: "Metallic Composites", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-800 nm",
+            },
+            {
+              title: "Frequency Range",
+              color: "amber",
+              value: "MHz to GHz",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. enclosures, panels)", icon: "custom" },
+          ],
+        },
+      },
+    ],
+  },
 };
 
 export interface MembraneProductPage {
