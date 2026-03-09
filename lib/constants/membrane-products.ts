@@ -355,6 +355,152 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
     ],
   },
+  ionexchangemembrane: {
+    id: "ionexchangemembrane",
+    pageTitle: "Ion-Exchange Membrane",
+    items: [
+      {
+        id: "pvdf",
+        title: "PVDF (Polyvinylidene difluoride) Nanofiber Membrane",
+        subtitle: "Electrospun PVDF (Polyvinylidene difluoride) Nanofiber",
+        images: [
+          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "550+", price: "$12.34" },
+          { moq: "1,100+", price: "$10.56" },
+          { moq: "1,650+", price: "$9.30" },
+          { moq: "3,300+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Various formats available",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "2-4 weeks",
+        description: {
+          heading: "PVDF Product Description",
+          image: "/product categories/Air Filtration Membrane 1.jpg",
+          paragraphs: [
+            "Polyvinylidene fluoride, or polyvinylidene difluoride (PVDF) is a non-reactive thermoplastic fluoropolymer, with strong piezoelectric properties.",
+            "PVDF has many promising properties, such as high piezoelectric voltage sensitivity, chemical inertness, high strength and resistance to heat generation, as well as its low protein binding properties inherent flexibility, light weight and its responsiveness over a wide frequency range.",
+            "These key features make PVDF a promising component in tactile sensors; as sterilizing filters in the preparation of medication; or as a filter for analytical techniques such as HPLC, where little-to-no particulates should be present.",
+            "PVDF has a non-specific affinity for amino acids, making artificial PVDF membranes very useful for the immobilization of proteins in western blots and, due to its resistance to solvents, these membranes can be reused. SNC is able to electrospin PVDF for these and other applications, including semiconductor and lithium ion battery material.",
+          ],
+        },
+        specifications: {
+          heading: "PVDF Specifications",
+          groups: [
+            {
+              title: "Spinnability Options",
+              color: "blue",
+              items: [
+                { label: "Pure", checked: true },
+                { label: "Blend", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-600 nm",
+            },
+            {
+              title: "Planar Density Range",
+              color: "amber",
+              value: "0.5-13.5 g/m\u00B2",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+          ],
+        },
+      },
+      {
+        id: "polysulfone",
+        title: "Polysulfone Nanofiber Membrane",
+        subtitle: "Electrospun Polysulfone Nanofiber Membrane",
+        images: [
+          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "550+", price: "$12.34" },
+          { moq: "1,100+", price: "$10.56" },
+          { moq: "1,650+", price: "$9.30" },
+          { moq: "3,300+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Various formats available",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "2-4 weeks",
+        description: {
+          heading: "Polysulfone Product Description",
+          image: "/product categories/Air Filtration Membrane 1.jpg",
+          paragraphs: [
+            "Polysulfone (PSU) is a high-performance thermoplastic polymer known for its excellent thermal stability, mechanical strength, and chemical resistance.",
+            "Polysulfone membranes exhibit outstanding properties including high glass transition temperature, good oxidative stability, and resistance to mineral acids, alkali, and electrolytes, making them suitable for demanding ion-exchange and filtration applications.",
+            "These key features make Polysulfone an ideal material for ion-exchange membranes, water treatment systems, and medical device applications where biocompatibility and durability are critical requirements.",
+            "Polysulfone nanofiber membranes offer superior ion-exchange efficiency due to their high surface area-to-volume ratio. SNC is able to electrospin Polysulfone for ion-exchange, liquid filtration, and various industrial separation applications.",
+          ],
+        },
+        specifications: {
+          heading: "Polysulfone Specifications",
+          groups: [
+            {
+              title: "Spinnability Options",
+              color: "blue",
+              items: [
+                { label: "Pure", checked: true },
+                { label: "Blend", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-600 nm",
+            },
+            {
+              title: "Planar Density Range",
+              color: "amber",
+              value: "0.5-13.5 g/m\u00B2",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+          ],
+        },
+      },
+    ],
+  },
 };
 
 export interface MembraneProductPage {
