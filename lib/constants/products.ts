@@ -20,28 +20,28 @@ export const SUBCATEGORIES = {
       id: "airfiltrationmembrane",
       title: "Air Filtration Membrane",
       description: "An air filtration membrane is a thin film that traps pollutants by straining them through tiny openings. Membranes are used in a variety of applications, including industrial air pollution control, gas turbines, and bag houses.",
-      image: "/product categories/Air Filtration Membrane.jpg",
+      image: "/product categories/Air Filtration Membrane.jpeg",
       features: []
     },
     {
       id: "ionexchangemembrane",
       title: "Ion-Exchange Membrane",
       description: "An ion-exchange membrane (IEM) is a semi-permeable barrier that allows some dissolved ions to pass through while blocking others. IEMs are used in chemical recovery, desalination, and fuel cells.",
-      image: "/product categories/Ion-Exchange Membrane.jpg",
+      image: "/product categories/Ion-Exchange Membrane.jpeg",
       features: []
     },
     {
       id: "cosmeticmembranes",
       title: "Cosmetic Membranes",
       description: "Cosmetic membranes are used in the development of cosmetics and personal care products. These membranes can be made from eggshells, cellulose acetate, polysulfone, silicone, and other materials.",
-      image: "/product categories/Cosmetic Membranes.jpg",
+      image: "/product categories/Cosmetic Membranes.jpeg",
       features: []
     },
     {
       id: "customizedmembrane",
       title: "Customized Membrane",
       description: "The membrane can be customized for protection from Electrostatic Discharge (ESD), Electromagnetic Interface (EMI), and Radio Frequency Interface (RFI). This can be achieved by the use of foil, transparent film, or printed screens. This shielding improves the lifespan of the devices and makes it more safe and reliable.",
-      image: "/product categories/Customized Membrane.jpg",
+      image: "/product categories/Customized Membrane.jpeg",
       features: []
     }
   ],
