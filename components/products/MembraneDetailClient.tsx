@@ -5,56 +5,73 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Truck, Check, ChevronRight } from "lucide-react";
-import type { MembraneProduct } from "@/lib/constants/membrane-products";
+import type { MembraneProductPage, MembraneProduct } from "@/lib/constants/membrane-products";
 
 interface MembraneDetailClientProps {
-  product: MembraneProduct;
+  productPage: MembraneProductPage;
 }
 
-export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
+export function MembraneDetailClient({ productPage }: MembraneDetailClientProps) {
+  return (
+    <main className="min-h-screen bg-white pt-20">
+      <div className="text-center py-8 bg-gray-100">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+          {productPage.pageTitle}
+        </h1>
+      </div>
+      {productPage.items.map((item, index) => (
+        <MembraneItemSection key={item.id} item={item} isFirst={index === 0} />
+      ))}
+    </main>
+  );
+}
+
+function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst: boolean }) {
   const [selectedImage, setSelectedImage] = useState(0);
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className={`${!isFirst ? "border-t-4 border-gray-200" : ""}`}>
       <section className="relative bg-gradient-to-b from-gray-50 to-white py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.4 }}
             className="text-center mb-10"
           >
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
-              {product.title}
-            </h1>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+              {item.title}
+            </h2>
             <p className="text-sm md:text-base text-gray-600 mt-1">
-              {product.subtitle}
+              {item.subtitle}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
               <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
                 <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-gray-50">
                   <Image
-                    src={product.images[selectedImage]}
-                    alt={product.subtitle}
+                    src={item.images[selectedImage]}
+                    alt={item.subtitle}
                     fill
                     className="object-contain"
-                    priority
+                    priority={isFirst}
                   />
                 </div>
                 <div className="flex gap-3 mt-4">
-                  {product.images.map((img, i) => (
+                  {item.images.map((img, i) => (
                     <button
                       key={i}
                       onClick={() => setSelectedImage(i)}
                       aria-pressed={selectedImage === i}
-                      aria-label={`View product image ${i + 1} of ${product.images.length}`}
+                      aria-label={`View ${item.subtitle} image ${i + 1} of ${item.images.length}`}
                       className={`relative w-20 h-16 rounded-md overflow-hidden border-2 transition-all ${
                         selectedImage === i
                           ? "border-blue-500 shadow-md"
@@ -63,7 +80,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
                     >
                       <Image
                         src={img}
-                        alt={`${product.subtitle} view ${i + 1}`}
+                        alt={`${item.subtitle} view ${i + 1}`}
                         fill
                         className="object-cover"
                       />
@@ -75,7 +92,8 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
 
             <motion.div
               initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
               className="space-y-6"
             >
@@ -92,7 +110,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
                     </tr>
                   </thead>
                   <tbody>
-                    {product.pricing.map((tier, i) => (
+                    {item.pricing.map((tier, i) => (
                       <tr key={i}>
                         <td className="text-gray-800 py-1.5 px-2 border-b border-gray-100">
                           {tier.moq}
@@ -107,17 +125,17 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
               </div>
 
               <ul className="space-y-2">
-                {product.highlights.map((item, i) => (
+                {item.highlights.map((highlight, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
                     <span className="mt-1 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                    {item}
+                    {highlight}
                   </li>
                 ))}
               </ul>
 
               <div className="flex items-center gap-3 text-sm text-gray-600">
                 <Truck className="w-8 h-8 text-blue-600" />
-                <span className="font-medium text-blue-700">{product.deliveryTime}</span>
+                <span className="font-medium text-blue-700">{item.deliveryTime}</span>
               </div>
 
               <Link
@@ -134,14 +152,14 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
-          <motion.h2
+          <motion.h3
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-2"
           >
-            {product.description.heading}
-          </motion.h2>
+            {item.description.heading}
+          </motion.h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 items-start">
             <motion.div
@@ -152,8 +170,8 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
             >
               <div className="relative w-full aspect-[4/3] bg-gray-100">
                 <Image
-                  src={product.description.image}
-                  alt={`${product.description.heading} microscopy`}
+                  src={item.description.image}
+                  alt={`${item.description.heading} microscopy`}
                   fill
                   className="object-cover"
                 />
@@ -169,7 +187,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
               viewport={{ once: true }}
               className="space-y-4 text-sm md:text-[15px] leading-relaxed text-gray-700 text-justify"
             >
-              {product.description.paragraphs.map((p, i) => (
+              {item.description.paragraphs.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}
             </motion.div>
@@ -185,9 +203,9 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
             viewport={{ once: true }}
             className="text-center mb-10"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              {product.specifications.heading}
-            </h2>
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
+              {item.specifications.heading}
+            </h3>
             <p className="text-sm text-gray-500 mt-1">
               <Link href="/contact" className="text-blue-600 hover:underline">
                 Contact us
@@ -197,7 +215,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            {product.specifications.groups.map((group, i) => (
+            {item.specifications.groups.map((group, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 10 }}
@@ -214,10 +232,10 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
                 </div>
                 <div className="mt-3">
                   {group.items
-                    ? group.items.map((item, j) => (
+                    ? group.items.map((specItem, j) => (
                         <div key={j} className="flex items-center justify-between py-1">
-                          <span className="text-sm text-gray-700">{item.label}</span>
-                          {item.checked && <Check className="w-4 h-4 text-green-600" />}
+                          <span className="text-sm text-gray-700">{specItem.label}</span>
+                          {specItem.checked && <Check className="w-4 h-4 text-green-600" />}
                         </div>
                       ))
                     : <p className="text-gray-800 text-sm mt-2">{group.value}</p>
@@ -237,7 +255,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
               Formats
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white border border-t-0 border-gray-200 rounded-b-lg p-6">
-              {product.specifications.formats.map((fmt, i) => (
+              {item.specifications.formats.map((fmt, i) => (
                 <div key={i} className="flex flex-col items-center text-center gap-2">
                   <FormatIcon icon={fmt.icon} />
                   <span className="text-xs font-medium text-gray-700">{fmt.label}</span>
@@ -250,7 +268,7 @@ export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
           </motion.div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
 

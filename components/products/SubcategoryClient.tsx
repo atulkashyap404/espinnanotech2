@@ -17,7 +17,7 @@ export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
   const membraneProduct = MEMBRANE_PRODUCTS[subcategory];
 
   if (membraneProduct) {
-    return <MembraneDetailClient product={membraneProduct} />;
+    return <MembraneDetailClient productPage={membraneProduct} />;
   }
 
   const products = PRODUCTS[subcategory as keyof typeof PRODUCTS] || [];
