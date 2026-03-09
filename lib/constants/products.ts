@@ -47,12 +47,40 @@ export const SUBCATEGORIES = {
   ],
   nanofiberfunctionalproducts: [
     {
-      id: "spinneret",
-      title: "Spinnerets",
-      description: "Precision engineered spinnerets for various applications",
-      image: "https://images.unsplash.com/photo-1581092161520-4ab09478a345?auto=format&fit=crop&q=80&w=800",
-      features: ["Multiple Sizes", "Custom Designs", "High Precision"]
-    }
+      id: "airpurifier",
+      title: "Air Purifier",
+      description: "High-efficiency nanofiber-based air purifiers designed to remove ultrafine particles, allergens, and pollutants from indoor environments with superior filtration performance.",
+      image: "/product categories/functional product.jpg",
+      features: ["HEPA Grade Filtration", "Low Pressure Drop", "Long Service Life"]
+    },
+    {
+      id: "bmwfilter",
+      title: "BMW Filter",
+      description: "Premium automotive cabin and engine air filters using advanced nanofiber technology for enhanced particle capture and extended filter life in BMW vehicles.",
+      image: "/product categories/functional product.jpg",
+      features: ["Automotive Grade", "High Dust Holding", "OEM Compatible"]
+    },
+    {
+      id: "dustcollector",
+      title: "Dust Collector",
+      description: "Industrial-grade nanofiber dust collection filters engineered for high-efficiency particulate removal in manufacturing, woodworking, and heavy industry environments.",
+      image: "/product categories/functional product.jpg",
+      features: ["Industrial Grade", "High Efficiency", "Self-Cleaning"]
+    },
+    {
+      id: "hvac",
+      title: "HVAC",
+      description: "Nanofiber HVAC filtration solutions providing superior air quality in commercial and residential heating, ventilation, and air conditioning systems.",
+      image: "/product categories/functional product.jpg",
+      features: ["Energy Efficient", "Extended Life", "Low Resistance"]
+    },
+    {
+      id: "cleanroomairfilter",
+      title: "Clean Room Air Filter",
+      description: "Ultra-high-efficiency nanofiber filters for cleanroom environments, meeting stringent ISO standards for particle-free air in pharmaceutical, semiconductor, and biotech facilities.",
+      image: "/product categories/functional product.jpg",
+      features: ["ISO Compliant", "ULPA Grade", "Contamination Free"]
+    },
   ],
   
 } as const;

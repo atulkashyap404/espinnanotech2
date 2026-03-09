@@ -5,7 +5,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
     items: [
       {
         id: "pvdf",
-        title: "Ready For Market",
+        title: "PVDF (Polyvinylidene difluoride) Nanofiber",
         subtitle: "Electrospun PVDF (Polyvinylidene difluoride) Nanofiber",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -75,7 +75,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
       {
         id: "polysulfone",
-        title: "Ready For Market",
+        title: "Polysulfone Nanofiber Membrane",
         subtitle: "Electrospun Polysulfone Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -145,7 +145,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
       {
         id: "nylon",
-        title: "Ready For Market",
+        title: "Nylon Nanofiber Membrane",
         subtitle: "Electrospun Nylon Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -215,7 +215,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
       {
         id: "pan",
-        title: "Ready For Market",
+        title: "PAN (Polyacrylonitrile) Nanofiber Membrane",
         subtitle: "Electrospun PAN (Polyacrylonitrile) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -285,7 +285,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
       {
         id: "pva",
-        title: "Ready For Market",
+        title: "PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
