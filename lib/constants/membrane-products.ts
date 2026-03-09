@@ -501,6 +501,152 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
     ],
   },
+  cosmeticmembranes: {
+    id: "cosmeticmembranes",
+    pageTitle: "Cosmetic Membranes",
+    items: [
+      {
+        id: "pva",
+        title: "PVA (Polyvinyl Alcohol) Nanofiber Membrane",
+        subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber",
+        images: [
+          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "550+", price: "$12.34" },
+          { moq: "1,100+", price: "$10.56" },
+          { moq: "1,650+", price: "$9.30" },
+          { moq: "3,300+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Various formats available",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "2-4 weeks",
+        description: {
+          heading: "PVA Product Description",
+          image: "/product categories/Air Filtration Membrane 1.jpg",
+          paragraphs: [
+            "Polyvinyl Alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming, emulsifying, and adhesive properties, widely used in biomedical and cosmetic applications.",
+            "PVA nanofiber membranes exhibit remarkable properties including high hydrophilicity, excellent biocompatibility, good mechanical strength, and superior skin-friendly characteristics, making them ideal for cosmetic and dermatological use.",
+            "These key features make PVA an outstanding material for facial masks, transdermal delivery patches, and cosmetic treatment membranes where moisture retention and active ingredient delivery are essential.",
+            "PVA nanofiber membranes offer excellent wettability and can be loaded with active cosmetic ingredients for targeted skin treatments. SNC is able to electrospin PVA for cosmetic masks, skincare patches, and beauty treatment applications.",
+          ],
+        },
+        specifications: {
+          heading: "PVA Specifications",
+          groups: [
+            {
+              title: "Spinnability Options",
+              color: "blue",
+              items: [
+                { label: "Pure", checked: true },
+                { label: "Blend", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-600 nm",
+            },
+            {
+              title: "Planar Density Range",
+              color: "amber",
+              value: "0.5-13.5 g/m\u00B2",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+          ],
+        },
+      },
+      {
+        id: "elecsesce",
+        title: "Elecsesce Nanofiber Membrane",
+        subtitle: "Electrospun Elecsesce Nanofiber Membrane",
+        images: [
+          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Air Filtration Membrane 1.jpg",
+          "/membrane.jpeg",
+        ],
+        pricing: [
+          { moq: "550+", price: "$12.34" },
+          { moq: "1,100+", price: "$10.56" },
+          { moq: "1,650+", price: "$9.30" },
+          { moq: "3,300+", price: "Negotiable" },
+        ],
+        highlights: [
+          "Worldwide shipping",
+          "Various formats available",
+          "Manufactured in GMP environment",
+          "Expert team of various scientists",
+        ],
+        deliveryTime: "2-4 weeks",
+        description: {
+          heading: "Elecsesce Product Description",
+          image: "/product categories/Air Filtration Membrane 1.jpg",
+          paragraphs: [
+            "Elecsesce is an advanced electrospun nanofiber material specifically engineered for cosmetic and skincare applications, offering superior active ingredient delivery and skin compatibility.",
+            "Elecsesce nanofiber membranes demonstrate outstanding properties including ultra-fine fiber structure, high porosity, excellent breathability, and enhanced absorption characteristics for cosmetic formulations.",
+            "These key features make Elecsesce an ideal material for premium cosmetic face masks, anti-aging treatment patches, and advanced skincare delivery systems where precise ingredient dosing is required.",
+            "Elecsesce nanofiber membranes provide a luxurious skin feel with maximized surface contact area for optimal active ingredient transfer. SNC is able to electrospin Elecsesce for cosmetic masks, beauty treatments, and dermatological applications.",
+          ],
+        },
+        specifications: {
+          heading: "Elecsesce Specifications",
+          groups: [
+            {
+              title: "Spinnability Options",
+              color: "blue",
+              items: [
+                { label: "Pure", checked: true },
+                { label: "Blend", checked: true },
+              ],
+            },
+            {
+              title: "Construction",
+              color: "amber",
+              items: [
+                { label: "Free-Standing", checked: true },
+                { label: "On Substrate", checked: true },
+              ],
+            },
+            {
+              title: "Fiber Diameter",
+              color: "blue",
+              value: "100-600 nm",
+            },
+            {
+              title: "Planar Density Range",
+              color: "amber",
+              value: "0.5-13.5 g/m\u00B2",
+            },
+          ],
+          formats: [
+            { label: "Rolls", icon: "roll" },
+            { label: "Sheets (20x30)", icon: "sheet-large" },
+            { label: "Sheets (10x10)", icon: "sheet-small" },
+            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+          ],
+        },
+      },
+    ],
+  },
 };
 
 export interface MembraneProductPage {
