@@ -5,28 +5,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Truck, Check, ChevronRight } from "lucide-react";
+import type { MembraneProduct } from "@/lib/constants/membrane-products";
 
-const pricingTiers = [
-  { moq: "550+", price: "$12.34" },
-  { moq: "1,100+", price: "$10.56" },
-  { moq: "1,650+", price: "$9.30" },
-  { moq: "3,300+", price: "Negotiable" },
-];
+interface MembraneDetailClientProps {
+  product: MembraneProduct;
+}
 
-const productImages = [
-  "/product categories/Air Filtration Membrane.jpeg",
-  "/product categories/Air Filtration Membrane 1.jpg",
-  "/membrane.jpeg",
-];
-
-const highlights = [
-  { text: "Worldwide shipping", bold: "shipping" },
-  { text: "Various formats available", bold: "formats available" },
-  { text: "Manufactured in GMP environment", bold: "GMP environment" },
-  { text: "Expert team of various scientists", bold: "Expert team" },
-];
-
-export default function AirFiltrationMembranePage() {
+export function MembraneDetailClient({ product }: MembraneDetailClientProps) {
   const [selectedImage, setSelectedImage] = useState(0);
 
   return (
@@ -40,10 +25,10 @@ export default function AirFiltrationMembranePage() {
             className="text-center mb-10"
           >
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Ready For Market
+              {product.title}
             </h1>
             <p className="text-sm md:text-base text-gray-600 mt-1">
-              Electrospun PVDF (Polyvinylidene difluoride) Nanofiber
+              {product.subtitle}
             </p>
           </motion.div>
 
@@ -56,19 +41,20 @@ export default function AirFiltrationMembranePage() {
               <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
                 <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-gray-50">
                   <Image
-                    src={productImages[selectedImage]}
-                    alt="PVDF Nanofiber Membrane"
+                    src={product.images[selectedImage]}
+                    alt={product.subtitle}
                     fill
                     className="object-contain"
+                    priority
                   />
                 </div>
                 <div className="flex gap-3 mt-4">
-                  {productImages.map((img, i) => (
+                  {product.images.map((img, i) => (
                     <button
                       key={i}
                       onClick={() => setSelectedImage(i)}
                       aria-pressed={selectedImage === i}
-                      aria-label={`View product image ${i + 1} of ${productImages.length}`}
+                      aria-label={`View product image ${i + 1} of ${product.images.length}`}
                       className={`relative w-20 h-16 rounded-md overflow-hidden border-2 transition-all ${
                         selectedImage === i
                           ? "border-blue-500 shadow-md"
@@ -77,7 +63,7 @@ export default function AirFiltrationMembranePage() {
                     >
                       <Image
                         src={img}
-                        alt={`PVDF membrane view ${i + 1}`}
+                        alt={`${product.subtitle} view ${i + 1}`}
                         fill
                         className="object-cover"
                       />
@@ -106,7 +92,7 @@ export default function AirFiltrationMembranePage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {pricingTiers.map((tier, i) => (
+                    {product.pricing.map((tier, i) => (
                       <tr key={i}>
                         <td className="text-gray-800 py-1.5 px-2 border-b border-gray-100">
                           {tier.moq}
@@ -121,17 +107,17 @@ export default function AirFiltrationMembranePage() {
               </div>
 
               <ul className="space-y-2">
-                {highlights.map((item, i) => (
+                {product.highlights.map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
                     <span className="mt-1 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                    {item.text}
+                    {item}
                   </li>
                 ))}
               </ul>
 
               <div className="flex items-center gap-3 text-sm text-gray-600">
                 <Truck className="w-8 h-8 text-blue-600" />
-                <span className="font-medium text-blue-700">2-4 weeks</span>
+                <span className="font-medium text-blue-700">{product.deliveryTime}</span>
               </div>
 
               <Link
@@ -154,7 +140,7 @@ export default function AirFiltrationMembranePage() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-2"
           >
-            PVDF Product Description
+            {product.description.heading}
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 items-start">
@@ -166,8 +152,8 @@ export default function AirFiltrationMembranePage() {
             >
               <div className="relative w-full aspect-[4/3] bg-gray-100">
                 <Image
-                  src="/product categories/Air Filtration Membrane 1.jpg"
-                  alt="PVDF Nanofiber SEM image"
+                  src={product.description.image}
+                  alt={`${product.description.heading} microscopy`}
                   fill
                   className="object-cover"
                 />
@@ -183,32 +169,9 @@ export default function AirFiltrationMembranePage() {
               viewport={{ once: true }}
               className="space-y-4 text-sm md:text-[15px] leading-relaxed text-gray-700 text-justify"
             >
-              <p>
-                Polyvinylidene fluoride, or polyvinylidene difluoride (PVDF) is a
-                non-reactive thermoplastic fluoropolymer, with strong
-                piezoelectric properties.
-              </p>
-              <p>
-                PVDF has many promising properties, such as high piezoelectric
-                voltage sensitivity, chemical inertness, high strength and
-                resistance to heat generation, as well as its low protein binding
-                properties inherent flexibility, light weight and its responsiveness
-                over a wide frequency range.
-              </p>
-              <p>
-                These key features make PVDF a promising component in tactile
-                sensors; as sterilizing filters in the preparation of medication; or as
-                a filter for analytical techniques such as HPLC, where little-to-no
-                particulates should be present.
-              </p>
-              <p>
-                PVDF has a non-specific affinity for amino acids, making artificial
-                PVDF membranes very useful for the immobilization of proteins in
-                western blots and, due to its resistance to solvents, these
-                membranes can be reused. SNC is able to electrospin PVDF for
-                these and other applications, including semiconductor and lithium
-                ion battery material.
-              </p>
+              {product.description.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
             </motion.div>
           </div>
         </div>
@@ -223,7 +186,7 @@ export default function AirFiltrationMembranePage() {
             className="text-center mb-10"
           >
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              PVDF Specifications
+              {product.specifications.heading}
             </h2>
             <p className="text-sm text-gray-500 mt-1">
               <Link href="/contact" className="text-blue-600 hover:underline">
@@ -234,25 +197,34 @@ export default function AirFiltrationMembranePage() {
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            <SpecCard title="Spinnability Options" color="bg-blue-700">
-              <SpecRow label="Pure" checked />
-              <SpecRow label="Blend" checked />
-            </SpecCard>
-
-            <SpecCard title="Construction" color="bg-amber-600">
-              <SpecRow label="Free-Standing" checked />
-              <SpecRow label="On Substrate" checked />
-            </SpecCard>
-
-            <SpecCard title="Fiber Diameter" color="bg-blue-700">
-              <p className="text-gray-800 text-sm mt-2">100-600 nm</p>
-            </SpecCard>
-
-            <SpecCard title="Planar Density Range" color="bg-amber-600">
-              <p className="text-gray-800 text-sm mt-2">
-                0.5-13.5 g/m&sup2;
-              </p>
-            </SpecCard>
+            {product.specifications.groups.map((group, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-white rounded-lg border border-gray-200 p-4 shadow-sm"
+              >
+                <div
+                  className={`${
+                    group.color === "blue" ? "bg-blue-700" : "bg-amber-600"
+                  } text-white text-xs font-semibold px-4 py-1.5 rounded-full inline-block`}
+                >
+                  {group.title}
+                </div>
+                <div className="mt-3">
+                  {group.items
+                    ? group.items.map((item, j) => (
+                        <div key={j} className="flex items-center justify-between py-1">
+                          <span className="text-sm text-gray-700">{item.label}</span>
+                          {item.checked && <Check className="w-4 h-4 text-green-600" />}
+                        </div>
+                      ))
+                    : <p className="text-gray-800 text-sm mt-2">{group.value}</p>
+                  }
+                </div>
+              </motion.div>
+            ))}
           </div>
 
           <motion.div
@@ -265,10 +237,15 @@ export default function AirFiltrationMembranePage() {
               Formats
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white border border-t-0 border-gray-200 rounded-b-lg p-6">
-              <FormatItem label="Rolls" icon="roll" />
-              <FormatItem label="Sheets (20x30)" icon="sheet-large" />
-              <FormatItem label="Sheets (10x10)" icon="sheet-small" />
-              <FormatItem label="Custom" subtitle="(e.g. patches, masks)" icon="custom" />
+              {product.specifications.formats.map((fmt, i) => (
+                <div key={i} className="flex flex-col items-center text-center gap-2">
+                  <FormatIcon icon={fmt.icon} />
+                  <span className="text-xs font-medium text-gray-700">{fmt.label}</span>
+                  {fmt.subtitle && (
+                    <span className="text-[10px] text-gray-500">{fmt.subtitle}</span>
+                  )}
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>
@@ -277,51 +254,8 @@ export default function AirFiltrationMembranePage() {
   );
 }
 
-function SpecCard({
-  title,
-  color,
-  children,
-}: {
-  title: string;
-  color: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      className="bg-white rounded-lg border border-gray-200 p-4 shadow-sm"
-    >
-      <div
-        className={`${color} text-white text-xs font-semibold px-4 py-1.5 rounded-full inline-block`}
-      >
-        {title}
-      </div>
-      <div className="mt-3">{children}</div>
-    </motion.div>
-  );
-}
-
-function SpecRow({ label, checked }: { label: string; checked?: boolean }) {
-  return (
-    <div className="flex items-center justify-between py-1">
-      <span className="text-sm text-gray-700">{label}</span>
-      {checked && <Check className="w-4 h-4 text-green-600" />}
-    </div>
-  );
-}
-
-function FormatItem({
-  label,
-  subtitle,
-  icon,
-}: {
-  label: string;
-  subtitle?: string;
-  icon: string;
-}) {
-  const iconMap: Record<string, React.ReactNode> = {
+function FormatIcon({ icon }: { icon: string }) {
+  const icons: Record<string, React.ReactNode> = {
     roll: (
       <svg viewBox="0 0 48 48" className="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <ellipse cx="24" cy="14" rx="12" ry="6" />
@@ -353,13 +287,5 @@ function FormatItem({
     ),
   };
 
-  return (
-    <div className="flex flex-col items-center text-center gap-2">
-      {iconMap[icon]}
-      <span className="text-xs font-medium text-gray-700">{label}</span>
-      {subtitle && (
-        <span className="text-[10px] text-gray-500">{subtitle}</span>
-      )}
-    </div>
-  );
+  return <>{icons[icon] || null}</>;
 }

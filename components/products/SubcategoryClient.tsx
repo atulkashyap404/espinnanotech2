@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { ProductCard } from "@/components/products/ProductCard";
 import { PRODUCTS } from "@/lib/constants/products";
+import { MEMBRANE_PRODUCTS } from "@/lib/constants/membrane-products";
+import { MembraneDetailClient } from "./MembraneDetailClient";
 import { NavigationButtons } from "./NavigationButtons";
 import { useRouter } from "next/navigation";
 
@@ -12,6 +14,12 @@ interface SubcategoryClientProps {
 
 export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
   const router = useRouter();
+  const membraneProduct = MEMBRANE_PRODUCTS[subcategory];
+
+  if (membraneProduct) {
+    return <MembraneDetailClient product={membraneProduct} />;
+  }
+
   const products = PRODUCTS[subcategory as keyof typeof PRODUCTS] || [];
 
   const handleProductClick = (productId: string) => {
@@ -21,7 +29,6 @@ export function SubcategoryClient({ subcategory }: SubcategoryClientProps) {
   return (
     <main className="min-h-screen pt-20">
       <div className="relative h-[20vh] flex items-center justify-center overflow-hidden">
-        {/* Video Background */}
         <video
           className="absolute inset-0 w-full h-full object-cover"
           autoPlay
