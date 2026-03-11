@@ -14,8 +14,18 @@ interface MembraneDetailClientProps {
 export function MembraneDetailClient({ productPage }: MembraneDetailClientProps) {
   return (
     <main className="min-h-screen bg-white pt-20">
-      <div className="text-center py-8 bg-gray-100">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+      <div className="relative text-center py-16 md:py-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/membrane-header-bg.jpeg"
+            alt="Nanofiber membrane background"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+        <h1 className="relative z-10 text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
           {productPage.pageTitle}
         </h1>
       </div>
@@ -74,7 +84,7 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
                       aria-label={`View ${item.subtitle} image ${i + 1} of ${item.images.length}`}
                       className={`relative w-20 h-16 rounded-md overflow-hidden border-2 transition-all ${
                         selectedImage === i
-                          ? "border-blue-500 shadow-md"
+                          ? "border-red-500 shadow-md"
                           : "border-gray-200 hover:border-gray-400"
                       }`}
                     >
@@ -97,7 +107,7 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
               transition={{ duration: 0.5, delay: 0.1 }}
               className="space-y-6"
             >
-              <div>
+              {/* <div>
                 <table className="max-w-xs text-sm">
                   <thead>
                     <tr>
@@ -122,25 +132,25 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
                     ))}
                   </tbody>
                 </table>
-              </div>
+              </div> */}
 
               <ul className="space-y-2">
                 {item.highlights.map((highlight, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                    <span className="mt-1 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
+                    <span className="mt-1 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0" />
                     {highlight}
                   </li>
                 ))}
               </ul>
 
               <div className="flex items-center gap-3 text-sm text-gray-600">
-                <Truck className="w-8 h-8 text-blue-600" />
-                <span className="font-medium text-blue-700">{item.deliveryTime}</span>
+                <Truck className="w-8 h-8 text-red-600" />
+                <span className="font-medium text-red-700">{item.deliveryTime}</span>
               </div>
 
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold tracking-wider text-sm px-8 py-3 rounded transition-colors"
+                className="inline-flex items-center gap-2 bg-black hover:bg-red-700 text-white font-semibold tracking-wider text-sm px-8 py-3 rounded transition-colors"
               >
                 GET FREE QUOTE
                 <ChevronRight className="w-4 h-4" />
@@ -207,7 +217,7 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
               {item.specifications.heading}
             </h3>
             <p className="text-sm text-gray-500 mt-1">
-              <Link href="/contact" className="text-blue-600 hover:underline">
+              <Link href="/contact" className="text-red-600 hover:underline">
                 Contact us
               </Link>{" "}
               for any custom specification requirements
@@ -225,7 +235,7 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
               >
                 <div
                   className={`${
-                    group.color === "blue" ? "bg-blue-700" : "bg-amber-600"
+                    group.color === "blue" ? "bg-red-700" : "bg-red-600"
                   } text-white text-xs font-semibold px-4 py-1.5 rounded-full inline-block`}
                 >
                   {group.title}
@@ -251,7 +261,7 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
             viewport={{ once: true }}
             className="mt-8 max-w-3xl mx-auto"
           >
-            <div className="bg-blue-700 text-white text-center text-sm font-semibold py-2 rounded-t-lg">
+            <div className="bg-red-700 text-white text-center text-sm font-semibold py-2 rounded-t-lg">
               Formats
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white border border-t-0 border-gray-200 rounded-b-lg p-6">
