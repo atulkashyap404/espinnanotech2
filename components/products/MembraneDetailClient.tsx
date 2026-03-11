@@ -49,41 +49,36 @@ export function MembraneDetailClient({ productPage }: MembraneDetailClientProps)
           <div className="absolute inset-0 bg-black/50" />
         </div>
 
-        <div className="relative z-10 flex items-center justify-center gap-6 px-4">
-          {prevPage ? (
-            <button
-              onClick={() => router.push(`/products/${category}/${prevPage.id}`)}
-              className="bg-white/20 hover:bg-white/40 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 backdrop-blur-sm"
-              aria-label={`Previous: ${prevPage.title}`}
-              title={prevPage.title}
-            >
-              <ArrowLeft className="h-6 w-6" />
-            </button>
-          ) : (
-            <div className="w-12" />
-          )}
-
-          <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
-            {productPage.pageTitle}
-          </h1>
-
-          {nextPage ? (
-            <button
-              onClick={() => router.push(`/products/${category}/${nextPage.id}`)}
-              className="bg-white/20 hover:bg-white/40 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 backdrop-blur-sm"
-              aria-label={`Next: ${nextPage.title}`}
-              title={nextPage.title}
-            >
-              <ArrowRight className="h-6 w-6" />
-            </button>
-          ) : (
-            <div className="w-12" />
-          )}
-        </div>
+        <h1 className="relative z-10 text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
+          {productPage.pageTitle}
+        </h1>
       </div>
       {productPage.items.map((item, index) => (
         <MembraneItemSection key={item.id} item={item} isFirst={index === 0} />
       ))}
+
+      <div className="fixed bottom-8 left-8 flex gap-4 z-50">
+        {prevPage && (
+          <button
+            onClick={() => router.push(`/products/${category}/${prevPage.id}`)}
+            className="bg-black/80 hover:bg-black text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
+            aria-label={`Previous: ${prevPage.title}`}
+            title={prevPage.title}
+          >
+            <ArrowLeft className="h-6 w-6" />
+          </button>
+        )}
+        {nextPage && (
+          <button
+            onClick={() => router.push(`/products/${category}/${nextPage.id}`)}
+            className="bg-black/80 hover:bg-black text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
+            aria-label={`Next: ${nextPage.title}`}
+            title={nextPage.title}
+          >
+            <ArrowRight className="h-6 w-6" />
+          </button>
+        )}
+      </div>
     </main>
   );
 }
