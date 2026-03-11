@@ -5,7 +5,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
     items: [
       {
         id: "pvdf",
-        title: "PVDF (Polyvinylidene difluoride) Nanofiber",
+        title: "Electrospun PVDF Nanofiber Membrane",
         subtitle: "Electrospun PVDF (Polyvinylidene difluoride) Nanofiber",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -25,51 +25,56 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Air filtration membranes",
+          "Gas separation systems",
+          "Sensors and piezoelectric devices",
+          "Semiconductor processing",
+          "Battery separators for energy storage systems",
+        ],
         description: {
           heading: "PVDF Product Description",
           image: "/product categories/Air Filtration Membrane 1.jpg",
           paragraphs: [
-            "Polyvinylidene fluoride, or polyvinylidene difluoride (PVDF) is a non-reactive thermoplastic fluoropolymer, with strong piezoelectric properties.",
-            "PVDF has many promising properties, such as high piezoelectric voltage sensitivity, chemical inertness, high strength and resistance to heat generation, as well as its low protein binding properties inherent flexibility, light weight and its responsiveness over a wide frequency range.",
-            "These key features make PVDF a promising component in tactile sensors; as sterilizing filters in the preparation of medication; or as a filter for analytical techniques such as HPLC, where little-to-no particulates should be present.",
-            "PVDF has a non-specific affinity for amino acids, making artificial PVDF membranes very useful for the immobilization of proteins in western blots and, due to its resistance to solvents, these membranes can be reused. SNC is able to electrospin PVDF for these and other applications, including semiconductor and lithium ion battery material.",
+            "E-Spin Nanotech manufactures high-performance electrospun PVDF nanofiber membranes designed for advanced filtration, sensing, and energy storage applications. Polyvinylidene difluoride (PVDF) is a chemically stable thermoplastic fluoropolymer known for its excellent mechanical strength, thermal stability, and strong piezoelectric properties. It is lightweight, flexible, chemically inert, and highly durable under demanding operating conditions, making it an ideal material for functional nanofiber membranes.",
+            "Electrospun PVDF membranes possess high porosity, ultrafine fibre diameter, and strong electrostatic properties, which enable efficient capture of fine particulate matter in air filtration systems. Their controlled pore structure and chemical resistance also make them suitable for gas separation and advanced filtration processes.",
+            "Due to their intrinsic piezoelectric behaviour, PVDF nanofibers are widely used in sensor technologies, where they convert mechanical stimuli such as pressure, vibration, or motion into electrical signals. Additionally, PVDF nanofiber membranes are widely used in energy storage systems, particularly as lithium-ion battery separators, where they provide excellent electrolyte compatibility, thermal stability, and mechanical integrity.",
           ],
         },
         specifications: {
-          heading: "PVDF Specifications",
+          heading: "PVDF Membrane Specifications",
           groups: [
             {
-              title: "Spinnability Options",
+              title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
+                { label: "Pure PVDF", checked: true },
+                { label: "PVDF blended with polymers, drugs, nanoparticles", checked: true },
               ],
             },
             {
-              title: "Construction",
+              title: "Membrane Construction",
               color: "amber",
               items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
+                { label: "Free-standing nanofiber membrane", checked: true },
+                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
-              title: "Fiber Diameter",
+              title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100-600 nm",
+              value: "100 \u2013 300 nm",
             },
             {
-              title: "Planar Density Range",
+              title: "Thickness & Weight Density",
               color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
+              value: "60\u2013100 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
@@ -95,58 +100,62 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Battery separators for energy storage systems",
+          "Air filtration membranes",
+          "Water filtration and purification",
+          "Sensor and advanced functional materials",
+        ],
         description: {
           heading: "Polysulfone Product Description",
           image: "/product categories/Air Filtration Membrane 1.jpg",
           paragraphs: [
-            "Polysulfone (PSU) is a high-performance thermoplastic polymer known for its excellent thermal stability, mechanical strength, and chemical resistance.",
-            "Polysulfone membranes exhibit outstanding properties including high glass transition temperature, good oxidative stability, and resistance to mineral acids, alkali, and electrolytes, making them suitable for demanding filtration applications.",
-            "These key features make Polysulfone an ideal material for air filtration membranes, water treatment systems, and medical device applications where biocompatibility and durability are critical requirements.",
-            "Polysulfone nanofiber membranes offer superior filtration efficiency due to their high surface area-to-volume ratio. SNC is able to electrospin Polysulfone for air filtration, liquid filtration, and various industrial separation applications.",
+            "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems.",
+            "Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
+            "In addition to energy storage systems, these membranes are also suitable for a wide range of applications, including air filtration, water purification, and sensor technologies, where high surface area and controlled porosity are essential for performance.",
           ],
         },
         specifications: {
-          heading: "Polysulfone Specifications",
+          heading: "Polysulfone Membrane Specifications",
           groups: [
             {
-              title: "Spinnability Options",
+              title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
+                { label: "Pure Polysulfone", checked: true },
+                { label: "Blended with polymers, nanoparticles, additives", checked: true },
               ],
             },
             {
-              title: "Construction",
+              title: "Membrane Construction",
               color: "amber",
               items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
+                { label: "Free-standing nanofiber membrane", checked: true },
+                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
-              title: "Fiber Diameter",
+              title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100-600 nm",
+              value: "200 \u2013 500 nm",
             },
             {
-              title: "Planar Density Range",
+              title: "Thickness & Weight Density",
               color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
+              value: "50\u201380 \u00B5m | Up to 4.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
       {
         id: "nylon",
-        title: "Nylon Nanofiber Membrane",
-        subtitle: "Electrospun Nylon Nanofiber Membrane",
+        title: "Nylon 6 Nanofiber Membrane",
+        subtitle: "Electrospun Nylon 6 (Polyamide 6) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
           "/product categories/Air Filtration Membrane 1.jpg",
@@ -165,57 +174,61 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Air filtration membranes",
+          "Protective and functional textiles",
+          "Industrial separation processes",
+          "Advanced filtration systems",
+        ],
         description: {
-          heading: "Nylon Product Description",
+          heading: "Nylon 6 Product Description",
           image: "/product categories/Air Filtration Membrane 1.jpg",
           paragraphs: [
-            "Nylon (Polyamide) is a versatile synthetic polymer widely recognized for its exceptional mechanical strength, abrasion resistance, and flexibility in various industrial applications.",
-            "Nylon nanofiber membranes exhibit remarkable properties including high tensile strength, excellent elasticity, good chemical resistance to hydrocarbons and solvents, and superior durability under continuous use conditions.",
-            "These key features make Nylon an excellent choice for air filtration applications, protective textiles, and biomedical uses where mechanical robustness and filtration efficiency are essential requirements.",
-            "Nylon nanofiber membranes provide enhanced particulate capture efficiency due to their fine fiber diameter and interconnected pore structure. SNC is able to electrospin Nylon for air filtration, water treatment, and protective barrier applications.",
+            "E-Spin Nanotech manufactures high-quality electrospun Nylon 6 nanofiber membranes designed for advanced filtration and functional material applications. Nylon 6 (polyamide 6) is a widely used engineering polymer known for its excellent mechanical strength, abrasion resistance, chemical stability, and good thermal properties, making it suitable for durable nanofiber membrane systems.",
+            "Electrospun Nylon 6 nanofiber membranes possess high porosity, interconnected pore structure, and ultrafine fibre diameters, which provide excellent permeability and high surface area. These characteristics enable efficient capture of fine particles, making them highly effective for air filtration and liquid filtration applications.",
+            "Due to their strong mechanical properties and chemical resistance, Nylon 6 nanofiber membranes are also suitable for nanofiber coating, protective textiles, and advanced separation technologies. Their flexibility and durability allow them to perform reliably in demanding environmental and industrial conditions.",
           ],
         },
         specifications: {
-          heading: "Nylon Specifications",
+          heading: "Nylon 6 Membrane Specifications",
           groups: [
             {
-              title: "Spinnability Options",
+              title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
+                { label: "Pure PA6/PA66", checked: true },
+                { label: "Blended with polymers, nanoparticles, additives", checked: true },
               ],
             },
             {
-              title: "Construction",
+              title: "Membrane Construction",
               color: "amber",
               items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
+                { label: "Free-standing nanofiber membrane", checked: true },
+                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
-              title: "Fiber Diameter",
+              title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100-600 nm",
+              value: "50 \u2013 150 nm",
             },
             {
-              title: "Planar Density Range",
+              title: "Thickness & Weight Density",
               color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
+              value: "50\u2013120 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
       {
         id: "pan",
-        title: "PAN (Polyacrylonitrile) Nanofiber Membrane",
+        title: "PAN Nanofiber Membrane",
         subtitle: "Electrospun PAN (Polyacrylonitrile) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -235,57 +248,62 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Air filtration membranes",
+          "Water filtration and purification",
+          "Energy storage materials and battery components",
+          "Carbon nanofiber precursor materials",
+          "Sensors and advanced functional materials",
+        ],
         description: {
           heading: "PAN Product Description",
           image: "/product categories/Air Filtration Membrane 1.jpg",
           paragraphs: [
-            "Polyacrylonitrile (PAN) is a synthetic, semi-crystalline organic polymer renowned for its excellent chemical stability, thermal resistance, and mechanical properties in filtration applications.",
-            "PAN nanofiber membranes demonstrate outstanding properties including high chemical resistance, excellent UV stability, good thermal endurance, and superior solvent resistance, making them ideal for harsh environment filtration.",
-            "These key features make PAN a preferred material for air filtration, water purification, and as a precursor for carbon nanofiber production where high-performance filtration is demanded.",
-            "PAN nanofiber membranes deliver exceptional filtration performance with high flux rates and low pressure drop characteristics. SNC is able to electrospin PAN for air filtration, liquid filtration, and advanced composite reinforcement applications.",
+            "E-Spin Nanotech manufactures high-quality electrospun PAN (Polyacrylonitrile) nanofiber membranes designed for advanced filtration, energy, and functional material applications. Polyacrylonitrile is a widely used polymer known for its excellent mechanical strength, chemical resistance, and thermal stability, making it a reliable material for nanofiber membrane fabrication.",
+            "Electrospun PAN nanofiber membranes exhibit high porosity, interconnected pore structure, and ultrafine fiber diameter, which provide a large surface area and excellent permeability. These characteristics make them highly effective for air filtration, water purification, and fine particle removal.",
+            "PAN nanofiber membranes also serve as an important precursor material for carbon nanofibers, making them valuable in energy storage devices, electrodes, and advanced composite materials. Their stable structure and tunable properties allow them to be tailored for specific industrial and research applications.",
           ],
         },
         specifications: {
-          heading: "PAN Specifications",
+          heading: "PAN Membrane Specifications",
           groups: [
             {
-              title: "Spinnability Options",
+              title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
+                { label: "Pure PAN powder", checked: true },
+                { label: "Blended with polymers, nanoparticles, additives", checked: true },
               ],
             },
             {
-              title: "Construction",
+              title: "Membrane Construction",
               color: "amber",
               items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
+                { label: "Free-standing nanofiber membrane", checked: true },
+                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
-              title: "Fiber Diameter",
+              title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100-600 nm",
+              value: "100 \u2013 500 nm",
             },
             {
-              title: "Planar Density Range",
+              title: "Thickness & Weight Density",
               color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
+              value: "50\u2013100 \u00B5m | Up to 6.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
       {
         id: "pva",
-        title: "PVA (Polyvinyl Alcohol) Nanofiber Membrane",
+        title: "PVA Nanofiber Membrane",
         subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
@@ -305,51 +323,55 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Drug delivery",
+          "Biomedical and healthcare materials",
+          "Functional coatings",
+          "Environmental remediation and adsorption systems",
+        ],
         description: {
           heading: "PVA Product Description",
           image: "/product categories/Air Filtration Membrane 1.jpg",
           paragraphs: [
-            "Polyvinyl Alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming, emulsifying, and adhesive properties, widely used in biomedical and filtration applications.",
-            "PVA nanofiber membranes exhibit remarkable properties including high hydrophilicity, excellent biocompatibility, good mechanical strength, and superior chemical resistance to organic solvents and oils.",
-            "These key features make PVA an outstanding material for air filtration membranes, wound dressing, tissue engineering scaffolds, and drug delivery systems where biocompatibility is a primary requirement.",
-            "PVA nanofiber membranes offer excellent wettability and can be cross-linked to improve water resistance for extended use applications. SNC is able to electrospin PVA for air filtration, biomedical devices, and food packaging applications.",
+            "E-Spin Nanotech manufactures advanced electrospun PVA nanofiber membranes designed for a wide range of filtration and functional material applications. Polyvinyl alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming ability, high hydrophilicity, good mechanical properties, and biocompatibility.",
+            "Electrospun PVA nanofiber membranes exhibit high porosity, interconnected pore structure, and ultrafine fibre diameter, which provide large surface area and efficient transport properties. These characteristics make them highly suitable for drug delivery, biomedical materials, and functional coatings.",
+            "Due to their hydrophilic nature and chemical versatility, PVA nanofibers can also be easily modified or crosslinked to enhance their stability and performance for specific applications such as adsorption, separation processes, and environmental remediation.",
           ],
         },
         specifications: {
-          heading: "PVA Specifications",
+          heading: "PVA Membrane Specifications",
           groups: [
             {
-              title: "Spinnability Options",
+              title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
+                { label: "Pure PVA", checked: true },
+                { label: "Blended with chitosan, gelatine, nanoparticles, additives", checked: true },
               ],
             },
             {
-              title: "Construction",
+              title: "Membrane Construction",
               color: "amber",
               items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
+                { label: "Free-standing nanofiber membrane", checked: true },
+                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
-              title: "Fiber Diameter",
+              title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100-600 nm",
+              value: "100 \u2013 600 nm",
             },
             {
-              title: "Planar Density Range",
+              title: "Thickness & Weight Density",
               color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
+              value: "50\u2013100 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
+            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
@@ -879,6 +901,7 @@ export interface MembraneProduct {
   pricing: { moq: string; price: string }[];
   highlights: string[];
   deliveryTime: string;
+  applications?: string[];
   description: {
     heading: string;
     image: string;

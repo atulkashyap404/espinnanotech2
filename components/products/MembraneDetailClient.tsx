@@ -207,6 +207,37 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
         </div>
       </section>
 
+      {item.applications && item.applications.length > 0 && (
+        <section className="py-10 md:py-14 bg-white">
+          <div className="max-w-5xl mx-auto px-4">
+            <motion.h3
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8"
+            >
+              Key Applications
+            </motion.h3>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto"
+            >
+              {item.applications.map((app, i) => (
+                <div
+                  key={i}
+                  className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg px-4 py-3"
+                >
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0" />
+                  <span className="text-sm text-gray-800">{app}</span>
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+      )}
+
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <motion.h3

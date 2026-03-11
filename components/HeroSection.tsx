@@ -12,12 +12,12 @@ import { Cover } from "@/components/ui/cover";
 // ] as const;
 
 const FLASH_POPUPS = [
-  { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 300 },
-  { text: "Electrospinning", top: "70%", left: "20%", delay: 600 },
-  { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 900 },
-  { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1200 },
-  { text: "Polymer Solutions", top: "80%", left: "45%", delay: 1500 },
-  { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 1800 },
+  { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 900 },
+  { text: "Electrospinning", top: "70%", left: "20%", delay: 1200 },
+  { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 1500 },
+  { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1800 },
+  { text: "Polymer Solutions", top: "80%", left: "45%", delay: 2100 },
+  { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 2400 },
 ];
 
 export function HeroSection() {
@@ -30,11 +30,11 @@ export function HeroSection() {
   useEffect(() => {
     const contentTimer = setTimeout(() => {
       setShowContent(true);
-    }, 2000);
+    }, 3000);
 
     const overlayTimer = setTimeout(() => {
       setOverlayOpacity(0.4);
-    }, 2000);
+    }, 3000);
 
     const showTimers: ReturnType<typeof setTimeout>[] = [];
     const hideTimers: ReturnType<typeof setTimeout>[] = [];
@@ -107,7 +107,7 @@ export function HeroSection() {
       </div>
 
       <div
-        className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-1000 ${
+        className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
           showContent ? "opacity-100" : "opacity-0"
         }`}
       >
