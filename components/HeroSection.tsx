@@ -11,17 +11,21 @@ import { Cover } from "@/components/ui/cover";
 //   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 // ] as const;
 
-const VIDEO_POPUPS = [
-  { text: "Spinning Hollow Fiber", delay: 5000 },
-  { text: "Electrospinning Technology", delay: 7000 },
-  { text: "Nanofiber Membrane Solutions", delay: 9000 },
-  { text: "Advanced Filtration Systems", delay: 11000 },
+const FLASH_POPUPS = [
+  { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 300 },
+  { text: "Electrospinning", top: "70%", left: "20%", delay: 600 },
+  { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 900 },
+  { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1200 },
+  { text: "Polymer Solutions", top: "80%", left: "45%", delay: 1500 },
+  { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 1800 },
 ];
 
 export function HeroSection() {
   const [showContent, setShowContent] = useState(false);
   const [overlayOpacity, setOverlayOpacity] = useState(0);
-  const [activePopup, setActivePopup] = useState(-1);
+  const [visiblePopups, setVisiblePopups] = useState<boolean[]>(
+    new Array(FLASH_POPUPS.length).fill(false)
+  );
 
   useEffect(() => {
     const contentTimer = setTimeout(() => {
@@ -32,16 +36,35 @@ export function HeroSection() {
       setOverlayOpacity(0.4);
     }, 2000);
 
-    const popupTimers = VIDEO_POPUPS.map((popup, index) =>
-      setTimeout(() => {
-        setActivePopup(index);
-      }, popup.delay)
-    );
+    const showTimers: ReturnType<typeof setTimeout>[] = [];
+    const hideTimers: ReturnType<typeof setTimeout>[] = [];
+
+    FLASH_POPUPS.forEach((popup, index) => {
+      const showTimer = setTimeout(() => {
+        setVisiblePopups((prev) => {
+          const next = [...prev];
+          next[index] = true;
+          return next;
+        });
+      }, popup.delay);
+
+      const hideTimer = setTimeout(() => {
+        setVisiblePopups((prev) => {
+          const next = [...prev];
+          next[index] = false;
+          return next;
+        });
+      }, popup.delay + 700);
+
+      showTimers.push(showTimer);
+      hideTimers.push(hideTimer);
+    });
 
     return () => {
       clearTimeout(contentTimer);
       clearTimeout(overlayTimer);
-      popupTimers.forEach(clearTimeout);
+      showTimers.forEach(clearTimeout);
+      hideTimers.forEach(clearTimeout);
     };
   }, []);
 
@@ -64,24 +87,23 @@ export function HeroSection() {
         style={{ opacity: overlayOpacity }}
       />
 
-      {/* Popup headings that appear after 5 seconds */}
-      <div className="absolute inset-0 z-[15] flex items-center justify-end pr-8 md:pr-16 pointer-events-none">
-        <div className="flex flex-col items-end gap-3">
-          {VIDEO_POPUPS.map((popup, index) => (
-            <div
-              key={index}
-              className={`transition-all duration-700 ease-out ${
-                activePopup >= index
-                  ? "opacity-100 translate-x-0"
-                  : "opacity-0 translate-x-12"
-              }`}
-            >
-              <span className="bg-red-600/90 backdrop-blur-sm text-white px-5 py-2 rounded-lg text-sm md:text-lg font-semibold shadow-lg inline-block">
-                {popup.text}
-              </span>
-            </div>
-          ))}
-        </div>
+      {/* Flash popups scattered across the screen - appear and disappear before main content */}
+      <div className="absolute inset-0 z-[15] pointer-events-none">
+        {FLASH_POPUPS.map((popup, index) => (
+          <div
+            key={index}
+            className={`absolute transition-all duration-500 ease-out ${
+              visiblePopups[index]
+                ? "opacity-100 scale-100"
+                : "opacity-0 scale-50"
+            }`}
+            style={{ top: popup.top, left: popup.left }}
+          >
+            <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+              {popup.text}
+            </span>
+          </div>
+        ))}
       </div>
 
       <div
