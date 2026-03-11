@@ -11,9 +11,17 @@ import { Cover } from "@/components/ui/cover";
 //   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 // ] as const;
 
+const VIDEO_POPUPS = [
+  { text: "Spinning Hollow Fiber", delay: 5000 },
+  { text: "Electrospinning Technology", delay: 7000 },
+  { text: "Nanofiber Membrane Solutions", delay: 9000 },
+  { text: "Advanced Filtration Systems", delay: 11000 },
+];
+
 export function HeroSection() {
   const [showContent, setShowContent] = useState(false);
   const [overlayOpacity, setOverlayOpacity] = useState(0);
+  const [activePopup, setActivePopup] = useState(-1);
 
   useEffect(() => {
     const contentTimer = setTimeout(() => {
@@ -24,9 +32,16 @@ export function HeroSection() {
       setOverlayOpacity(0.4);
     }, 2000);
 
+    const popupTimers = VIDEO_POPUPS.map((popup, index) =>
+      setTimeout(() => {
+        setActivePopup(index);
+      }, popup.delay)
+    );
+
     return () => {
       clearTimeout(contentTimer);
       clearTimeout(overlayTimer);
+      popupTimers.forEach(clearTimeout);
     };
   }, []);
 
@@ -49,6 +64,26 @@ export function HeroSection() {
         style={{ opacity: overlayOpacity }}
       />
 
+      {/* Popup headings that appear after 5 seconds */}
+      <div className="absolute inset-0 z-[15] flex items-center justify-end pr-8 md:pr-16 pointer-events-none">
+        <div className="flex flex-col items-end gap-3">
+          {VIDEO_POPUPS.map((popup, index) => (
+            <div
+              key={index}
+              className={`transition-all duration-700 ease-out ${
+                activePopup >= index
+                  ? "opacity-100 translate-x-0"
+                  : "opacity-0 translate-x-12"
+              }`}
+            >
+              <span className="bg-red-600/90 backdrop-blur-sm text-white px-5 py-2 rounded-lg text-sm md:text-lg font-semibold shadow-lg inline-block">
+                {popup.text}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div
         className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-1000 ${
           showContent ? "opacity-100" : "opacity-0"
@@ -64,17 +99,6 @@ export function HeroSection() {
           various applications, enabling advanced material development and
           groundbreaking research.
         </p>
-
-        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40 text-xl">
-          {SERVICES.map((service, index) => (
-            <ServiceCard
-              // ✅ Fix: use `index` or a more unique value instead of empty `service.number`
-              key={`service-${index}`}
-              {...service}
-              className={`transition-transform duration-1000 delay-${index * 200}`}
-            />
-          ))}
-        </div> */}
       </div>
     </section>
   );
