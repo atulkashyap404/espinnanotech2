@@ -386,8 +386,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Electrospun PVDF Nanofiber Membrane",
         subtitle: "Electrospun PVDF (Polyvinylidene difluoride) Nanofiber",
         images: [
+          "/product categories/pvdf-sem-ionexchange.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/product categories/Air Filtration Membrane 1.jpg",
           "/membrane.jpeg",
         ],
         pricing: [
@@ -411,8 +411,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Battery separators for energy storage systems",
         ],
         description: {
-          heading: "PVDF Product Description",
-          image: "/product categories/Air Filtration Membrane 1.jpg",
+          heading: "Product Description",
+          image: "/product categories/pvdf-sem-ionexchange.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-performance electrospun PVDF nanofiber membranes designed for advanced filtration, sensing, and energy storage applications. Polyvinylidene difluoride (PVDF) is a chemically stable thermoplastic fluoropolymer known for its excellent mechanical strength, thermal stability, and strong piezoelectric properties. It is lightweight, flexible, chemically inert, and highly durable under demanding operating conditions, making it an ideal material for functional nanofiber membranes.",
             "Electrospun PVDF membranes possess high porosity, ultrafine fibre diameter, and strong electrostatic properties, which enable efficient capture of fine particulate matter in air filtration systems. Their controlled pore structure and chemical resistance also make them suitable for gas separation and advanced filtration processes.",
@@ -444,14 +444,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               value: "100 – 300 nm",
             },
             {
-              title: "Thickness and Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
               value: "Thickness 60-100 µm, Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10×10 cm, 14×28 cm, 25×200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 × 10 cm, 14 × 28 cm, 25 × 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
@@ -461,8 +461,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Polysulfone Nanofiber Membrane",
         subtitle: "Electrospun Polysulfone Nanofiber Membrane",
         images: [
+          "/product categories/polysulfone-sem-ionexchange.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/product categories/Air Filtration Membrane 1.jpg",
           "/membrane.jpeg",
         ],
         pricing: [
@@ -485,8 +485,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Sensor and advanced functional materials",
         ],
         description: {
-          heading: "Polysulfone Product Description",
-          image: "/product categories/Air Filtration Membrane 1.jpg",
+          heading: "Product Description",
+          image: "/product categories/polysulfone-sem-ionexchange.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems.",
             "Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
@@ -518,14 +518,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               value: "200 – 500 nm",
             },
             {
-              title: "Thickness and Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
               value: "Thickness 50-80 µm, Up to 4.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10×10 cm, 14×28 cm, 25×200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 × 10 cm, 14 × 28 cm, 25 × 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
