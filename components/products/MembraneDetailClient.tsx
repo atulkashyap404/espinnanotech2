@@ -1,17 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Truck, Check, ChevronRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { Truck, Check, ChevronRight, ArrowLeft, ArrowRight } from "lucide-react";
 import type { MembraneProductPage, MembraneProduct } from "@/lib/constants/membrane-products";
+import { MEMBRANE_PRODUCTS } from "@/lib/constants/membrane-products";
+import { SUBCATEGORIES } from "@/lib/constants/products";
 
 interface MembraneDetailClientProps {
   productPage: MembraneProductPage;
 }
 
 export function MembraneDetailClient({ productPage }: MembraneDetailClientProps) {
+  const router = useRouter();
+
+  const { prevPage, nextPage, category } = useMemo(() => {
+    let cat = "";
+    for (const [catKey, subcats] of Object.entries(SUBCATEGORIES)) {
+      const found = subcats.find((s) => s.id === productPage.id);
+      if (found) {
+        cat = catKey;
+        break;
+      }
+    }
+
+    const siblings = SUBCATEGORIES[cat as keyof typeof SUBCATEGORIES] || [];
+    const currentIndex = siblings.findIndex((s) => s.id === productPage.id);
+    const prev = currentIndex > 0 ? siblings[currentIndex - 1] : null;
+    const next = currentIndex < siblings.length - 1 ? siblings[currentIndex + 1] : null;
+
+    return { prevPage: prev, nextPage: next, category: cat };
+  }, [productPage.id]);
+
   return (
     <main className="min-h-screen bg-white pt-20">
       <div className="relative text-center py-16 md:py-20 overflow-hidden">
@@ -25,9 +48,38 @@ export function MembraneDetailClient({ productPage }: MembraneDetailClientProps)
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
-        <h1 className="relative z-10 text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
-          {productPage.pageTitle}
-        </h1>
+
+        <div className="relative z-10 flex items-center justify-center gap-6 px-4">
+          {prevPage ? (
+            <button
+              onClick={() => router.push(`/products/${category}/${prevPage.id}`)}
+              className="bg-white/20 hover:bg-white/40 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 backdrop-blur-sm"
+              aria-label={`Previous: ${prevPage.title}`}
+              title={prevPage.title}
+            >
+              <ArrowLeft className="h-6 w-6" />
+            </button>
+          ) : (
+            <div className="w-12" />
+          )}
+
+          <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
+            {productPage.pageTitle}
+          </h1>
+
+          {nextPage ? (
+            <button
+              onClick={() => router.push(`/products/${category}/${nextPage.id}`)}
+              className="bg-white/20 hover:bg-white/40 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 backdrop-blur-sm"
+              aria-label={`Next: ${nextPage.title}`}
+              title={nextPage.title}
+            >
+              <ArrowRight className="h-6 w-6" />
+            </button>
+          ) : (
+            <div className="w-12" />
+          )}
+        </div>
       </div>
       {productPage.items.map((item, index) => (
         <MembraneItemSection key={item.id} item={item} isFirst={index === 0} />
