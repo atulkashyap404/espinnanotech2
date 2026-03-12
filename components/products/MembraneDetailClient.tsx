@@ -5,8 +5,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Truck, Check, ChevronRight, ArrowLeft, ArrowRight } from "lucide-react";
-import type { MembraneProductPage, MembraneProduct } from "@/lib/constants/membrane-products";
+import {
+  Truck,
+  Check,
+  ChevronRight,
+  ArrowLeft,
+  ArrowRight,
+} from "lucide-react";
+import type {
+  MembraneProductPage,
+  MembraneProduct,
+} from "@/lib/constants/membrane-products";
 import { MEMBRANE_PRODUCTS } from "@/lib/constants/membrane-products";
 import { SUBCATEGORIES } from "@/lib/constants/products";
 
@@ -14,7 +23,9 @@ interface MembraneDetailClientProps {
   productPage: MembraneProductPage;
 }
 
-export function MembraneDetailClient({ productPage }: MembraneDetailClientProps) {
+export function MembraneDetailClient({
+  productPage,
+}: MembraneDetailClientProps) {
   const router = useRouter();
 
   const { prevPage, nextPage, category } = useMemo(() => {
@@ -30,7 +41,8 @@ export function MembraneDetailClient({ productPage }: MembraneDetailClientProps)
     const siblings = SUBCATEGORIES[cat as keyof typeof SUBCATEGORIES] || [];
     const currentIndex = siblings.findIndex((s) => s.id === productPage.id);
     const prev = currentIndex > 0 ? siblings[currentIndex - 1] : null;
-    const next = currentIndex < siblings.length - 1 ? siblings[currentIndex + 1] : null;
+    const next =
+      currentIndex < siblings.length - 1 ? siblings[currentIndex + 1] : null;
 
     return { prevPage: prev, nextPage: next, category: cat };
   }, [productPage.id]);
@@ -83,7 +95,13 @@ export function MembraneDetailClient({ productPage }: MembraneDetailClientProps)
   );
 }
 
-function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst: boolean }) {
+function MembraneItemSection({
+  item,
+  isFirst,
+}: {
+  item: MembraneProduct;
+  isFirst: boolean;
+}) {
   const [selectedImage, setSelectedImage] = useState(0);
 
   return (
@@ -183,7 +201,10 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
 
               <ul className="space-y-2">
                 {item.highlights.map((highlight, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-gray-700"
+                  >
                     <span className="mt-1 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0" />
                     {highlight}
                   </li>
@@ -319,15 +340,23 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
                   {group.title}
                 </div>
                 <div className="mt-3">
-                  {group.items
-                    ? group.items.map((specItem, j) => (
-                        <div key={j} className="flex items-center justify-between py-1">
-                          <span className="text-sm text-gray-700">{specItem.label}</span>
-                          {specItem.checked && <Check className="w-4 h-4 text-green-600" />}
-                        </div>
-                      ))
-                    : <p className="text-gray-800 text-sm mt-2">{group.value}</p>
-                  }
+                  {group.items ? (
+                    group.items.map((specItem, j) => (
+                      <div
+                        key={j}
+                        className="flex items-center justify-between py-1"
+                      >
+                        <span className="text-sm text-gray-700">
+                          {specItem.label}
+                        </span>
+                        {specItem.checked && (
+                          <Check className="w-4 h-4 text-green-600" />
+                        )}
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-gray-800 text-sm mt-2">{group.value}</p>
+                  )}
                 </div>
               </motion.div>
             ))}
@@ -344,11 +373,18 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white border border-t-0 border-gray-200 rounded-b-lg p-6">
               {item.specifications.formats.map((fmt, i) => (
-                <div key={i} className="flex flex-col items-center text-center gap-2">
+                <div
+                  key={i}
+                  className="flex flex-col items-center text-center gap-2"
+                >
                   <FormatIcon icon={fmt.icon} />
-                  <span className="text-xs font-medium text-gray-700">{fmt.label}</span>
+                  <span className="text-xs font-medium text-gray-700">
+                    {fmt.label}
+                  </span>
                   {fmt.subtitle && (
-                    <span className="text-[10px] text-gray-500">{fmt.subtitle}</span>
+                    <span className="text-[10px] text-gray-500">
+                      {fmt.subtitle}
+                    </span>
                   )}
                 </div>
               ))}
@@ -363,14 +399,28 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
 function FormatIcon({ icon }: { icon: string }) {
   const icons: Record<string, React.ReactNode> = {
     roll: (
-      <svg viewBox="0 0 48 48" className="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <svg
+        viewBox="0 0 48 48"
+        className="w-10 h-10 text-gray-500"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        aria-hidden="true"
+      >
         <ellipse cx="24" cy="14" rx="12" ry="6" />
         <path d="M12 14v20c0 3.3 5.4 6 12 6s12-2.7 12-6V14" />
         <ellipse cx="24" cy="34" rx="12" ry="6" />
       </svg>
     ),
     "sheet-large": (
-      <svg viewBox="0 0 48 48" className="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <svg
+        viewBox="0 0 48 48"
+        className="w-10 h-10 text-gray-500"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        aria-hidden="true"
+      >
         <rect x="8" y="8" width="32" height="32" rx="2" />
         <line x1="8" y1="16" x2="40" y2="16" />
         <line x1="8" y1="24" x2="40" y2="24" />
@@ -378,14 +428,28 @@ function FormatIcon({ icon }: { icon: string }) {
       </svg>
     ),
     "sheet-small": (
-      <svg viewBox="0 0 48 48" className="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <svg
+        viewBox="0 0 48 48"
+        className="w-10 h-10 text-gray-500"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        aria-hidden="true"
+      >
         <rect x="12" y="12" width="24" height="24" rx="2" />
         <line x1="12" y1="20" x2="36" y2="20" />
         <line x1="12" y1="28" x2="36" y2="28" />
       </svg>
     ),
     custom: (
-      <svg viewBox="0 0 48 48" className="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <svg
+        viewBox="0 0 48 48"
+        className="w-10 h-10 text-gray-500"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        aria-hidden="true"
+      >
         <circle cx="24" cy="20" r="10" />
         <path d="M14 38c0-5.5 4.5-10 10-10s10 4.5 10 10" />
         <circle cx="36" cy="12" r="4" />

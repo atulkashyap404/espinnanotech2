@@ -57,9 +57,7 @@ export function Header() {
       {/* PDF Catalogue and Additional Button */}
       <div className="flex gap-4">
         <a
-          href={`https://drive.google.com/file/d/11Vi6jJfWGsI3VlU9UE6YdvjvFHu4hAmq/view?usp=sharing`}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/catalogue"
         >
           <Button
             variant="destructive"
