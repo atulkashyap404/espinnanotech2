@@ -533,15 +533,15 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
   },
   cosmeticmembranes: {
     id: "cosmeticmembranes",
-    pageTitle: "Cosmetic Membranes",
+    pageTitle: "Cosmetic Membrane",
     items: [
       {
         id: "pva",
-        title: "PVA (Polyvinyl Alcohol) Nanofiber Membrane",
-        subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber",
+        title: "PVA Nanofiber Membrane",
+        subtitle: "Electrospun PVA Nanofiber Cosmetic Membrane",
         images: [
+          "/product categories/pva-sem-cosmetic.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/product categories/Air Filtration Membrane 1.jpg",
           "/membrane.jpeg",
         ],
         pricing: [
@@ -557,14 +557,20 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Facial sheet masks and nano-fibre masks",
+          "Under-eye patches and beauty patches",
+          "Controlled release skincare delivery systems",
+          "Hydrating and moisturizing cosmetic membranes",
+          "Carrier layers for serums, vitamins, and cosmetic actives",
+        ],
         description: {
-          heading: "PVA Product Description",
-          image: "/product categories/Air Filtration Membrane 1.jpg",
+          heading: "Product Description",
+          image: "/product categories/pva-sem-cosmetic.jpg",
           paragraphs: [
-            "Polyvinyl Alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming, emulsifying, and adhesive properties, widely used in biomedical and cosmetic applications.",
-            "PVA nanofiber membranes exhibit remarkable properties including high hydrophilicity, excellent biocompatibility, good mechanical strength, and superior skin-friendly characteristics, making them ideal for cosmetic and dermatological use.",
-            "These key features make PVA an outstanding material for facial masks, transdermal delivery patches, and cosmetic treatment membranes where moisture retention and active ingredient delivery are essential.",
-            "PVA nanofiber membranes offer excellent wettability and can be loaded with active cosmetic ingredients for targeted skin treatments. SNC is able to electrospin PVA for cosmetic masks, skincare patches, and beauty treatment applications.",
+            "E-Spin Nanotech manufactures advanced electrospun PVA nanofiber cosmetic membranes specifically designed for skincare and cosmetic delivery applications. Polyvinyl alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming capability, high hydrophilicity, softness, and biocompatibility, making it ideal for direct skin contact.",
+            "Electrospun PVA nanofiber membranes possess ultra-fine fibre diameter, high porosity, and interconnected pore structures, which enable efficient absorption and controlled release of cosmetic ingredients such as serums, vitamins, moisturizers, and active compounds. The nanofibrous structure provides a large surface area, allowing enhanced interaction with the skin and improved penetration of active ingredients.",
+            "Due to their soft, breathable, and skin-friendly properties, PVA nanofiber membranes are highly suitable for facial masks, beauty patches, and advanced skincare delivery systems. The material can also be modified or blended with natural polymers, bioactive compounds, or cosmetic additives to improve hydration, stability, and functionality for specific skincare formulations.",
           ],
         },
         specifications: {
@@ -606,12 +612,11 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         },
       },
       {
-        id: "elecsesce",
-        title: "Elecsesce Nanofiber Membrane",
-        subtitle: "Electrospun Elecsesce Nanofiber Membrane",
+        id: "cellulose",
+        title: "Cellulose Nanofiber Membrane",
+        subtitle: "Electrospun Cellulose Nanofiber Cosmetic Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
-          "/product categories/Air Filtration Membrane 1.jpg",
           "/membrane.jpeg",
         ],
         pricing: [
@@ -627,18 +632,24 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           "Expert team of various scientists",
         ],
         deliveryTime: "2-4 weeks",
+        applications: [
+          "Facial sheet masks and nanofiber masks",
+          "Under-eye patches and beauty patches",
+          "Controlled release cosmetic delivery systems",
+          "Hydrating and moisturizing skincare membranes",
+          "Carrier layers for serums, antioxidants, and cosmetic actives",
+        ],
         description: {
-          heading: "Elecsesce Product Description",
-          image: "/product categories/Air Filtration Membrane 1.jpg",
+          heading: "Product Description",
+          image: "/product categories/Air Filtration Membrane.jpeg",
           paragraphs: [
-            "Elecsesce is an advanced electrospun nanofiber material specifically engineered for cosmetic and skincare applications, offering superior active ingredient delivery and skin compatibility.",
-            "Elecsesce nanofiber membranes demonstrate outstanding properties including ultra-fine fiber structure, high porosity, excellent breathability, and enhanced absorption characteristics for cosmetic formulations.",
-            "These key features make Elecsesce an ideal material for premium cosmetic face masks, anti-aging treatment patches, and advanced skincare delivery systems where precise ingredient dosing is required.",
-            "Elecsesce nanofiber membranes provide a luxurious skin feel with maximized surface contact area for optimal active ingredient transfer. SNC is able to electrospin Elecsesce for cosmetic masks, beauty treatments, and dermatological applications.",
+            "E-Spin Nanotech manufactures advanced electrospun cellulose nanofiber cosmetic membranes designed for modern skincare and cosmetic delivery applications. Cellulose is a naturally derived biopolymer known for its excellent biocompatibility, biodegradability, skin-friendly nature, and high moisture retention capability, making it highly suitable for cosmetic and personal care products.",
+            "Electrospun cellulose nanofiber membranes exhibit ultrafine fiber diameter, high porosity, and an interconnected pore structure, which enable efficient absorption and controlled release of cosmetic actives such as serums, vitamins, antioxidants, and moisturizing agents. The nanofibrous network provides a large surface area, allowing enhanced interaction with the skin and improved penetration of active ingredients.",
+            "Due to their soft texture, breathability, and natural origin, cellulose nanofiber membranes are ideal for facial sheet masks, beauty patches, and advanced cosmetic delivery systems. Additionally, cellulose nanofibers can be functionalized or blended with bioactive compounds and cosmetic additives to improve hydration, stability, and performance for specialized skincare formulations.",
           ],
         },
         specifications: {
-          heading: "Elecsesce Specifications",
+          heading: "Cellulose Specifications",
           groups: [
             {
               title: "Spinnability Options",
