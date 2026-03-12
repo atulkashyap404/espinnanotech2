@@ -1,26 +1,29 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 export function GetStartedForm() {
   const [formData, setFormData] = useState({
+    title: "",
     firstName: "",
     lastName: "",
+    email: "",
     designation: "",
     organization: "",
     contactNumber: "",
+    country: "",
     address: "",
+    productInterest: "",
+    quantity: "",
     requirements: ""
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
     console.log(formData);
   };
 
@@ -30,8 +33,21 @@ export function GetStartedForm() {
         <DialogTitle className="text-2xl font-bold mb-6">Get Started with E-SPIN NANOTECH</DialogTitle>
       </DialogHeader>
       
-      <form onSubmit={handleSubmit} className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <form onSubmit={handleSubmit} className="space-y-5">
+        <div className="grid grid-cols-[120px_1fr_1fr] gap-4">
+          <select
+            required
+            value={formData.title}
+            onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+            className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 appearance-none cursor-pointer"
+          >
+            <option value="" disabled>Title *</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Dr.">Dr.</option>
+            <option value="Prof.">Prof.</option>
+          </select>
           <Input
             required
             placeholder="First Name *"
@@ -48,6 +64,14 @@ export function GetStartedForm() {
 
         <Input
           required
+          type="email"
+          placeholder="Email Address *"
+          value={formData.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+        />
+
+        <Input
+          required
           placeholder="Designation *"
           value={formData.designation}
           onChange={(e) => setFormData({ ...formData, designation: e.target.value })}
@@ -60,13 +84,21 @@ export function GetStartedForm() {
           onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
         />
 
-        <Input
-          required
-          type="tel"
-          placeholder="Contact Number *"
-          value={formData.contactNumber}
-          onChange={(e) => setFormData({ ...formData, contactNumber: e.target.value })}
-        />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Input
+            required
+            type="tel"
+            placeholder="Contact Number *"
+            value={formData.contactNumber}
+            onChange={(e) => setFormData({ ...formData, contactNumber: e.target.value })}
+          />
+          <Input
+            required
+            placeholder="Country *"
+            value={formData.country}
+            onChange={(e) => setFormData({ ...formData, country: e.target.value })}
+          />
+        </div>
 
         <Input
           required
@@ -75,12 +107,35 @@ export function GetStartedForm() {
           onChange={(e) => setFormData({ ...formData, address: e.target.value })}
         />
 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <select
+            value={formData.productInterest}
+            onChange={(e) => setFormData({ ...formData, productInterest: e.target.value })}
+            className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 appearance-none cursor-pointer"
+          >
+            <option value="" disabled>Product Interest</option>
+            <option value="Nanofiber Membrane">Nanofiber Membrane</option>
+            <option value="Air Filtration Membrane">Air Filtration Membrane</option>
+            <option value="Ion-Exchange Membrane">Ion-Exchange Membrane</option>
+            <option value="Cosmetic Membranes">Cosmetic Membranes</option>
+            <option value="Customized Membrane">Customized Membrane</option>
+            <option value="Electrospinning Equipment">Electrospinning Equipment</option>
+            <option value="Functional Products">Functional Products</option>
+            <option value="Other">Other</option>
+          </select>
+          <Input
+            placeholder="Estimated Quantity"
+            value={formData.quantity}
+            onChange={(e) => setFormData({ ...formData, quantity: e.target.value })}
+          />
+        </div>
+
         <Textarea
           required
           placeholder="Your Requirements *"
           value={formData.requirements}
           onChange={(e) => setFormData({ ...formData, requirements: e.target.value })}
-          className="min-h-[150px]"
+          className="min-h-[120px]"
         />
 
         <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white">

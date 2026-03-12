@@ -190,10 +190,10 @@ function MembraneItemSection({ item, isFirst }: { item: MembraneProduct; isFirst
                 ))}
               </ul>
 
-              <div className="flex items-center gap-3 text-sm text-gray-600">
+              {/* <div className="flex items-center gap-3 text-sm text-gray-600">
                 <Truck className="w-8 h-8 text-red-600" />
                 <span className="font-medium text-red-700">{item.deliveryTime}</span>
-              </div>
+              </div> */}
 
               <Link
                 href="/contact"
