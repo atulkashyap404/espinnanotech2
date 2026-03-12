@@ -26,13 +26,18 @@ export function ScienceSection() {
             </span>
           </h2>
 
-          <button className="relative px-6 py-3 font-bold text-white bg-black rounded-md group overflow-hidden">
+          <a
+            href="https://wa.me/916307666465"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative inline-block px-6 py-3 font-bold text-white bg-black rounded-md group overflow-hidden"
+          >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-red-600 via-black to-red-600 opacity-0 group-hover:opacity-100 transition duration-300"></span>
             <span className="relative z-10 block group-hover:scale-105 transition">
               Connect with us
             </span>
             <div className="absolute inset-0 border-2 border-transparent rounded group-hover:border-red-600 transition-all duration-300"></div>
-          </button>
+          </a>
         </div>
 
         {/* Timeline */}
