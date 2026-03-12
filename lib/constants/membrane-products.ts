@@ -616,6 +616,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Cellulose Nanofiber Membrane",
         subtitle: "Electrospun Cellulose Nanofiber Cosmetic Membrane",
         images: [
+          "/product categories/cellulose-sem-cosmetic.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
           "/membrane.jpeg",
         ],
@@ -641,7 +642,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/Air Filtration Membrane.jpeg",
+          image: "/product categories/cellulose-sem-cosmetic.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures advanced electrospun cellulose nanofiber cosmetic membranes designed for modern skincare and cosmetic delivery applications. Cellulose is a naturally derived biopolymer known for its excellent biocompatibility, biodegradability, skin-friendly nature, and high moisture retention capability, making it highly suitable for cosmetic and personal care products.",
             "Electrospun cellulose nanofiber membranes exhibit ultrafine fiber diameter, high porosity, and an interconnected pore structure, which enable efficient absorption and controlled release of cosmetic actives such as serums, vitamins, antioxidants, and moisturizing agents. The nanofibrous network provides a large surface area, allowing enhanced interaction with the skin and improved penetration of active ingredients.",

@@ -5,10 +5,10 @@ import { Header } from "@/components/Header";
 
 export default function CataloguePage() {
   return (
-    <main className="min-h-screen bg-white flex flex-col">
+    <main className="min-h-screen bg-white flex flex-col mt-4">
       <Header />
       <div className="flex-1 flex flex-col pt-20">
-        <div className="bg-gradient-to-r from-gray-900 to-black py-8 px-4">
+        <div className="bg-red-500 py-8 px-4">
           <div className="max-w-7xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
               Product Catalogue
@@ -39,7 +39,6 @@ export default function CataloguePage() {
           </div>
         </div>
       </div>
-      <Footer />
     </main>
   );
 }
