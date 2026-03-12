@@ -21,66 +21,11 @@ export function GetStartedForm() {
     quantity: "",
     requirements: ""
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus("idle");
-
-    try {
-      const res = await fetch("/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setSubmitStatus("success");
-        setFormData({
-          title: "",
-          firstName: "",
-          lastName: "",
-          email: "",
-          designation: "",
-          organization: "",
-          contactNumber: "",
-          country: "",
-          address: "",
-          productInterest: "",
-          quantity: "",
-          requirements: ""
-        });
-      } else {
-        setSubmitStatus("error");
-      }
-    } catch {
-      setSubmitStatus("error");
-    } finally {
-      setIsSubmitting(false);
-    }
+    console.log(formData);
   };
-
-  if (submitStatus === "success") {
-    return (
-      <div className="p-6 text-center">
-        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
-        <h3 className="text-xl font-bold mb-2">Thank You!</h3>
-        <p className="text-gray-600 mb-4">Your inquiry has been submitted successfully. Our team will get back to you shortly.</p>
-        <Button
-          onClick={() => setSubmitStatus("idle")}
-          className="bg-red-600 hover:bg-red-700 text-white"
-        >
-          Submit Another Inquiry
-        </Button>
-      </div>
-    );
-  }
 
   return (
     <div className="p-6">
@@ -193,18 +138,8 @@ export function GetStartedForm() {
           className="min-h-[120px]"
         />
 
-        {submitStatus === "error" && (
-          <p className="text-red-600 text-sm text-center">
-            Something went wrong. Please try again or email us directly at espininternal@gmail.com
-          </p>
-        )}
-
-        <Button 
-          type="submit" 
-          disabled={isSubmitting}
-          className="w-full bg-red-600 hover:bg-red-700 text-white disabled:opacity-50"
-        >
-          {isSubmitting ? "Sending..." : "Submit"}
+        <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white">
+          Submit
         </Button>
       </form>
     </div>
