@@ -13,17 +13,17 @@ interface CardItem {
 const CARDS: CardItem[] = [
   {
     title: "Nanofiber Spinning Technology",
-    image: "/electrospinning product 1.png",
+    image: "/categoryimg/electrospinning product 2.png",
     link: "/products/electrospinning/electrospinning/",
   },
   {
     title: "Nanofiber Membrane Technology",
-    image: "/membrane.jpeg",
+    image: "/categoryimg/membrane2.jpeg",
     link: "/products/nanofibermembrane",
   },
   {
     title: "Nanofiber Functional Products",
-    image: "/functional.png",
+    image: "/categoryimg/functional3.png",
     link: "/products/nanofiberfunctionalproducts",
   },
 ];

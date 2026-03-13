@@ -9,21 +9,21 @@ const PRODUCT_CATEGORIES = [
     id: "electrospinning",
     title: "Nanofiber Spinning Technology",
     description: "Revolutionizing Material Science with Precision and Innovation",
-    image: "/product categories/nanofibertech.jpg",
+    image: "/categoryimg/electrospinning product 2.png",
     features: []
   },
   {
     id: "nanofibermembrane",
     title: "Nanofiber Membrane Technology",
     description: "Industrial-grade melt spinning solutions",
-    image: "/product categories/nanofiber membren.jpg",
+    image: "/categoryimg/membrane2.jpeg",
     features: []
   },
   {
     id: "nanofiberfunctionalproducts",
     title: "Nanofiber Functional Products",
     description: "Essential components and accessories",
-    image: "/product categories/functional product.jpg",
+    image: "/categoryimg/functional3.png",
     features: []
   }
 ] as const;
