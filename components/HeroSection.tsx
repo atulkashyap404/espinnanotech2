@@ -11,62 +11,62 @@ import { Cover } from "@/components/ui/cover";
 //   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
 // ] as const;
 
-const FLASH_POPUPS = [
-  { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 900 },
-  { text: "Electrospinning", top: "70%", left: "20%", delay: 1200 },
-  { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 1500 },
-  { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1800 },
-  { text: "Polymer Solutions", top: "80%", left: "45%", delay: 2100 },
-  { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 2400 },
-];
+// const FLASH_POPUPS = [
+//   { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 900 },
+//   { text: "Electrospinning", top: "70%", left: "20%", delay: 1200 },
+//   { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 1500 },
+//   { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1800 },
+//   { text: "Polymer Solutions", top: "80%", left: "45%", delay: 2100 },
+//   { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 2400 },
+// ];
 
 export function HeroSection() {
-  const [showContent, setShowContent] = useState(false);
-  const [overlayOpacity, setOverlayOpacity] = useState(0);
-  const [visiblePopups, setVisiblePopups] = useState<boolean[]>(
-    new Array(FLASH_POPUPS.length).fill(false)
-  );
+  // const [showContent, setShowContent] = useState(false);
+  // const [overlayOpacity, setOverlayOpacity] = useState(0);
+  // const [visiblePopups, setVisiblePopups] = useState<boolean[]>(
+  //   new Array(FLASH_POPUPS.length).fill(false)
+  // );
 
-  useEffect(() => {
-    const contentTimer = setTimeout(() => {
-      setShowContent(true);
-    }, 3000);
+  // useEffect(() => {
+  //   const contentTimer = setTimeout(() => {
+  //     setShowContent(true);
+  //   }, 3000);
 
-    const overlayTimer = setTimeout(() => {
-      setOverlayOpacity(0.4);
-    }, 3000);
+  //   const overlayTimer = setTimeout(() => {
+  //     setOverlayOpacity(0.4);
+  //   }, 3000);
 
-    const showTimers: ReturnType<typeof setTimeout>[] = [];
-    const hideTimers: ReturnType<typeof setTimeout>[] = [];
+  //   const showTimers: ReturnType<typeof setTimeout>[] = [];
+  //   const hideTimers: ReturnType<typeof setTimeout>[] = [];
 
-    FLASH_POPUPS.forEach((popup, index) => {
-      const showTimer = setTimeout(() => {
-        setVisiblePopups((prev) => {
-          const next = [...prev];
-          next[index] = true;
-          return next;
-        });
-      }, popup.delay);
+  //   FLASH_POPUPS.forEach((popup, index) => {
+  //     const showTimer = setTimeout(() => {
+  //       setVisiblePopups((prev) => {
+  //         const next = [...prev];
+  //         next[index] = true;
+  //         return next;
+  //       });
+  //     }, popup.delay);
 
-      const hideTimer = setTimeout(() => {
-        setVisiblePopups((prev) => {
-          const next = [...prev];
-          next[index] = false;
-          return next;
-        });
-      }, popup.delay + 700);
+  //     const hideTimer = setTimeout(() => {
+  //       setVisiblePopups((prev) => {
+  //         const next = [...prev];
+  //         next[index] = false;
+  //         return next;
+  //       });
+  //     }, popup.delay + 700);
 
-      showTimers.push(showTimer);
-      hideTimers.push(hideTimer);
-    });
+  //     showTimers.push(showTimer);
+  //     hideTimers.push(hideTimer);
+  //   });
 
-    return () => {
-      clearTimeout(contentTimer);
-      clearTimeout(overlayTimer);
-      showTimers.forEach(clearTimeout);
-      hideTimers.forEach(clearTimeout);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(contentTimer);
+  //     clearTimeout(overlayTimer);
+  //     showTimers.forEach(clearTimeout);
+  //     hideTimers.forEach(clearTimeout);
+  //   };
+  // }, []);
 
   return (
     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
@@ -78,17 +78,17 @@ export function HeroSection() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/videos/landing video simple.mp4" type="video/mp4" />
+        <source src="/videos/landing video sample2.mov" type="video/mp4" />
       </video>
 
       {/* Overlay with animated opacity */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
         style={{ opacity: overlayOpacity }}
-      />
+      /> */}
 
       {/* Flash popups scattered across the screen - appear and disappear before main content */}
-      <div className="absolute inset-0 z-[15] pointer-events-none">
+      {/* <div className="absolute inset-0 z-[15] pointer-events-none">
         {FLASH_POPUPS.map((popup, index) => (
           <div
             key={index}
@@ -99,14 +99,14 @@ export function HeroSection() {
             }`}
             style={{ top: popup.top, left: popup.left }}
           >
-            <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+            <span className="text-w text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
               {popup.text}
             </span>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
           showContent ? "opacity-100" : "opacity-0"
         }`}
@@ -121,7 +121,7 @@ export function HeroSection() {
           various applications, enabling advanced material development and
           groundbreaking research.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 }
